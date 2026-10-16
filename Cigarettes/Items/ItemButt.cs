@@ -47,13 +47,12 @@ public class ItemButt : Item
         slot.MarkDirty();
 
         // A flick: off the fingertips, forward and a little up, much weaker than a thrown stone
-        Vec3d from = byEntity.ServerPos.XYZ.Add(0, byEntity.LocalEyePos.Y - 0.2, 0);
-        Vec3d ahead = from.AheadCopy(1, byEntity.ServerPos.Pitch, byEntity.ServerPos.Yaw);
+        Vec3d from = byEntity.Pos.XYZ.Add(0, byEntity.LocalEyePos.Y - 0.2, 0);
+        Vec3d ahead = from.AheadCopy(1, byEntity.Pos.Pitch, byEntity.Pos.Yaw);
         Vec3d velocity = (ahead - from) * 0.45 + new Vec3d(0, 0.08, 0);
 
-        butt.ServerPos.SetPos(from);
-        butt.ServerPos.Motion.Set(velocity);
-        butt.Pos.SetFrom(butt.ServerPos);
+        butt.Pos.SetPos(from);
+        butt.Pos.Motion.Set(velocity);
         butt.World = byEntity.World;
         byEntity.World.SpawnEntity(butt);
     }

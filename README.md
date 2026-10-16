@@ -4,7 +4,7 @@ The whole smoking culture for Vintage Story 1.22. You can grow tobacco, cure and
 
 ![Every item as it sits in an inventory slot](docs/inventory-icons.png)
 
-**Status: v0.8, not yet compiled or loaded in game.** Everything here was written against the 1.22 API and asset formats without a game install, so expect a round of fixes on the first build (see [First build checklist](#first-build-checklist)). All JSON parses, and every texture, shape, drop, recipe ingredient and lang key resolves.
+**Status: v0.8, compiles clean against Vintage Story 1.22.7 (.NET 10); first in-game load test pending.** All JSON parses, and every texture, shape, drop, recipe ingredient and lang key resolves.
 
 The full design, with every number, is in [DESIGN.md](DESIGN.md). The same material, written for players, is in the in-game handbook (Guides tab).
 
@@ -90,7 +90,7 @@ Most tuning lives in JSON attributes on the items: `effects`, `strength`, `maxPu
 ## Building
 
 1. Install the .NET 10 SDK and Vintage Story 1.22.
-2. Set `VINTAGE_STORY` to the game folder (for example `%AppData%\Vintagestory` on Windows or `~/ApplicationData/vintagestory` on Linux).
+2. Set `VINTAGE_STORY` to the game folder (for example `%AppData%\Vintagestory` on Windows, or `%AppData%\VSLGameVersions\<version>` when the game is installed through VS Launcher or `~/ApplicationData/vintagestory` on Linux).
 3. Run `dotnet build Cigarettes/Cigarettes.csproj` to compile, or `./build.sh` (`./build.ps1` on Windows) to produce `Releases/cigarettes_0.8.0.zip`.
 4. Run the "Client" launch profile to start the game with the mod loaded from source.
 

@@ -181,7 +181,7 @@ public abstract class ItemSmokable : Item
             return true;
         }
 
-        if (stack.Collectible.LightHsv != null && stack.Collectible.LightHsv[2] > 0)
+        if (stack.Collectible.LightHsv[2] > 0)
         {
             achievements?.OnLit(byEntity, "light");
             return true;

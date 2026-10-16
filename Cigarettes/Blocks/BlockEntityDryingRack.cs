@@ -1,4 +1,5 @@
 using System.Linq;
+using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
@@ -32,14 +33,14 @@ public class BlockEntityDryingRack : BlockEntityDisplay
         slots = GameMath.Clamp(Block?.Attributes?["slots"].AsInt(slots) ?? slots, 1, MaxSlots);
         rows = GameMath.Clamp(Block?.Attributes?["rows"].AsInt(rows) ?? rows, 1, slots);
         base.Initialize(api);
+        inv.OnAcquireTransitionSpeed += OnAcquireTransitionSpeed;
     }
 
-    // Drying goes faster on the rack; every other transition (perish etc.) runs at the normal rate
-    protected override float Inventory_OnAcquireTransitionSpeed(EnumTransitionType transType, ItemStack stack, float baseMul)
+    // Drying goes faster on the rack; every other transition (perish etc.) runs at the normal rate.
+    // The inventory multiplies together the factors from every subscribed handler (the container's own included).
+    float OnAcquireTransitionSpeed(EnumTransitionType transType, ItemStack stack, float mulByConfig)
     {
-        float mul = base.Inventory_OnAcquireTransitionSpeed(transType, stack, baseMul);
-        if (transType == EnumTransitionType.Dry) mul *= dryingSpeedMul;
-        return mul;
+        return transType == EnumTransitionType.Dry ? dryingSpeedMul : 1f;
     }
 
     static bool IsDryable(ItemStack? stack, IWorldAccessor world)
