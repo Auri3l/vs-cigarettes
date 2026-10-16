@@ -1,6 +1,23 @@
 {
     "code": "vape",
     "class": "cigarettes.ItemVape",
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants",
+                "placeRemoveSound": "game:sounds/player/build",
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.125,
+                    "z2": 1
+                }
+            }
+        }
+    ],
     "maxstacksize": 1,
     "creativeinventory": {
         "general": [
@@ -18,7 +35,7 @@
         "tankItems": 20,
         "puffSeconds": 1.4,
         "effectDurationSec": 600,
-        "exhaleScale": 2.0,
+        "exhaleScale": 2,
         "effects": {
             "hungerrate": -0.2,
             "miningSpeedMul": 0.05
@@ -27,7 +44,24 @@
             "game:gear-temporal": 300,
             "game:gear-rusty": 40
         },
-        "maxCharge": 300
+        "maxCharge": 300,
+        "groundStorageTransform": {
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": -45
+            },
+            "translation": {
+                "x": 0,
+                "y": -0.44,
+                "z": 0
+            }
+        }
     },
     "materialDensity": 1500,
     "shape": {
@@ -37,5 +71,18 @@
         "v": {
             "base": "item/vape"
         }
+    },
+    "guiTransform": {
+        "rotation": {
+            "x": 180,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        },
+        "scale": 1
     }
 }

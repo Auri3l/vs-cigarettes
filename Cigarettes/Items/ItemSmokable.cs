@@ -93,12 +93,21 @@ public abstract class ItemSmokable : Item
     protected virtual void OnPuffTaken(ItemSlot slot, EntityAgent byEntity) { }
 
     /// <summary>Lets a subclass use right click for something else first, like packing a pipe.</summary>
-    protected virtual bool TryAlternateInteract(ItemSlot slot, EntityAgent byEntity) => false;
+    protected virtual bool TryAlternateInteract(ItemSlot slot, EntityAgent byEntity, BlockSelection? blockSel) => false;
 
     /// <summary>Called on the server after the last puff.</summary>
     protected abstract void OnSmokedOut(ItemSlot slot, EntityAgent byEntity);
 
     protected static bool IsLit(ItemStack stack) => stack.Attributes.GetBool(LitAttr);
+
+    // A lit ember glows faintly (light level 1, warm orange) while held or dropped
+    static readonly byte[] EmberLight = { 4, 7, 1 };
+
+    public override byte[] GetLightHsv(IBlockAccessor blockAccessor, BlockPos pos, ItemStack stack)
+    {
+        if (stack != null && NeedsLighting && IsLit(stack)) return EmberLight;
+        return base.GetLightHsv(blockAccessor, pos, stack);
+    }
 
     protected int PuffsLeft(ItemStack stack) => stack.Attributes.GetInt(PuffsAttr, MaxPuffs(stack));
 
@@ -106,9 +115,17 @@ public abstract class ItemSmokable : Item
     {
         if (!firstEvent || slot.Itemstack == null) return;
 
-        if (TryAlternateInteract(slot, byEntity))
+        // Refilling (pipe, vape) comes first: sneaking is how you get past a barrel's own GUI
+        if (TryAlternateInteract(slot, byEntity, blockSel))
         {
             handling = EnumHandHandling.PreventDefault;
+            return;
+        }
+
+        // Otherwise sneak + right click on a block places it as ground storage (CollectibleBehaviorGroundStorable)
+        if (byEntity.Controls.ShiftKey && blockSel != null)
+        {
+            base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
             return;
         }
 
@@ -181,7 +198,7 @@ public abstract class ItemSmokable : Item
             return true;
         }
 
-        if (stack.Collectible.LightHsv != null && stack.Collectible.LightHsv[2] > 0)
+        if (stack.Collectible.LightHsv[2] > 0)
         {
             achievements?.OnLit(byEntity, "light");
             return true;

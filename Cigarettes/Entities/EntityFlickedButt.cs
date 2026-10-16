@@ -32,13 +32,59 @@ public class EntityFlickedButt : Entity
         spawnedAtMs = World.ElapsedMilliseconds;
     }
 
+    // Flight path: a sideways and vertical wobble at a 2:1 frequency ratio traces a figure eight around the arc
+    const double LoopsPerSecond = 1.5;
+    const double SideAmplitude = 0.3;  // blocks
+    const double UpAmplitude = 0.15;   // blocks
+    const float SpinPerSecond = 14f;   // radians, end over end
+
+    Vec3d? side;
+    double flightSeconds;
+
     public override void OnGameTick(float dt)
     {
         base.OnGameTick(dt);
+
+        if (!OnGround && !Swimming && !landed)
+        {
+            // Tumble end over end while airborne (both sides, so the client renders it)
+            Pos.Pitch = (Pos.Pitch + SpinPerSecond * dt) % GameMath.TWOPI;
+            Pos.Roll = (Pos.Roll + SpinPerSecond * 0.6f * dt) % GameMath.TWOPI;
+            if (World.Side == EnumAppSide.Server) FigureEight(dt);
+        }
+
         if (World.Side != EnumAppSide.Server || landed) return;
 
         bool timedOut = World.ElapsedMilliseconds - spawnedAtMs > MaxFlightMs;
         if (OnGround || Swimming || timedOut) Land();
+    }
+
+    /// <summary>
+    /// Offsets the flight by (sin 2wt sideways, sin wt up). Motion is in blocks per 1/60 s,
+    /// so each tick adds the change in the offset's velocity on top of the ballistic arc.
+    /// </summary>
+    void FigureEight(float dt)
+    {
+        double w = GameMath.TWOPI * LoopsPerSecond;
+        double sideVel(double t) => SideAmplitude * 2 * w * System.Math.Cos(2 * w * t);
+        double upVel(double t) => UpAmplitude * w * System.Math.Cos(w * t);
+
+        if (side == null)
+        {
+            Vec3d flat = new Vec3d(Pos.Motion.X, 0, Pos.Motion.Z);
+            if (flat.Length() < 1e-4) return;
+            flat.Normalize();
+            side = new Vec3d(-flat.Z, 0, flat.X);
+            // Start the wobble's own velocity, so the offset swings around the arc instead of drifting off it
+            Pos.Motion.Add(side.X * sideVel(0) / 60.0, upVel(0) / 60.0, side.Z * sideVel(0) / 60.0);
+        }
+
+        double t0 = flightSeconds, t1 = flightSeconds + dt;
+        flightSeconds = t1;
+
+        double dSide = (sideVel(t1) - sideVel(t0)) / 60.0;
+        double dUp = (upVel(t1) - upVel(t0)) / 60.0;
+        Pos.Motion.Add(side.X * dSide, dUp, side.Z * dSide);
     }
 
     void Land()

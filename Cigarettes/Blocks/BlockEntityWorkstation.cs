@@ -145,14 +145,14 @@ public class BlockEntityTobaccoCutter : BlockEntityWorkstation
 
 /// <summary>
 /// A rolling table: load shredded tobacco and rolling papers, optionally menthol crystals or
-/// dried cloves. Each roll turns up to 8 tobacco + 8 papers into 3 cigarettes per pair,
-/// one more than rolling by hand. Menthol makes menthols, cloves make kreteks.
+/// dried cloves. Each roll turns up to 8 tobacco + 8 papers into 10 cigarettes per pair,
+/// more than the 3 you get rolling by hand. Menthol makes menthols, cloves make kreteks.
 /// </summary>
 public class BlockEntityRollingTable : BlockEntityWorkstation
 {
     const int TobaccoSlot = 0, PaperSlot = 1, AdditiveSlot = 2;
     const int BatchSize = 8;
-    const int CigarettesPerPair = 3;
+    const int CigarettesPerPair = 10;
 
     public BlockEntityRollingTable() : base(3) { }
 
@@ -195,6 +195,7 @@ public class BlockEntityRollingTable : BlockEntityWorkstation
         Item? cigarette = Api.World.GetItem(new AssetLocation(CigarettesModSystem.ModId, "cigarette-" + Brand()));
         if (cigarette == null || pairs <= 0) return null;
 
+        string variety = inv[TobaccoSlot].Itemstack.Collectible.Variant["type"] ?? "";
         inv[TobaccoSlot].TakeOut(pairs);
         inv[PaperSlot].TakeOut(pairs);
         if (!inv[AdditiveSlot].Empty) inv[AdditiveSlot].TakeOut(pairs);
@@ -205,7 +206,9 @@ public class BlockEntityRollingTable : BlockEntityWorkstation
         while (total > 0)
         {
             int n = GameMath.Min(total, cigarette.MaxStackSize);
-            made.Add(new ItemStack(cigarette, n));
+            var stack = new ItemStack(cigarette, n);
+            Items.ItemCigarette.SetTobacco(stack, variety);
+            made.Add(stack);
             total -= n;
         }
         return made.ToArray();

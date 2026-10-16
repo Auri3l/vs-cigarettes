@@ -1,6 +1,23 @@
 {
     "code": "cigarette",
     "class": "cigarettes.ItemCigarette",
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Messy12",
+                "placeRemoveSound": "game:sounds/player/build",
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.125,
+                    "z2": 1
+                }
+            }
+        }
+    ],
     "variantgroups": [
         {
             "code": "brand",
@@ -47,7 +64,7 @@
     "attributesByType": {
         "*-handrolled": {
             "maxPuffs": 6,
-            "strength": 1.0,
+            "strength": 1,
             "filtered": false,
             "puffSeconds": 1.6,
             "effectDurationSec": 600,
@@ -55,7 +72,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-marlbury": {
             "maxPuffs": 8,
@@ -67,11 +102,29 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-camul": {
             "maxPuffs": 8,
-            "strength": 1.0,
+            "strength": 1,
             "filtered": false,
             "puffSeconds": 1.6,
             "effectDurationSec": 600,
@@ -79,7 +132,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-luckystroke": {
             "maxPuffs": 8,
@@ -91,11 +162,29 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-pallmoll": {
             "maxPuffs": 10,
-            "strength": 1.0,
+            "strength": 1,
             "filtered": false,
             "puffSeconds": 1.6,
             "effectDurationSec": 600,
@@ -103,7 +192,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-winstun": {
             "maxPuffs": 8,
@@ -115,7 +222,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-menthol": {
             "maxPuffs": 6,
@@ -128,7 +253,25 @@
                 "miningSpeedMul": 0.05,
                 "healingeffectivness": 0.03
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-kretek": {
             "maxPuffs": 10,
@@ -141,7 +284,25 @@
                 "miningSpeedMul": 0.05
             },
             "buttCode": "cigarettebutt",
-            "crackle": true
+            "crackle": true,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-newpart": {
             "maxPuffs": 8,
@@ -154,11 +315,29 @@
                 "miningSpeedMul": 0.05,
                 "healingeffectivness": 0.03
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-koal": {
             "maxPuffs": 8,
-            "strength": 1.0,
+            "strength": 1,
             "filtered": false,
             "puffSeconds": 1.6,
             "effectDurationSec": 600,
@@ -167,7 +346,25 @@
                 "miningSpeedMul": 0.05,
                 "healingeffectivness": 0.03
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-djarun": {
             "maxPuffs": 12,
@@ -180,11 +377,29 @@
                 "miningSpeedMul": 0.05
             },
             "buttCode": "cigarettebutt",
-            "crackle": true
+            "crackle": true,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-dunhull": {
             "maxPuffs": 8,
-            "strength": 1.0,
+            "strength": 1,
             "filtered": true,
             "puffSeconds": 1.6,
             "effectDurationSec": 600,
@@ -192,11 +407,29 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-bensun": {
             "maxPuffs": 8,
-            "strength": 1.0,
+            "strength": 1,
             "filtered": true,
             "puffSeconds": 1.6,
             "effectDurationSec": 600,
@@ -204,7 +437,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-parlement": {
             "maxPuffs": 8,
@@ -216,7 +467,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-gaulwaz": {
             "maxPuffs": 8,
@@ -228,7 +497,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-kant": {
             "maxPuffs": 8,
@@ -240,7 +527,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-vagueslims": {
             "maxPuffs": 6,
@@ -253,11 +558,29 @@
                 "miningSpeedMul": 0.05,
                 "healingeffectivness": 0.03
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-sobrani": {
             "maxPuffs": 8,
-            "strength": 1.0,
+            "strength": 1,
             "filtered": true,
             "puffSeconds": 1.6,
             "effectDurationSec": 600,
@@ -265,7 +588,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-belomor": {
             "maxPuffs": 6,
@@ -277,7 +618,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-mildeleven": {
             "maxPuffs": 8,
@@ -289,7 +648,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-chesterfeld": {
             "maxPuffs": 8,
@@ -301,7 +678,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-rotmans": {
             "maxPuffs": 6,
@@ -313,7 +708,25 @@
                 "hungerrate": 0.15,
                 "miningSpeedMul": 0.02
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         },
         "*-snipe": {
             "maxPuffs": 4,
@@ -325,7 +738,25 @@
                 "hungerrate": -0.25,
                 "miningSpeedMul": 0.05
             },
-            "buttCode": "cigarettebutt"
+            "buttCode": "cigarettebutt",
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -45
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.488,
+                    "z": 0
+                },
+                "scale": 0.25
+            }
         }
     },
     "materialDensity": 300,
@@ -365,5 +796,54 @@
         "cig": {
             "base": "item/cigarette-{brand}"
         }
+    },
+    "guiTransform": {
+        "rotation": {
+            "x": 180,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        },
+        "scale": 1
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": -1.5,
+            "y": -1.6,
+            "z": -1.4
+        },
+        "rotation": {
+            "x": 0,
+            "y": 118,
+            "z": 18
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        },
+        "scale": 0.33
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0.05,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 180,
+            "y": 270,
+            "z": -30
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        },
+        "scale": 1
     }
 }

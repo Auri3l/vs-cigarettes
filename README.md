@@ -1,10 +1,10 @@
 # Cigarettes (Vintage Story mod)
 
-The whole smoking culture for Vintage Story 1.22. You can grow tobacco, cure and shred it, and roll cigarettes by hand or in batches. There are also cigars, pipes and a temporal-gear vape, and nineteen parody brands in paint-crafted packs, one of which rots. A 71-achievement Smoker's Ledger hands out character traits. When you're done, flick the butt onto the ground and watch the pile grow. Every item description doubles as a health warning.
+The whole smoking culture for Vintage Story 1.22. You can grow tobacco, cure and shred it, and roll cigarettes by hand or in batches. There are also cigars, pipes and a temporal-gear vape, and nineteen parody brands in dyed packs, one of which rots. A 71-achievement Smoker's Ledger hands out character traits. When you're done, flick the butt onto the ground and watch the pile grow. Every item description doubles as a health warning.
 
 ![Every item as it sits in an inventory slot](docs/inventory-icons.png)
 
-**Status: v0.8, not yet compiled or loaded in game.** Everything here was written against the 1.22 API and asset formats without a game install, so expect a round of fixes on the first build (see [First build checklist](#first-build-checklist)). All JSON parses, and every texture, shape, drop, recipe ingredient and lang key resolves.
+**Status: v0.8, compiles clean against Vintage Story 1.22.7 (.NET 10); first in-game load test pending.** All JSON parses, and every texture, shape, drop, recipe ingredient and lang key resolves.
 
 The full design, with every number, is in [DESIGN.md](DESIGN.md). The same material, written for players, is in the in-game handbook (Guides tab).
 
@@ -18,25 +18,30 @@ The full design, with every number, is in [DESIGN.md](DESIGN.md). The same mater
 ### Batch furniture
 For each piece, right click with ingredients to load it, hold right click with an empty hand to work it, and sneak + right click with an empty hand to unload it.
 - **Tobacco cutter:** shreds up to 32 dried leaves of one variety in one crank.
-- **Rolling table:** rolls up to 8 pairs at 3 cigarettes per paper, where hand rolling gives 2. Add menthol crystals for menthols or cloves for kreteks.
+- **Rolling table:** rolls up to 8 pairs at 10 cigarettes per paper, where hand rolling gives 3. Add menthol crystals for menthols or cloves for kreteks.
 
 ### Smokables
 - Hand-rolled cigarettes, menthols and kreteks (which crackle and spit embers), cigars, stub cigars, and snipes rolled from 6 old butts.
 - Wooden and bone pipes, packed with shredded tobacco from the offhand.
-- The **Jool temporal vaporizer**. It runs on e-liquid (a real liquid, brewed in a barrel, in plain, menthol or clove) and is charged with a temporal gear (300 puffs) or a rusty gear (40 puffs).
-- Light from the offhand with a torch, lantern, matches, a Zappo lighter, or another lit cigarette (chain smoking).
+- The **Jool temporal vaporizer**. It runs on e-liquid (a real liquid, brewed in a barrel, in plain, menthol or clove), clicked in as a cartridge (half a glass slab + 0.8 L of e-liquid make 4) or filled straight from a placed bucket, jug or barrel, and is charged with a temporal gear (300 puffs) or a rusty gear (40 puffs).
+- Light from the offhand with a torch, lantern, matches, a Zappo lighter, or another lit cigarette (chain smoking). In the main hand, matches and lighters light firepits, torches and anything else a firestarter can, instantly.
 
 ### Brands and packs
 - There are 19 parody brands (Marlbury, Camul, Lucky Stroke, Pall Moll, Djarun Black, Belomorkanaal, Rotmans…), each with its own blend, strength, slogan and one of 12 Seraph General's Warnings.
-- Packs are crafted with **paint pots** in the brand colours. There are 12 paints made from berries, charcoal, bone meal, gold and more. The 11 filtered brands use 10 cigarette butts as the filter.
+- Packs are coloured with the game's own **dye**: put wooden buckets of dye in the brand colours into the pack recipe (0.1 L per colour). The 11 filtered brands use 10 cigarette butts as the filter.
+- Right click a pack to shake one out. Empty packs stay, and right clicking with cigarettes in the offhand fills a pack back up with any kind. Packs and cigarettes show their tobacco blend.
+- **Blank packs** (2 parchment make 2) can be dyed into any brand's empty pack with the same dye buckets, then filled.
 - **Rotmans** is made from rot and comes in a rotting pack that perishes in your inventory.
 
 ![All 19 packs, front and back](docs/packs.png)
 
 ### Butts and ashtrays
 - Every smoke leaves a butt. Butts can also be crafted, and they are ingredients in the filtered pack recipes.
-- **Flick** a butt with right click. It lands as ground storage, in a pile that grows up to 64 butts per block. If it lands in an ashtray it goes in, which unlocks the secret Hole in One.
+- **Flick** a butt: hold right click to aim (with the throwing reticle), release to flick. It tumbles through a figure eight and lands as ground storage, in a pile that grows up to 64 butts per block. If it lands in an ashtray it goes in, which unlocks the secret Hole in One.
 - The ashtray holds 12 butts, shows empty, some or full, and spills when broken.
+
+### Placing things
+- Sneak + right click puts any of the loose items (cigarettes, packs, lighters, pipes, leaves, herbs...) down as ground storage.
 
 ### Effects
 - Each puff gives a 10-minute buff (less hunger, faster mining) scaled by strength.
@@ -50,8 +55,8 @@ For each piece, right click with ingredients to load it, hold right click with a
 
 ### Presentation
 - **Animations:** a hand-to-lips drag (`cigarettes-smoke`, with a first-person variant) and an exhale when a puff completes. They replace the vanilla eat animation.
-- **Art:** original textures for every item, block and pack. Packs, cigarettes (long and slim variants), butts, cigars, pipes, the vape, lighters, matches, paint pots, papers and filters have 3D models, the furniture has real shapes, and the mod has an icon.
-- **Handbook:** 11 guide pages covering tobacco, curing, rolling, smoking, pipes, butts, brands, paint, vaping and the Ledger, cross-linked to the items.
+- **Art:** original textures for every item, block and pack. Packs, cigarettes (long and slim variants), butts, cigars, pipes, the vape, lighters, matches, papers and filters have 3D models, the furniture has real shapes, and the mod has an icon.
+- **Handbook:** 11 guide pages covering tobacco, curing, rolling, smoking, pipes, butts, brands, pack dyes, vaping and the Ledger, cross-linked to the items.
 
 ![One puff, three-quarter and side view](docs/smoking-puff.gif)
 
@@ -79,7 +84,7 @@ Cigarettes/
     recipes/grid/, recipes/barrel/
     config/achievements.json  every achievement, tier, rank and reward (data-driven)
     config/handbook/          the 11 guide pages
-    patches/traits.json       13 traits added to the game's trait list
+    config/traits.json        13 traits merged into the game's trait list
     patches/smoking-animations.json   smoke/exhale animations on the player shape
     lang/en.json              all text, jokes included
 docs/                         preview renders used in this README
@@ -90,7 +95,7 @@ Most tuning lives in JSON attributes on the items: `effects`, `strength`, `maxPu
 ## Building
 
 1. Install the .NET 10 SDK and Vintage Story 1.22.
-2. Set `VINTAGE_STORY` to the game folder (for example `%AppData%\Vintagestory` on Windows or `~/ApplicationData/vintagestory` on Linux).
+2. Set `VINTAGE_STORY` to the game folder (for example `%AppData%\Vintagestory` on Windows, or `%AppData%\VSLGameVersions\<version>` when the game is installed through VS Launcher or `~/ApplicationData/vintagestory` on Linux).
 3. Run `dotnet build Cigarettes/Cigarettes.csproj` to compile, or `./build.sh` (`./build.ps1` on Windows) to produce `Releases/cigarettes_0.8.0.zip`.
 4. Run the "Client" launch profile to start the game with the mod loaded from source.
 
@@ -105,7 +110,7 @@ Nothing has been run in the game yet. These are the places most likely to need a
 - Rotting pack: the `OnTransitionNow` override signature in `ItemCigarettePack`.
 
 **Log on load**
-- There should be no `patch ... file not found` for `smoking-animations.json` or `traits.json`. If one appears, the player shape (`game:shapes/entity/humanoid/seraph-faceless.json`), the player entity (`game:entities/humanoid/player.json`) or the trait list moved in 1.22, and the patch paths need updating.
+- There should be no `patch ... file not found` for `smoking-animations.json`. If one appears, the player shape (`game:shapes/entity/humanoid/seraph-faceless.json`) or the player entity (`game:entities/humanoid/player.json`) moved, and the patch paths need updating.
 - Handbook pages should appear under Guides, and their links should open the right items.
 
 **In game**
@@ -122,4 +127,4 @@ Nothing has been run in the game yet. These are the places most likely to need a
 
 ## Credits
 
-Ata. Design, code, art, animations and handbook were drafted with Claude Code.
+Benata. Design, code, art, animations and handbook were drafted with Claude Code.

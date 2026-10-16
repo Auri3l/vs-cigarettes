@@ -1,5 +1,22 @@
 {
     "code": "filter",
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Messy12",
+                "placeRemoveSound": "game:sounds/player/build",
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.125,
+                    "z2": 1
+                }
+            }
+        }
+    ],
     "maxstacksize": 64,
     "creativeinventory": {
         "general": [
@@ -23,6 +40,38 @@
     "textures": {
         "f": {
             "base": "item/filter"
+        }
+    },
+    "guiTransform": {
+        "rotation": {
+            "x": 180,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        },
+        "scale": 1
+    },
+    "attributes": {
+        "groundStorageTransform": {
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "rotation": {
+                "x": -35,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": -0.35,
+                "z": 0
+            }
         }
     }
 }

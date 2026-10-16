@@ -1,4 +1,5 @@
 using System.Linq;
+using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
@@ -32,14 +33,14 @@ public class BlockEntityDryingRack : BlockEntityDisplay
         slots = GameMath.Clamp(Block?.Attributes?["slots"].AsInt(slots) ?? slots, 1, MaxSlots);
         rows = GameMath.Clamp(Block?.Attributes?["rows"].AsInt(rows) ?? rows, 1, slots);
         base.Initialize(api);
+        inv.OnAcquireTransitionSpeed += OnAcquireTransitionSpeed;
     }
 
-    // Drying goes faster on the rack; every other transition (perish etc.) runs at the normal rate
-    protected override float Inventory_OnAcquireTransitionSpeed(EnumTransitionType transType, ItemStack stack, float baseMul)
+    // Drying goes faster on the rack; every other transition (perish etc.) runs at the normal rate.
+    // The inventory multiplies together the factors from every subscribed handler (the container's own included).
+    float OnAcquireTransitionSpeed(EnumTransitionType transType, ItemStack stack, float mulByConfig)
     {
-        float mul = base.Inventory_OnAcquireTransitionSpeed(transType, stack, baseMul);
-        if (transType == EnumTransitionType.Dry) mul *= dryingSpeedMul;
-        return mul;
+        return transType == EnumTransitionType.Dry ? dryingSpeedMul : 1f;
     }
 
     static bool IsDryable(ItemStack? stack, IWorldAccessor world)
@@ -82,23 +83,27 @@ public class BlockEntityDryingRack : BlockEntityDisplay
         return false;
     }
 
-    // Hang items side by side along each bar, rows stacked from the top bar down
+    // Hang items upright from the pegs under each bar, rows stacked from the top bar down.
+    // Peg positions match shapes/block/dryingrack.json and dryingframe.json: four pegs per bar
+    // from x 4.4/16 to 11.6/16, hanging below y 12.4/16 (rack) or 14.4, 9.6 and 4.8/16 (frame).
     protected override float[][] genTransformationMatrices()
     {
         float[][] tfMatrices = new float[MaxSlots][];
         int perRow = (slots + rows - 1) / rows;
-        // One bar: big leaves hanging from it. Several bars: smaller leaves, one row under each bar.
-        float scale = rows == 1 ? 0.5f : 0.3f;
+        // One bar: big leaves. Several bars: smaller leaves that fit between the bars.
+        // Leaves and herbs use their 3D "displayedShape" (shapes/item/*-hanging.json), turned so they don't cover each other.
+        float scale = rows == 1 ? 0.78f : 0.32f;
         for (int i = 0; i < MaxSlots; i++)
         {
             int row = i / perRow, col = i % perRow;
-            float x = (col + 1f) / (perRow + 1f);
-            float y = rows == 1 ? 0.35f : 0.62f - row * 0.3f;
+            float x = perRow == 1 ? 0.5f : 0.275f + col * 0.45f / (perRow - 1);
+            float pegY = rows == 1 ? 0.775f : 0.9f - row * 0.3f;
+            // Neighbours overlap, so alternate them in front of and behind the bar to avoid z-fighting
+            float z = col % 2 == 0 ? -0.05f : 0.05f;
             tfMatrices[i] = new Matrixf()
                 .Translate(0.5f, 0, 0.5f)
                 .RotateYDeg(Block.Shape.rotateY)
-                .Translate(x - 0.5f, y, -0.03f)
-                .RotateXDeg(90)
+                .Translate(x - 0.5f, pegY - scale, z)
                 .Scale(scale, scale, scale)
                 .Translate(-0.5f, 0, -0.5f)
                 .Values;

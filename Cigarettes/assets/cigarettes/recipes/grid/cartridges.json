@@ -1,0 +1,83 @@
+[
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-plain"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-plain",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-menthol"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-menthol",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-clove"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-clove",
+            "quantity": 4
+        }
+    }
+]

@@ -36,7 +36,7 @@ All batch furniture works the same way: right click with ingredients to load the
 | Drying rack | 6 sticks + rope | Hangs 4 leaves, drying 6× faster |
 | Drying frame | 6 sticks + 3 rope | Hangs 12 leaves on three bars, drying 6× faster |
 | Tobacco cutter | knife + iron ingot + 2 planks | Up to 32 dried leaves of one variety per load, a 3 s crank gives 2 shredded per leaf |
-| Rolling table | 3 planks + rolling paper | Shredded tobacco + papers (+ menthol crystals or dried cloves). A 2.5 s roll makes up to 8 pairs into **3 cigarettes per paper** (hand rolling gives 2). Plain makes hand-rolled, menthol makes menthols, cloves make kreteks. |
+| Rolling table | 3 planks + rolling paper | Shredded tobacco + papers (+ menthol crystals or dried cloves). A 2.5 s roll makes up to 8 pairs into **10 cigarettes per paper** (hand rolling gives 3). Plain makes hand-rolled, menthol makes menthols, cloves make kreteks. |
 
 Chopping and rolling batches count toward the Small Business, Assembly Line and Industrial Revolution achievements. Industrial Revolution grants the Industrialist trait.
 
@@ -88,16 +88,9 @@ Factory packs hold 20 and are crafted from a fixed blend. Right click a pack to 
 
 Each pack also shows one of 12 "Seraph General's Warnings" in red, set per brand with the `warning` attribute, for example "Smokers die younger. Seraphs respawn. Don't push it." 
 
-Every pack recipe also takes rolling papers (usually 10), filters for filtered brands, and one to three **paint pots** in the brand's colours. Paint is a tool in the recipe: each pack uses one of a pot's 16 uses.
+Every pack recipe also takes rolling papers (usually 10), filters for filtered brands, and one to three wooden buckets of vanilla dye (`game:dye-*`) in the brand's colours. Each pack uses 0.1 litres of each dye and gives the bucket back. Brand colours vanilla has no dye for use a stand-in: gold is yellow, teal is woad, Camul's brown is orange and Rotmans' brown is gray.
 
-| Paint | Made from (plus resin and a fired bowl) |
-|---|---|
-| Red / Blue / Yellow | redcurrants / blueberries / honeycomb |
-| Black / White / Gold | charcoal / bone meal / a native gold nugget |
-| Green / Brown | fresh mint / any dried tobacco leaf |
-| Pink / Purple / Teal / Orange | redcurrant + bone meal / redcurrant + blueberry / blueberry + mint / redcurrant + honeycomb |
-
-**The rotting pack.** Rotmans is made from vanilla rot (plus brown and green paint). The pack itself perishes: about 7 days fresh, then it rots into 5 rot over 3 days. Each Rotmans cigarette goes off on its own in about 2 days. Letting a pack rot away in your inventory unlocks the secret Best Before achievement.
+**The rotting pack.** Rotmans is made from vanilla rot (plus gray and green dye). The pack itself perishes: about 7 days fresh, then it rots into 5 rot over 3 days. Each Rotmans cigarette goes off on its own in about 2 days. Letting a pack rot away in your inventory unlocks the secret Best Before achievement.
 
 Brand colours: Marlbury red; Camul yellow and brown; Lucky Stroke red and black; Pall Moll, Winstun red; Newpart teal and orange; Koal green; Djarun black and gold; Dunhull red and gold; Bensun gold; Parlement, Gaulwaz, Kant, Belomorkanaal blue; Vague Slims pink; Sobrani black, pink and gold; Mild Eleven blue and white; Chesterfeld red and purple.
 
@@ -119,7 +112,7 @@ Vintage Story has no achievement system, so the mod has its own, deliberately ov
 - **Secrets:** 11 achievements are hidden. They show "??? Nobody knows. Keep smoking." until their prerequisites are done, then a cryptic hint ("Become the lighter." for smoking while on fire).
 - **Situations:** every puff checks what's going on around you: night, rain, temporal storm, underground, high altitude, freezing, scorching, swimming, on fire, sprinting, riding, starving, 2 HP or less, next to a trader, or next to another smoker. Each one has an achievement, and Situationally Aware asks for 8 different ones.
 - **Streaks and combos:** daily smoking streaks (3/7/30 in-game days), Tasting Menu (three kinds within an in-game hour), Read the Fine Print (collect all 12 pack warnings), Pack Rat (open every brand's pack).
-- **Traits:** 13 achievements grant a permanent character trait. The traits are patched into the game's own trait list (`patches/traits.json`), added to the player's extra traits, and show in the character screen.
+- **Traits:** 13 achievements grant a permanent character trait. The traits live in `config/traits.json` (the game merges it into its own trait list). Earned traits are added to the player's extra traits and show in the character screen.
 
 | Trait | From | Effect |
 |---|---|---|
@@ -169,5 +162,5 @@ Every item has a tongue-in-cheek description (the cigar is "Fancy cancer", the b
 
 ## Open questions for Ata
 
-- Decided: withdrawal stays mild, and packs are crafted with paint.
+- Decided: withdrawal stays mild, and packs are coloured with vanilla dye (the paint pots were dropped).
 - Should packs also show up at traders and in ruins?

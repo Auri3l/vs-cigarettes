@@ -36,7 +36,7 @@ public class ItemPipe : ItemSmokable
         return variety != null && varietyStrength.TryGetValue(variety, out float s) ? s : baseStrength;
     }
 
-    protected override bool TryAlternateInteract(ItemSlot slot, EntityAgent byEntity)
+    protected override bool TryAlternateInteract(ItemSlot slot, EntityAgent byEntity, BlockSelection? blockSel)
     {
         if (slot.Itemstack == null || HasSomethingToSmoke(slot.Itemstack)) return false;
 

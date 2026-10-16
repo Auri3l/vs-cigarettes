@@ -1,5 +1,22 @@
 {
     "code": "tobaccoleaf",
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Messy12",
+                "placeRemoveSound": "game:sounds/player/build",
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.125,
+                    "z2": 1
+                }
+            }
+        }
+    ],
     "variantgroups": [
         {
             "code": "type",
@@ -29,8 +46,10 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/tobaccoleaf-{type}-{state}"
+    "textures": {
+        "leaf": {
+            "base": "item/tobaccoleaf-{type}-{state}"
+        }
     },
     "materialDensity": 300,
     "combustibleProps": {
@@ -86,5 +105,27 @@
                 "transitionRatio": 1
             }
         ]
+    },
+    "attributes": {
+        "displayedShape": {
+            "base": "cigarettes:item/leaf-hanging"
+        },
+        "groundStorageTransform": {
+            "origin": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": 0.5
+            },
+            "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": 0
+            },
+            "translation": {
+                "x": 0,
+                "y": -0.45,
+                "z": 0
+            }
+        }
     }
 }

@@ -23,7 +23,7 @@ namespace Cigarettes.Smoking;
 /// prerequisites are unlocked. Each achievement is worth points by tier; points earn ranks,
 /// rank-ups are announced to the whole server, and some ranks hand out rewards.
 /// Hidden achievements show only a hint until their prerequisites are done.
-/// Some achievements grant a permanent character trait (patched into game:config/traits.json).
+/// Some achievements grant a permanent character trait (defined in config/traits.json, which the game merges with its own).
 /// </summary>
 public class AchievementSystem : ModSystem
 {
