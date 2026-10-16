@@ -28,4 +28,4 @@ Cigarettes/
 
 ## Status
 
-v0.8, not yet compiled: the C# was written against the 1.22 API docs without a game install available, so expect a few fixes on the first build. All JSON parses, and every texture, shape, drop, recipe ingredient and lang key resolves. Art is placeholder.
+v0.8, not yet compiled: the C# was written against the 1.22 API docs without a game install available, so expect a few fixes on the first build. All JSON parses, and every texture, shape, drop, recipe ingredient and lang key resolves. Art is in (textures, 3D item models, furniture shapes), but untested in game; positions in hand may need `.tfedit` tuning.
