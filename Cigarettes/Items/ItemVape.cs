@@ -117,6 +117,61 @@ public class ItemVape : ItemSmokable
         return true;
     }
 
+    bool IsCartridge(ItemStack? stack) => stack != null && stack.Collectible.Code.Domain == Code.Domain && stack.Collectible.FirstCodePart() == "eliquidcartridge";
+
+    int ChargeFrom(ItemStack? stack) => stack != null && chargeFrom.TryGetValue(stack.Collectible.Code.ToString(), out int amount) ? amount : 0;
+
+    /// <summary>
+    /// In the inventory: drop a gear or a cartridge onto the vape (left or right click with it
+    /// on the cursor) to charge it or click the cartridge in. Rusty gears can't go in the offhand,
+    /// so this is the easy way.
+    /// </summary>
+    public override int GetMergableQuantity(ItemStack sinkStack, ItemStack sourceStack, EnumMergePriority priority)
+    {
+        if (priority == EnumMergePriority.DirectMerge && sinkStack.Collectible == this)
+        {
+            if (ChargeFrom(sourceStack) > 0 && Charge(sinkStack) < maxCharge) return 1;
+            if (IsCartridge(sourceStack)) return 1;
+        }
+        return base.GetMergableQuantity(sinkStack, sourceStack, priority);
+    }
+
+    public override void TryMergeStacks(ItemStackMergeOperation op)
+    {
+        ItemStack? vape = op.SinkSlot.Itemstack;
+        ItemStack? source = op.SourceSlot.Itemstack;
+        if (op.CurrentPriority != EnumMergePriority.DirectMerge || vape == null || source == null || vape.Collectible != this)
+        {
+            base.TryMergeStacks(op);
+            return;
+        }
+
+        int amount = ChargeFrom(source);
+        if (amount > 0 && Charge(vape) < maxCharge)
+        {
+            vape.Attributes.SetInt(ChargeAttr, Math.Min(maxCharge, Charge(vape) + amount));
+            if (source.Collectible.Code.Path == "gear-temporal" && op.ActingPlayer?.Entity is EntityAgent agent && op.World.Side == EnumAppSide.Server)
+            {
+                op.World.Api.ModLoader.GetModSystem<Smoking.AchievementSystem>()?.OnTemporalCharge(agent);
+            }
+        }
+        else if (IsCartridge(source))
+        {
+            vape.Attributes.SetInt(PuffsAttr, Math.Min(tankItems, source.Collectible.Attributes?["cartridgePuffs"].AsInt(tankItems) ?? tankItems));
+            vape.Attributes.SetString(FlavorAttr, source.Collectible.Variant["flavor"]);
+        }
+        else
+        {
+            base.TryMergeStacks(op);
+            return;
+        }
+
+        op.SourceSlot.TakeOut(1);
+        op.MovedQuantity = 1;
+        op.SourceSlot.MarkDirty();
+        op.SinkSlot.MarkDirty();
+    }
+
     bool TryCharge(ItemSlot slot, ItemSlot offhand, EntityAgent byEntity, int amount)
     {
         int charge = Charge(slot.Itemstack!);
