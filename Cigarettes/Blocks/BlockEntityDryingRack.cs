@@ -83,23 +83,26 @@ public class BlockEntityDryingRack : BlockEntityDisplay
         return false;
     }
 
-    // Hang items side by side along each bar, rows stacked from the top bar down
+    // Hang items upright from the pegs under each bar, rows stacked from the top bar down.
+    // Peg positions match shapes/block/dryingrack.json and dryingframe.json: four pegs per bar
+    // from x 4.4/16 to 11.6/16, hanging below y 12.4/16 (rack) or 14.4, 9.6 and 4.8/16 (frame).
     protected override float[][] genTransformationMatrices()
     {
         float[][] tfMatrices = new float[MaxSlots][];
         int perRow = (slots + rows - 1) / rows;
-        // One bar: big leaves hanging from it. Several bars: smaller leaves, one row under each bar.
-        float scale = rows == 1 ? 0.5f : 0.3f;
+        // One bar: big leaves. Several bars: smaller leaves that fit between the bars.
+        float scale = rows == 1 ? 0.45f : 0.28f;
         for (int i = 0; i < MaxSlots; i++)
         {
             int row = i / perRow, col = i % perRow;
-            float x = (col + 1f) / (perRow + 1f);
-            float y = rows == 1 ? 0.35f : 0.62f - row * 0.3f;
+            float x = perRow == 1 ? 0.5f : 0.275f + col * 0.45f / (perRow - 1);
+            float pegY = rows == 1 ? 0.775f : 0.9f - row * 0.3f;
+            // Neighbours overlap, so alternate them in front of and behind the bar to avoid z-fighting
+            float z = col % 2 == 0 ? -0.05f : 0.05f;
             tfMatrices[i] = new Matrixf()
                 .Translate(0.5f, 0, 0.5f)
                 .RotateYDeg(Block.Shape.rotateY)
-                .Translate(x - 0.5f, y, -0.03f)
-                .RotateXDeg(90)
+                .Translate(x - 0.5f, pegY - scale, z)
                 .Scale(scale, scale, scale)
                 .Translate(-0.5f, 0, -0.5f)
                 .Values;

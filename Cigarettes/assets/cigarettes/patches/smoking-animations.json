@@ -51,12 +51,12 @@
                         "UpperArmR": {
                             "rotationX": -2,
                             "rotationY": 0,
-                            "rotationZ": 3.6
+                            "rotationZ": -3.6
                         },
                         "LowerArmR": {
                             "rotationX": 0.3,
                             "rotationY": 0.8,
-                            "rotationZ": 7.6
+                            "rotationZ": -7.6
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -86,12 +86,12 @@
                         "UpperArmR": {
                             "rotationX": -8,
                             "rotationY": 0,
-                            "rotationZ": 14.2
+                            "rotationZ": -14.2
                         },
                         "LowerArmR": {
                             "rotationX": 1.3,
                             "rotationY": 3.1,
-                            "rotationZ": 30.2
+                            "rotationZ": -30.2
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -121,12 +121,12 @@
                         "UpperArmR": {
                             "rotationX": -18,
                             "rotationY": 0,
-                            "rotationZ": 32
+                            "rotationZ": -32
                         },
                         "LowerArmR": {
                             "rotationX": 3,
                             "rotationY": 7,
-                            "rotationZ": 68
+                            "rotationZ": -68
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -156,12 +156,12 @@
                         "UpperArmR": {
                             "rotationX": -33.1,
                             "rotationY": -0.9,
-                            "rotationZ": 62.9
+                            "rotationZ": -62.9
                         },
                         "LowerArmR": {
                             "rotationX": 5.4,
                             "rotationY": 11.4,
-                            "rotationZ": 80.3
+                            "rotationZ": -80.3
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -191,12 +191,12 @@
                         "UpperArmR": {
                             "rotationX": -39.8,
                             "rotationY": -1.3,
-                            "rotationZ": 76.8
+                            "rotationZ": -76.8
                         },
                         "LowerArmR": {
                             "rotationX": 6.4,
                             "rotationY": 13.4,
-                            "rotationZ": 85.9
+                            "rotationZ": -85.9
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -226,12 +226,12 @@
                         "UpperArmR": {
                             "rotationX": -41.6,
                             "rotationY": -1.4,
-                            "rotationZ": 80.5
+                            "rotationZ": -80.5
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 87.3
+                            "rotationZ": -87.3
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -261,12 +261,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 80.6
+                            "rotationZ": -80.6
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 87.4
+                            "rotationZ": -87.4
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -296,12 +296,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 80.6
+                            "rotationZ": -80.6
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 87.4
+                            "rotationZ": -87.4
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -331,12 +331,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 80.7
+                            "rotationZ": -80.7
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 87.4
+                            "rotationZ": -87.4
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -366,12 +366,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 80.7
+                            "rotationZ": -80.7
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 87.5
+                            "rotationZ": -87.5
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -401,12 +401,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 80.8
+                            "rotationZ": -80.8
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 87.6
+                            "rotationZ": -87.6
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -436,12 +436,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 80.9
+                            "rotationZ": -80.9
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 87.6
+                            "rotationZ": -87.6
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -471,12 +471,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 81
+                            "rotationZ": -81
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 87.7
+                            "rotationZ": -87.7
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -506,12 +506,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 81.1
+                            "rotationZ": -81.1
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 87.8
+                            "rotationZ": -87.8
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -541,12 +541,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 81.2
+                            "rotationZ": -81.2
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 87.9
+                            "rotationZ": -87.9
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -576,12 +576,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 81.4
+                            "rotationZ": -81.4
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 88
+                            "rotationZ": -88
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -611,12 +611,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 81.5
+                            "rotationZ": -81.5
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 88.1
+                            "rotationZ": -88.1
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -646,12 +646,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 81.6
+                            "rotationZ": -81.6
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 88.2
+                            "rotationZ": -88.2
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -681,12 +681,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 81.7
+                            "rotationZ": -81.7
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 88.3
+                            "rotationZ": -88.3
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -716,12 +716,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 81.8
+                            "rotationZ": -81.8
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 88.3
+                            "rotationZ": -88.3
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -751,12 +751,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 81.9
+                            "rotationZ": -81.9
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 88.4
+                            "rotationZ": -88.4
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -786,12 +786,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 81.9
+                            "rotationZ": -81.9
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 88.5
+                            "rotationZ": -88.5
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -821,12 +821,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 82
+                            "rotationZ": -82
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 88.5
+                            "rotationZ": -88.5
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -856,12 +856,12 @@
                         "UpperArmR": {
                             "rotationX": -41.7,
                             "rotationY": -1.4,
-                            "rotationZ": 82
+                            "rotationZ": -82
                         },
                         "LowerArmR": {
                             "rotationX": 6.7,
                             "rotationY": 14,
-                            "rotationZ": 88.5
+                            "rotationZ": -88.5
                         },
                         "UpperTorso": {
                             "rotationX": 0,
@@ -920,12 +920,12 @@
                         "UpperArmR": {
                             "rotationX": -0.4,
                             "rotationY": 1,
-                            "rotationZ": 3.1
+                            "rotationZ": -3.1
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 4.6
+                            "rotationZ": -4.6
                         }
                     }
                 },
@@ -935,12 +935,12 @@
                         "UpperArmR": {
                             "rotationX": -1.6,
                             "rotationY": 3.6,
-                            "rotationZ": 10.9
+                            "rotationZ": -10.9
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 16.1
+                            "rotationZ": -16.1
                         }
                     }
                 },
@@ -950,12 +950,12 @@
                         "UpperArmR": {
                             "rotationX": -3,
                             "rotationY": 7,
-                            "rotationZ": 21
+                            "rotationZ": -21
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 31
+                            "rotationZ": -31
                         }
                     }
                 },
@@ -965,12 +965,12 @@
                         "UpperArmR": {
                             "rotationX": -4.4,
                             "rotationY": 10.4,
-                            "rotationZ": 31.1
+                            "rotationZ": -31.1
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 45.9
+                            "rotationZ": -45.9
                         }
                     }
                 },
@@ -980,12 +980,12 @@
                         "UpperArmR": {
                             "rotationX": -5.6,
                             "rotationY": 13,
-                            "rotationZ": 38.9
+                            "rotationZ": -38.9
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 57.4
+                            "rotationZ": -57.4
                         }
                     }
                 },
@@ -995,12 +995,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 42
+                            "rotationZ": -42
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 62
+                            "rotationZ": -62
                         }
                     }
                 },
@@ -1010,12 +1010,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 42
+                            "rotationZ": -42
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 62
+                            "rotationZ": -62
                         }
                     }
                 },
@@ -1025,12 +1025,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 42.1
+                            "rotationZ": -42.1
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 62.1
+                            "rotationZ": -62.1
                         }
                     }
                 },
@@ -1040,12 +1040,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 42.2
+                            "rotationZ": -42.2
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 62.2
+                            "rotationZ": -62.2
                         }
                     }
                 },
@@ -1055,12 +1055,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 42.3
+                            "rotationZ": -42.3
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 62.3
+                            "rotationZ": -62.3
                         }
                     }
                 },
@@ -1070,12 +1070,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 42.4
+                            "rotationZ": -42.4
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 62.4
+                            "rotationZ": -62.4
                         }
                     }
                 },
@@ -1085,12 +1085,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 42.5
+                            "rotationZ": -42.5
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 62.5
+                            "rotationZ": -62.5
                         }
                     }
                 },
@@ -1100,12 +1100,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 42.7
+                            "rotationZ": -42.7
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 62.7
+                            "rotationZ": -62.7
                         }
                     }
                 },
@@ -1115,12 +1115,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 42.9
+                            "rotationZ": -42.9
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 62.9
+                            "rotationZ": -62.9
                         }
                     }
                 },
@@ -1130,12 +1130,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 43
+                            "rotationZ": -43
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 63
+                            "rotationZ": -63
                         }
                     }
                 },
@@ -1145,12 +1145,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 43.2
+                            "rotationZ": -43.2
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 63.2
+                            "rotationZ": -63.2
                         }
                     }
                 },
@@ -1160,12 +1160,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 43.4
+                            "rotationZ": -43.4
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 63.4
+                            "rotationZ": -63.4
                         }
                     }
                 },
@@ -1175,12 +1175,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 43.5
+                            "rotationZ": -43.5
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 63.5
+                            "rotationZ": -63.5
                         }
                     }
                 },
@@ -1190,12 +1190,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 43.7
+                            "rotationZ": -43.7
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 63.7
+                            "rotationZ": -63.7
                         }
                     }
                 },
@@ -1205,12 +1205,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 43.8
+                            "rotationZ": -43.8
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 63.8
+                            "rotationZ": -63.8
                         }
                     }
                 },
@@ -1220,12 +1220,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 43.9
+                            "rotationZ": -43.9
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 63.9
+                            "rotationZ": -63.9
                         }
                     }
                 },
@@ -1235,12 +1235,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 44
+                            "rotationZ": -44
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 64
+                            "rotationZ": -64
                         }
                     }
                 },
@@ -1250,12 +1250,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 44
+                            "rotationZ": -44
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 64
+                            "rotationZ": -64
                         }
                     }
                 },
@@ -1265,12 +1265,12 @@
                         "UpperArmR": {
                             "rotationX": -6,
                             "rotationY": 14,
-                            "rotationZ": 44
+                            "rotationZ": -44
                         },
                         "LowerArmR": {
                             "rotationX": 0,
                             "rotationY": 0,
-                            "rotationZ": 64
+                            "rotationZ": -64
                         }
                     }
                 }

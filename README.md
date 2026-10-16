@@ -24,19 +24,23 @@ For each piece, right click with ingredients to load it, hold right click with a
 - Hand-rolled cigarettes, menthols and kreteks (which crackle and spit embers), cigars, stub cigars, and snipes rolled from 6 old butts.
 - Wooden and bone pipes, packed with shredded tobacco from the offhand.
 - The **Jool temporal vaporizer**. It runs on e-liquid (a real liquid, brewed in a barrel, in plain, menthol or clove) and is charged with a temporal gear (300 puffs) or a rusty gear (40 puffs).
-- Light from the offhand with a torch, lantern, matches, a Zappo lighter, or another lit cigarette (chain smoking).
+- Light from the offhand with a torch, lantern, matches, a Zappo lighter, or another lit cigarette (chain smoking). In the main hand, matches and lighters light firepits, torches and anything else a firestarter can, instantly.
 
 ### Brands and packs
 - There are 19 parody brands (Marlbury, Camul, Lucky Stroke, Pall Moll, Djarun Black, Belomorkanaal, Rotmans…), each with its own blend, strength, slogan and one of 12 Seraph General's Warnings.
 - Packs are coloured with the game's own **dye**: put wooden buckets of dye in the brand colours into the pack recipe (0.1 L per colour). The 11 filtered brands use 10 cigarette butts as the filter.
+- Right click a pack to shake one out. Empty packs stay, and right clicking with cigarettes in the offhand fills a pack back up with any kind. Packs and cigarettes show their tobacco blend.
 - **Rotmans** is made from rot and comes in a rotting pack that perishes in your inventory.
 
 ![All 19 packs, front and back](docs/packs.png)
 
 ### Butts and ashtrays
 - Every smoke leaves a butt. Butts can also be crafted, and they are ingredients in the filtered pack recipes.
-- **Flick** a butt with right click. It lands as ground storage, in a pile that grows up to 64 butts per block. If it lands in an ashtray it goes in, which unlocks the secret Hole in One.
+- **Flick** a butt: hold right click to aim (with the throwing reticle), release to flick. It tumbles through a figure eight and lands as ground storage, in a pile that grows up to 64 butts per block. If it lands in an ashtray it goes in, which unlocks the secret Hole in One.
 - The ashtray holds 12 butts, shows empty, some or full, and spills when broken.
+
+### Placing things
+- Sneak + right click puts any of the loose items (cigarettes, packs, lighters, pipes, leaves, herbs...) down as ground storage.
 
 ### Effects
 - Each puff gives a 10-minute buff (less hunger, faster mining) scaled by strength.

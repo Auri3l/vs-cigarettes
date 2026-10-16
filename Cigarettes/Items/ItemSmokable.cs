@@ -106,6 +106,13 @@ public abstract class ItemSmokable : Item
     {
         if (!firstEvent || slot.Itemstack == null) return;
 
+        // Sneak + right click on a block places it as ground storage (CollectibleBehaviorGroundStorable)
+        if (byEntity.Controls.ShiftKey && blockSel != null)
+        {
+            base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
+            return;
+        }
+
         if (TryAlternateInteract(slot, byEntity))
         {
             handling = EnumHandHandling.PreventDefault;

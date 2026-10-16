@@ -16,6 +16,7 @@ public class CigarettesModSystem : ModSystem
         api.RegisterItemClass(ModId + ".ItemCigarettePack", typeof(ItemCigarettePack));
         api.RegisterItemClass(ModId + ".ItemVape", typeof(ItemVape));
         api.RegisterItemClass(ModId + ".ItemButt", typeof(ItemButt));
+        api.RegisterItemClass(ModId + ".ItemIgniter", typeof(ItemIgniter));
         api.RegisterEntity(ModId + ".EntityFlickedButt", typeof(Entities.EntityFlickedButt));
 
         api.RegisterBlockClass(ModId + ".BlockDryingRack", typeof(BlockDryingRack));

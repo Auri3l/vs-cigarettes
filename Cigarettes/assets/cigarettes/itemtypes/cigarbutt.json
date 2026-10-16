@@ -53,5 +53,18 @@
         "butt": {
             "base": "item/cigarbutt"
         }
+    },
+    "guiTransform": {
+        "rotation": {
+            "x": 180,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        },
+        "scale": 1
     }
 }

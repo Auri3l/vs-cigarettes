@@ -1,6 +1,23 @@
 {
     "code": "cigarettepack",
     "class": "cigarettes.ItemCigarettePack",
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Quadrants",
+                "placeRemoveSound": "game:sounds/player/build",
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.75,
+                    "z2": 1
+                }
+            }
+        }
+    ],
     "variantgroups": [
         {
             "code": "brand",
@@ -47,80 +64,403 @@
     "attributesByType": {
         "*-marlbury": {
             "packSize": 20,
-            "warning": 0
+            "warning": 0,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-camul": {
             "packSize": 20,
-            "warning": 1
+            "warning": 1,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-luckystroke": {
             "packSize": 20,
-            "warning": 2
+            "warning": 2,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-pallmoll": {
             "packSize": 20,
-            "warning": 3
+            "warning": 3,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-winstun": {
             "packSize": 20,
-            "warning": 4
+            "warning": 4,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-newpart": {
             "packSize": 20,
-            "warning": 5
+            "warning": 5,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-koal": {
             "packSize": 20,
-            "warning": 6
+            "warning": 6,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-djarun": {
             "packSize": 12,
-            "warning": 7
+            "warning": 7,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-dunhull": {
             "packSize": 20,
-            "warning": 8
+            "warning": 8,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-bensun": {
             "packSize": 20,
-            "warning": 9
+            "warning": 9,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-parlement": {
             "packSize": 20,
-            "warning": 10
+            "warning": 10,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-gaulwaz": {
             "packSize": 20,
-            "warning": 11
+            "warning": 11,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-kant": {
             "packSize": 20,
-            "warning": 0
+            "warning": 0,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-vagueslims": {
             "packSize": 20,
-            "warning": 1
+            "warning": 1,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-sobrani": {
             "packSize": 20,
-            "warning": 2
+            "warning": 2,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-belomor": {
             "packSize": 25,
-            "warning": 3
+            "warning": 3,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-mildeleven": {
             "packSize": 20,
-            "warning": 4
+            "warning": 4,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-chesterfeld": {
             "packSize": 20,
-            "warning": 5
+            "warning": 5,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         },
         "*-rotmans": {
             "packSize": 20,
             "warning": 12,
-            "rotting": true
+            "rotting": true,
+            "groundStorageTransform": {
+                "origin": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                },
+                "rotation": {
+                    "x": -8,
+                    "y": 0,
+                    "z": 0
+                },
+                "translation": {
+                    "x": 0,
+                    "y": -0.125,
+                    "z": 0
+                }
+            }
         }
     },
     "transitionablePropsByType": {
@@ -148,5 +488,18 @@
         "pack": {
             "base": "item/cigarettepack-{brand}"
         }
+    },
+    "guiTransform": {
+        "rotation": {
+            "x": 180,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+        },
+        "scale": 1
     }
 }

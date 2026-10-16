@@ -195,6 +195,7 @@ public class BlockEntityRollingTable : BlockEntityWorkstation
         Item? cigarette = Api.World.GetItem(new AssetLocation(CigarettesModSystem.ModId, "cigarette-" + Brand()));
         if (cigarette == null || pairs <= 0) return null;
 
+        string variety = inv[TobaccoSlot].Itemstack.Collectible.Variant["type"] ?? "";
         inv[TobaccoSlot].TakeOut(pairs);
         inv[PaperSlot].TakeOut(pairs);
         if (!inv[AdditiveSlot].Empty) inv[AdditiveSlot].TakeOut(pairs);
@@ -205,7 +206,9 @@ public class BlockEntityRollingTable : BlockEntityWorkstation
         while (total > 0)
         {
             int n = GameMath.Min(total, cigarette.MaxStackSize);
-            made.Add(new ItemStack(cigarette, n));
+            var stack = new ItemStack(cigarette, n);
+            Items.ItemCigarette.SetTobacco(stack, variety);
+            made.Add(stack);
             total -= n;
         }
         return made.ToArray();
