@@ -16,7 +16,7 @@
     "texture": {
         "base": "item/stubcigar"
     },
-    "heldTpUseAnimation": "eat",
+    "heldTpUseAnimation": "cigarettes-smoke",
     "attributes": {
         "maxPuffs": 8,
         "strength": 1.3,

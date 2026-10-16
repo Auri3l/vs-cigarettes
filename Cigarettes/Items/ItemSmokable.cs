@@ -235,6 +235,8 @@ public abstract class ItemSmokable : Item
     {
         if (secondsUsed < puffSeconds - 0.05f || slot.Itemstack == null) return;
 
+        byEntity.AnimManager?.StartAnimation("cigarettes-exhale");
+
         if (byEntity.World.Side == EnumAppSide.Client)
         {
             // Exhale: a bigger cloud drifting forward

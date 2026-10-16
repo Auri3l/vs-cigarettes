@@ -25,7 +25,7 @@
     "texture": {
         "base": "item/pipe-{material}"
     },
-    "heldTpUseAnimation": "eat",
+    "heldTpUseAnimation": "cigarettes-smoke",
     "attributes": {
         "puffsPerLoad": 15,
         "puffSeconds": 2.0,

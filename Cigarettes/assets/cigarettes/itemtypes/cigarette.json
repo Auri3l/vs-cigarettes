@@ -46,7 +46,7 @@
     "texture": {
         "base": "item/cigarette-{brand}"
     },
-    "heldTpUseAnimation": "eat",
+    "heldTpUseAnimation": "cigarettes-smoke",
     "attributesByType": {
         "*-handrolled": {
             "maxPuffs": 6,

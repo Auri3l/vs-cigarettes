@@ -16,7 +16,7 @@
     "texture": {
         "base": "item/vape"
     },
-    "heldTpUseAnimation": "eat",
+    "heldTpUseAnimation": "cigarettes-smoke",
     "attributes": {
         "tankItems": 20,
         "puffSeconds": 1.4,

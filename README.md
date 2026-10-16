@@ -16,7 +16,7 @@ Cigarettes/
   Smoking/AchievementSystem.cs  the Smoker's Ledger: achievements, ranks, /smokestats (server, config/achievements.json)
   Entities/EntityFlickedButt.cs  a flicked butt that lands as ground storage
   Blocks/                   drying rack and frame, ashtray, batch furniture (tobacco cutter, rolling table)
-  assets/cigarettes/        itemtypes, blocktypes, recipes, shapes, textures, lang, config/achievements.json, config/handbook (11 guide pages), patches/traits.json
+  assets/cigarettes/        itemtypes, blocktypes, recipes, shapes, textures, lang, config/achievements.json, config/handbook (11 guide pages), patches/traits.json, patches/smoking-animations.json
 ```
 
 ## Building
