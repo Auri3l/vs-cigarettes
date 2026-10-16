@@ -46,8 +46,10 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/tobaccoleaf-{type}-{state}"
+    "textures": {
+        "leaf": {
+            "base": "item/tobaccoleaf-{type}-{state}"
+        }
     },
     "materialDensity": 300,
     "combustibleProps": {
@@ -105,6 +107,9 @@
         ]
     },
     "attributes": {
+        "displayedShape": {
+            "base": "cigarettes:item/leaf-hanging"
+        },
         "groundStorageTransform": {
             "origin": {
                 "x": 0.5,

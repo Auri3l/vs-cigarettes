@@ -45,8 +45,10 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/herb-{type}-{state}"
+    "textures": {
+        "leaf": {
+            "base": "item/herb-{type}-{state}"
+        }
     },
     "materialDensity": 300,
     "transitionablePropsByType": {
@@ -84,6 +86,9 @@
         ]
     },
     "attributes": {
+        "displayedShape": {
+            "base": "cigarettes:item/herb-hanging"
+        },
         "groundStorageTransform": {
             "origin": {
                 "x": 0.5,

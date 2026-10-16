@@ -91,7 +91,8 @@ public class BlockEntityDryingRack : BlockEntityDisplay
         float[][] tfMatrices = new float[MaxSlots][];
         int perRow = (slots + rows - 1) / rows;
         // One bar: big leaves. Several bars: smaller leaves that fit between the bars.
-        float scale = rows == 1 ? 0.45f : 0.28f;
+        // Leaves and herbs use their 3D "displayedShape" (shapes/item/*-hanging.json), turned so they don't cover each other.
+        float scale = rows == 1 ? 0.6f : 0.3f;
         for (int i = 0; i < MaxSlots; i++)
         {
             int row = i / perRow, col = i % perRow;

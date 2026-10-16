@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
+using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
 
 namespace Cigarettes.Items;
@@ -54,11 +55,20 @@ public class ItemVape : ItemSmokable
         return liquid?.Attributes?["vapeStrength"].AsFloat(baseStrength) ?? baseStrength;
     }
 
-    protected override bool TryAlternateInteract(ItemSlot slot, EntityAgent byEntity)
+    protected override bool TryAlternateInteract(ItemSlot slot, EntityAgent byEntity, BlockSelection? blockSel)
     {
+        if (slot.Itemstack == null) return false;
+
+        // Buckets, jugs and barrels can't be held in the offhand: fill from one placed in the world
+        if (blockSel != null && byEntity.World.BlockAccessor.GetBlock(blockSel.Position) is BlockLiquidContainerBase placed)
+        {
+            BlockPos pos = blockSel.Position;
+            if (TryFill(slot, byEntity, placed.GetContent(pos), n => placed.TryTakeContent(pos, n), () => { })) return true;
+        }
+
         ItemSlot? offhand = byEntity.LeftHandItemSlot;
         ItemStack? other = offhand?.Itemstack;
-        if (offhand == null || other == null || slot.Itemstack == null) return false;
+        if (offhand == null || other == null) return false;
 
         if (chargeFrom.TryGetValue(other.Collectible.Code.ToString(), out int amount))
         {
@@ -67,7 +77,7 @@ public class ItemVape : ItemSmokable
 
         if (other.Collectible is BlockLiquidContainerBase container)
         {
-            return TryFill(slot, offhand, container, byEntity);
+            return TryFill(slot, byEntity, container.GetContent(other), n => container.TryTakeContent(other, n), offhand.MarkDirty);
         }
 
         return false;
@@ -97,9 +107,8 @@ public class ItemVape : ItemSmokable
         return true;
     }
 
-    bool TryFill(ItemSlot slot, ItemSlot offhand, BlockLiquidContainerBase container, EntityAgent byEntity)
+    bool TryFill(ItemSlot slot, EntityAgent byEntity, ItemStack? content, System.Func<int, ItemStack?> takeContent, System.Action markSourceDirty)
     {
-        ItemStack? content = container.GetContent(offhand.Itemstack);
         CollectibleObject? liquid = content?.Collectible;
         if (liquid == null || liquid.Code.Domain != Code.Domain || liquid.FirstCodePart() != "eliquidportion") return false;
 
@@ -122,12 +131,12 @@ public class ItemVape : ItemSmokable
 
         if (byEntity.World.Side == EnumAppSide.Server)
         {
-            ItemStack? taken = container.TryTakeContent(offhand.Itemstack, want);
+            ItemStack? taken = takeContent(want);
             if (taken != null && taken.StackSize > 0)
             {
                 vape.Attributes.SetInt(PuffsAttr, have + taken.StackSize);
                 vape.Attributes.SetString(FlavorAttr, flavor);
-                offhand.MarkDirty();
+                markSourceDirty();
                 slot.MarkDirty();
             }
         }

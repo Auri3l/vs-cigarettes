@@ -26,14 +26,14 @@
                 "placeRemoveSound": "game:sounds/block/loosestone",
                 "randomizeSoundPitch": true,
                 "stackingModel": "cigarettes:block/buttpile",
-                "tessQuantityElements": true,
                 "stackingTextures": {
                     "butt": "cigarettes:block/ashtray/cigarbutt"
                 },
+                "cuboidsPerModel": 1,
+                "itemsPerModel": 4,
                 "stackingCapacity": 64,
                 "transferQuantity": 1,
                 "bulkTransferQuantity": 8,
-                "modelItemsToStackSizeRatio": 4,
                 "collisionBox": {
                     "x1": 0,
                     "y1": 0,

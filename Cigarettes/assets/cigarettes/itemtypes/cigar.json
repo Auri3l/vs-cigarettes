@@ -55,9 +55,10 @@
             },
             "translation": {
                 "x": 0,
-                "y": -0.44,
+                "y": -0.484,
                 "z": 0
-            }
+            },
+            "scale": 0.25
         }
     },
     "materialDensity": 300,

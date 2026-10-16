@@ -21,38 +21,43 @@ public class ItemIgniter : Item
     {
         if (!firstEvent || blockSel == null || slot.Itemstack == null) return;
 
-        // Sneak + right click on a block places it as ground storage (CollectibleBehaviorGroundStorable)
-        if (byEntity.Controls.ShiftKey)
-        {
-            base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
-            return;
-        }
-
-        IWorldAccessor world = byEntity.World;
-        BlockPos pos = blockSel.Position;
-        IIgnitable? ignitable = world.BlockAccessor.GetBlock(pos).GetInterface<IIgnitable>(world, pos);
-        if (ignitable == null) return;
-
-        IPlayer? player = (byEntity as EntityPlayer)?.Player;
-        if (player != null && !world.Claims.TryAccess(player, pos, EnumBlockAccessFlags.Use)) return;
-
-        EnumIgniteState state = ignitable.OnTryIgniteBlock(byEntity, pos, SecondsIgniting);
-        if (state == EnumIgniteState.NotIgnitablePreventDefault)
+        // Lighting comes first, with or without sneaking (sneaking is how you get past a firepit's own GUI)
+        if (TryIgnite(slot, byEntity, blockSel))
         {
             handling = EnumHandHandling.PreventDefault;
             return;
         }
-        if (state != EnumIgniteState.Ignitable && state != EnumIgniteState.IgniteNow) return;
 
-        handling = EnumHandHandling.PreventDefault;
+        // Otherwise sneak + right click places it as ground storage (CollectibleBehaviorGroundStorable)
+        if (byEntity.Controls.ShiftKey)
+        {
+            base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
+        }
+    }
+
+    bool TryIgnite(ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel)
+    {
+        IWorldAccessor world = byEntity.World;
+        BlockPos pos = blockSel.Position;
+        IIgnitable? ignitable = world.BlockAccessor.GetBlock(pos).GetInterface<IIgnitable>(world, pos);
+        if (ignitable == null) return false;
+
+        IPlayer? player = (byEntity as EntityPlayer)?.Player;
+        if (player != null && !world.Claims.TryAccess(player, pos, EnumBlockAccessFlags.Use)) return false;
+
+        EnumIgniteState state = ignitable.OnTryIgniteBlock(byEntity, pos, SecondsIgniting);
+        if (state == EnumIgniteState.NotIgnitablePreventDefault) return true;
+        if (state != EnumIgniteState.Ignitable && state != EnumIgniteState.IgniteNow) return false;
 
         world.PlaySoundAt(new AssetLocation("game:sounds/torch-ignite"), pos.X + 0.5, pos.Y + 0.5, pos.Z + 0.5, player, false, 16);
 
-        if (world.Side != EnumAppSide.Server) return;
-
-        EnumHandling ignited = EnumHandling.PassThrough;
-        ignitable.OnTryIgniteBlockOver(byEntity, pos, SecondsIgniting, ref ignited);
-        DamageItem(world, byEntity, slot, 1);
+        if (world.Side == EnumAppSide.Server)
+        {
+            EnumHandling ignited = EnumHandling.PassThrough;
+            ignitable.OnTryIgniteBlockOver(byEntity, pos, SecondsIgniting, ref ignited);
+            DamageItem(world, byEntity, slot, 1);
+        }
+        return true;
     }
 
     public override WorldInteraction[] GetHeldInteractionHelp(ItemSlot inSlot)
