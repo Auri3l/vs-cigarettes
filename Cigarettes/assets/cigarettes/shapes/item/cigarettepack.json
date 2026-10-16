@@ -1,0 +1,104 @@
+{
+  "editor": {
+    "allAngles": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "pack": "item/cigarettepack-marlbury"
+  },
+  "elements": [
+    {
+      "name": "Root",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        0,
+        0
+      ],
+      "rotationOrigin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {},
+      "rotationX": 8,
+      "rotationY": -25,
+      "children": [
+        {
+          "name": "Pack",
+          "from": [
+            4.25,
+            2,
+            6.5
+          ],
+          "to": [
+            11.75,
+            14,
+            9.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#pack",
+              "uv": [
+                5,
+                0,
+                10,
+                8
+              ]
+            },
+            "east": {
+              "texture": "#pack",
+              "uv": [
+                10,
+                0,
+                12,
+                8
+              ]
+            },
+            "south": {
+              "texture": "#pack",
+              "uv": [
+                0,
+                0,
+                5,
+                8
+              ]
+            },
+            "west": {
+              "texture": "#pack",
+              "uv": [
+                12,
+                0,
+                14,
+                8
+              ]
+            },
+            "up": {
+              "texture": "#pack",
+              "uv": [
+                0,
+                8,
+                5,
+                10
+              ]
+            },
+            "down": {
+              "texture": "#pack",
+              "uv": [
+                5,
+                8,
+                10,
+                10
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

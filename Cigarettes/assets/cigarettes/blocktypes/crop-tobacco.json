@@ -41,9 +41,6 @@
         ]
     },
     "renderpass": "OpaqueNoCull",
-    "shape": {
-        "base": "block/crop-cross"
-    },
     "textures": {
         "crop": {
             "base": "block/crop/{type}/stage{stage}"
@@ -62,6 +59,54 @@
     "resistance": 0.5,
     "collisionbox": null,
     "selectionboxByType": {
+        "*-virginia-5": {
+            "x1": 0.05,
+            "y1": 0,
+            "z1": 0.05,
+            "x2": 0.95,
+            "y2": 1.45,
+            "z2": 0.95
+        },
+        "*-virginia-6": {
+            "x1": 0.05,
+            "y1": 0,
+            "z1": 0.05,
+            "x2": 0.95,
+            "y2": 1.45,
+            "z2": 0.95
+        },
+        "*-burley-5": {
+            "x1": 0.05,
+            "y1": 0,
+            "z1": 0.05,
+            "x2": 0.95,
+            "y2": 1.45,
+            "z2": 0.95
+        },
+        "*-burley-6": {
+            "x1": 0.05,
+            "y1": 0,
+            "z1": 0.05,
+            "x2": 0.95,
+            "y2": 1.45,
+            "z2": 0.95
+        },
+        "*-oriental-5": {
+            "x1": 0.05,
+            "y1": 0,
+            "z1": 0.05,
+            "x2": 0.95,
+            "y2": 1.45,
+            "z2": 0.95
+        },
+        "*-oriental-6": {
+            "x1": 0.05,
+            "y1": 0,
+            "z1": 0.05,
+            "x2": 0.95,
+            "y2": 1.45,
+            "z2": 0.95
+        },
         "*-1": {
             "x1": 0.2,
             "y1": 0,
@@ -211,5 +256,28 @@
     "materialDensity": 200,
     "vertexFlags": {
         "windMode": "NormalWind"
+    },
+    "shapeByType": {
+        "*-virginia-5": {
+            "base": "block/crop-tall"
+        },
+        "*-virginia-6": {
+            "base": "block/crop-tall"
+        },
+        "*-burley-5": {
+            "base": "block/crop-tall"
+        },
+        "*-burley-6": {
+            "base": "block/crop-tall"
+        },
+        "*-oriental-5": {
+            "base": "block/crop-tall"
+        },
+        "*-oriental-6": {
+            "base": "block/crop-tall"
+        },
+        "*": {
+            "base": "block/crop-cross"
+        }
     }
 }

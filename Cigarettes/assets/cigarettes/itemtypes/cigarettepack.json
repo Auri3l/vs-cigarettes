@@ -39,9 +39,6 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/cigarettepack-{brand}"
-    },
     "combustibleProps": {
         "burnTemperature": 250,
         "burnDuration": 3
@@ -143,5 +140,13 @@
                 "transitionRatio": 5
             }
         ]
+    },
+    "shape": {
+        "base": "item/cigarettepack"
+    },
+    "textures": {
+        "pack": {
+            "base": "item/cigarettepack-{brand}"
+        }
     }
 }

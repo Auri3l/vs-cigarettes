@@ -53,6 +53,9 @@
     "textures": {
         "wood": {
             "base": "block/dryingrack/wood"
+        },
+        "rope": {
+            "base": "block/furniture/rope"
         }
     },
     "blockmaterial": "Wood",

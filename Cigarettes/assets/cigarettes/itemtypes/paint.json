@@ -32,8 +32,13 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/paint-{color}"
+    "materialDensity": 900,
+    "shape": {
+        "base": "item/paintpot"
     },
-    "materialDensity": 900
+    "textures": {
+        "p": {
+            "base": "item/paint-{color}"
+        }
+    }
 }

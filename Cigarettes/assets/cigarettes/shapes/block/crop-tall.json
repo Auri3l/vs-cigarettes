@@ -1,0 +1,144 @@
+{
+  "editor": {
+    "allAngles": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 24,
+  "textures": {
+    "crop": "block/crop/virginia/stage6"
+  },
+  "elements": [
+    {
+      "name": "PlaneN",
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "to": [
+        16,
+        24,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            24
+          ]
+        },
+        "south": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            24
+          ]
+        }
+      }
+    },
+    {
+      "name": "PlaneS",
+      "from": [
+        0,
+        0,
+        12
+      ],
+      "to": [
+        16,
+        24,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            24
+          ]
+        },
+        "south": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            24
+          ]
+        }
+      }
+    },
+    {
+      "name": "PlaneW",
+      "from": [
+        4,
+        0,
+        0
+      ],
+      "to": [
+        4,
+        24,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            24
+          ]
+        },
+        "west": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            24
+          ]
+        }
+      }
+    },
+    {
+      "name": "PlaneE",
+      "from": [
+        12,
+        0,
+        0
+      ],
+      "to": [
+        12,
+        24,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            24
+          ]
+        },
+        "west": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            24
+          ]
+        }
+      }
+    }
+  ]
+}

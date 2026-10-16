@@ -1,0 +1,163 @@
+{
+  "editor": {
+    "allAngles": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "cigar": "item/cigar"
+  },
+  "elements": [
+    {
+      "name": "Root",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        0,
+        0
+      ],
+      "rotationOrigin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {},
+      "rotationZ": 45,
+      "children": [
+        {
+          "name": "Cigar",
+          "from": [
+            1.5385,
+            6.9904,
+            6.9904
+          ],
+          "to": [
+            15,
+            9.0096,
+            9.0096
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cigar",
+              "uv": [
+                10,
+                0,
+                0,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#cigar",
+              "uv": [
+                0,
+                6,
+                1.5,
+                7.5
+              ]
+            },
+            "south": {
+              "texture": "#cigar",
+              "uv": [
+                0,
+                1.5,
+                10,
+                3
+              ]
+            },
+            "west": {
+              "texture": "#cigar",
+              "uv": [
+                1.5,
+                6,
+                3,
+                7.5
+              ]
+            },
+            "up": {
+              "texture": "#cigar",
+              "uv": [
+                0,
+                3,
+                10,
+                4.5
+              ]
+            },
+            "down": {
+              "texture": "#cigar",
+              "uv": [
+                0,
+                4.5,
+                10,
+                6
+              ]
+            }
+          }
+        },
+        {
+          "name": "Head",
+          "from": [
+            1,
+            7.1923,
+            7.1923
+          ],
+          "to": [
+            1.5385,
+            8.8077,
+            8.8077
+          ],
+          "faces": {
+            "north": {
+              "texture": "#cigar",
+              "uv": [
+                0.5,
+                0.2,
+                1.5,
+                0.8
+              ]
+            },
+            "south": {
+              "texture": "#cigar",
+              "uv": [
+                0.5,
+                0.2,
+                1.5,
+                0.8
+              ]
+            },
+            "west": {
+              "texture": "#cigar",
+              "uv": [
+                0.5,
+                0.2,
+                1.5,
+                0.8
+              ]
+            },
+            "up": {
+              "texture": "#cigar",
+              "uv": [
+                0.5,
+                0.2,
+                1.5,
+                0.8
+              ]
+            },
+            "down": {
+              "texture": "#cigar",
+              "uv": [
+                0.5,
+                0.2,
+                1.5,
+                0.8
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

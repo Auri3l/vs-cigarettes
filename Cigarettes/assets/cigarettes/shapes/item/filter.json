@@ -1,0 +1,254 @@
+{
+  "editor": {
+    "allAngles": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "f": "item/filter"
+  },
+  "elements": [
+    {
+      "name": "Root",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        0,
+        0
+      ],
+      "rotationOrigin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {},
+      "rotationX": 35,
+      "rotationY": -20,
+      "children": [
+        {
+          "name": "TipA",
+          "from": [
+            4,
+            5.4545,
+            4.9091
+          ],
+          "to": [
+            9.0909,
+            8,
+            7.4545
+          ],
+          "faces": {
+            "north": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            },
+            "east": {
+              "texture": "#f",
+              "uv": [
+                4,
+                0,
+                4.7,
+                0.7
+              ]
+            },
+            "south": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            },
+            "west": {
+              "texture": "#f",
+              "uv": [
+                4,
+                0,
+                4.7,
+                0.7
+              ]
+            },
+            "up": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            },
+            "down": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            }
+          }
+        },
+        {
+          "name": "TipB",
+          "from": [
+            6.9091,
+            5.4545,
+            8.5455
+          ],
+          "to": [
+            12,
+            8,
+            11.0909
+          ],
+          "faces": {
+            "north": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            },
+            "east": {
+              "texture": "#f",
+              "uv": [
+                4,
+                0,
+                4.7,
+                0.7
+              ]
+            },
+            "south": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            },
+            "west": {
+              "texture": "#f",
+              "uv": [
+                4,
+                0,
+                4.7,
+                0.7
+              ]
+            },
+            "up": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            },
+            "down": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            }
+          },
+          "rotationY": 20,
+          "rotationOrigin": [
+            9.4545,
+            6.7273,
+            9.8182
+          ]
+        },
+        {
+          "name": "TipC",
+          "from": [
+            5.4545,
+            8,
+            6.7273
+          ],
+          "to": [
+            10.5455,
+            10.5455,
+            9.2727
+          ],
+          "faces": {
+            "north": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            },
+            "east": {
+              "texture": "#f",
+              "uv": [
+                4,
+                0,
+                4.7,
+                0.7
+              ]
+            },
+            "south": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            },
+            "west": {
+              "texture": "#f",
+              "uv": [
+                4,
+                0,
+                4.7,
+                0.7
+              ]
+            },
+            "up": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            },
+            "down": {
+              "texture": "#f",
+              "uv": [
+                0,
+                0,
+                1.4,
+                0.7
+              ]
+            }
+          },
+          "rotationY": -15,
+          "rotationOrigin": [
+            8,
+            9.2727,
+            8
+          ]
+        }
+      ]
+    }
+  ]
+}

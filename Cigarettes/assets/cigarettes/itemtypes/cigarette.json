@@ -43,9 +43,6 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/cigarette-{brand}"
-    },
     "heldTpUseAnimation": "cigarettes-smoke",
     "attributesByType": {
         "*-handrolled": {
@@ -349,5 +346,24 @@
                 "transitionRatio": 1
             }
         ]
+    },
+    "shapeByType": {
+        "*-pallmoll": {
+            "base": "item/cigarette-long"
+        },
+        "*-belomor": {
+            "base": "item/cigarette-long"
+        },
+        "*-vagueslims": {
+            "base": "item/cigarette-slim"
+        },
+        "*": {
+            "base": "item/cigarette"
+        }
+    },
+    "textures": {
+        "cig": {
+            "base": "item/cigarette-{brand}"
+        }
     }
 }

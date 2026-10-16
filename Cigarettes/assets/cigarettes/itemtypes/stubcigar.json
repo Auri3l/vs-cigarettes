@@ -13,9 +13,6 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/stubcigar"
-    },
     "heldTpUseAnimation": "cigarettes-smoke",
     "attributes": {
         "maxPuffs": 8,
@@ -28,5 +25,13 @@
         },
         "buttCode": "cigarbutt"
     },
-    "materialDensity": 300
+    "materialDensity": 300,
+    "shape": {
+        "base": "item/stubcigar"
+    },
+    "textures": {
+        "cigar": {
+            "base": "item/stubcigar"
+        }
+    }
 }

@@ -13,9 +13,6 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/vape"
-    },
     "heldTpUseAnimation": "cigarettes-smoke",
     "attributes": {
         "tankItems": 20,
@@ -32,5 +29,13 @@
         },
         "maxCharge": 300
     },
-    "materialDensity": 1500
+    "materialDensity": 1500,
+    "shape": {
+        "base": "item/vape"
+    },
+    "textures": {
+        "v": {
+            "base": "item/vape"
+        }
+    }
 }

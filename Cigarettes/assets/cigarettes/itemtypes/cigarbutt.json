@@ -12,9 +12,6 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/cigarbutt"
-    },
     "materialDensity": 200,
     "combustibleProps": {
         "burnTemperature": 200,
@@ -48,5 +45,13 @@
             }
         }
     ],
-    "attributes": {}
+    "attributes": {},
+    "shape": {
+        "base": "item/cigarbutt"
+    },
+    "textures": {
+        "butt": {
+            "base": "item/cigarbutt"
+        }
+    }
 }

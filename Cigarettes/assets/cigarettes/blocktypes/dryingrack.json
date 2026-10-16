@@ -3,38 +3,106 @@
     "class": "cigarettes.BlockDryingRack",
     "entityClass": "cigarettes.DryingRack",
     "behaviors": [
-        { "name": "HorizontalOrientable", "properties": { "dropBlockFace": "north" } }
+        {
+            "name": "HorizontalOrientable",
+            "properties": {
+                "dropBlockFace": "north"
+            }
+        }
     ],
     "variantgroups": [
-        { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+        {
+            "code": "side",
+            "loadFromProperties": "abstract/horizontalorientation"
+        }
     ],
-    "creativeinventory": { "general": ["*-north"], "decorative": ["*-north"], "cigarettes": ["*-north"] },
+    "creativeinventory": {
+        "general": [
+            "*-north"
+        ],
+        "decorative": [
+            "*-north"
+        ],
+        "cigarettes": [
+            "*-north"
+        ]
+    },
     "attributes": {
         "dryingSpeedMul": 6
     },
     "shapeByType": {
-        "*-north": { "base": "block/dryingrack", "rotateY": 0 },
-        "*-east": { "base": "block/dryingrack", "rotateY": 270 },
-        "*-south": { "base": "block/dryingrack", "rotateY": 180 },
-        "*-west": { "base": "block/dryingrack", "rotateY": 90 }
+        "*-north": {
+            "base": "block/dryingrack",
+            "rotateY": 0
+        },
+        "*-east": {
+            "base": "block/dryingrack",
+            "rotateY": 270
+        },
+        "*-south": {
+            "base": "block/dryingrack",
+            "rotateY": 180
+        },
+        "*-west": {
+            "base": "block/dryingrack",
+            "rotateY": 90
+        }
     },
     "textures": {
-        "wood": { "base": "block/dryingrack/wood" }
+        "wood": {
+            "base": "block/dryingrack/wood"
+        },
+        "rope": {
+            "base": "block/furniture/rope"
+        }
     },
     "blockmaterial": "Wood",
-    "sidesolid": { "all": false },
-    "sideopaque": { "all": false },
-    "emitSideAo": { "all": false },
+    "sidesolid": {
+        "all": false
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "emitSideAo": {
+        "all": false
+    },
     "lightAbsorption": 0,
     "resistance": 1.5,
-    "selectionbox": { "x1": 0, "y1": 0, "z1": 0.35, "x2": 1, "y2": 1, "z2": 0.65, "rotateYByType": { "*-east": 270, "*-south": 180, "*-west": 90 } },
-    "collisionbox": { "x1": 0, "y1": 0, "z1": 0.35, "x2": 1, "y2": 1, "z2": 0.65, "rotateYByType": { "*-east": 270, "*-south": 180, "*-west": 90 } },
+    "selectionbox": {
+        "x1": 0,
+        "y1": 0,
+        "z1": 0.35,
+        "x2": 1,
+        "y2": 1,
+        "z2": 0.65,
+        "rotateYByType": {
+            "*-east": 270,
+            "*-south": 180,
+            "*-west": 90
+        }
+    },
+    "collisionbox": {
+        "x1": 0,
+        "y1": 0,
+        "z1": 0.35,
+        "x2": 1,
+        "y2": 1,
+        "z2": 0.65,
+        "rotateYByType": {
+            "*-east": 270,
+            "*-south": 180,
+            "*-west": 90
+        }
+    },
     "sounds": {
         "place": "game:block/planks",
         "break": "game:block/planks",
         "hit": "game:block/planks",
         "walk": "game:walk/wood"
     },
-    "combustibleProps": { "burnTemperature": 800, "burnDuration": 12 },
+    "combustibleProps": {
+        "burnTemperature": 800,
+        "burnDuration": 12
+    },
     "materialDensity": 600
 }

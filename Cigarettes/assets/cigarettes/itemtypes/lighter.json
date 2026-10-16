@@ -21,9 +21,6 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/lighter-{brand}"
-    },
     "attributes": {
         "cigarettesIgniter": true
     },
@@ -31,5 +28,13 @@
     "durabilityByType": {
         "*-goldzappo": 3000,
         "*": 300
+    },
+    "shape": {
+        "base": "item/lighter"
+    },
+    "textures": {
+        "l": {
+            "base": "item/lighter-{brand}"
+        }
     }
 }

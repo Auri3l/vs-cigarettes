@@ -22,9 +22,6 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/pipe-{material}"
-    },
     "heldTpUseAnimation": "cigarettes-smoke",
     "attributes": {
         "puffsPerLoad": 15,
@@ -40,5 +37,13 @@
             "oriental": 0.9
         }
     },
-    "materialDensity": 500
+    "materialDensity": 500,
+    "shape": {
+        "base": "item/pipe"
+    },
+    "textures": {
+        "p": {
+            "base": "item/pipe-{material}"
+        }
+    }
 }

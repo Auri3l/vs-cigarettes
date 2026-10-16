@@ -12,12 +12,17 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/filter"
-    },
     "materialDensity": 200,
     "combustibleProps": {
         "burnTemperature": 200,
         "burnDuration": 1
+    },
+    "shape": {
+        "base": "item/filter"
+    },
+    "textures": {
+        "f": {
+            "base": "item/filter"
+        }
     }
 }

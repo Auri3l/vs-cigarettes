@@ -1,703 +1,1078 @@
 {
-    "editor": {
-        "allAngles": false
-    },
-    "textureWidth": 16,
-    "textureHeight": 16,
-    "textures": {
-        "wood": "block/dryingrack/wood",
-        "metal": "block/furniture/metal"
-    },
-    "elements": [
-        {
-            "name": "Leg0",
-            "from": [
-                1,
-                0,
-                1
-            ],
-            "to": [
-                3,
-                8,
-                3
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "south": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "east": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "west": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "up": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                },
-                "down": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                }
-            }
+  "editor": {
+    "allAngles": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "wood": "block/dryingrack/wood",
+    "metal": "block/furniture/metal",
+    "tobacco": "block/furniture/tobacco",
+    "leaves": "block/furniture/leafstack"
+  },
+  "elements": [
+    {
+      "name": "Leg0",
+      "from": [
+        1,
+        0,
+        2
+      ],
+      "to": [
+        2.5,
+        8,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            5,
+            8,
+            6.5
+          ],
+          "rotation": 90
         },
-        {
-            "name": "Leg1",
-            "from": [
-                13,
-                0,
-                1
-            ],
-            "to": [
-                15,
-                8,
-                3
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "south": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "east": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "west": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "up": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                },
-                "down": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                }
-            }
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            5,
+            8,
+            6.5
+          ],
+          "rotation": 90
         },
-        {
-            "name": "Leg2",
-            "from": [
-                1,
-                0,
-                13
-            ],
-            "to": [
-                3,
-                8,
-                15
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "south": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "east": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "west": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "up": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                },
-                "down": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                }
-            }
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            5,
+            8,
+            6.5
+          ],
+          "rotation": 90
         },
-        {
-            "name": "Leg3",
-            "from": [
-                13,
-                0,
-                13
-            ],
-            "to": [
-                15,
-                8,
-                15
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "south": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "east": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "west": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        8
-                    ]
-                },
-                "up": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                },
-                "down": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                }
-            }
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            5,
+            8,
+            6.5
+          ],
+          "rotation": 90
         },
-        {
-            "name": "Bench",
-            "from": [
-                0,
-                8,
-                2
-            ],
-            "to": [
-                16,
-                10,
-                14
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        16,
-                        2
-                    ]
-                },
-                "south": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        16,
-                        2
-                    ]
-                },
-                "east": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        12,
-                        2
-                    ]
-                },
-                "west": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        12,
-                        2
-                    ]
-                },
-                "up": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        16,
-                        12
-                    ]
-                },
-                "down": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        16,
-                        12
-                    ]
-                }
-            }
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            9,
+            5,
+            10.5,
+            6.5
+          ]
         },
-        {
-            "name": "Tray",
-            "from": [
-                2,
-                10,
-                3
-            ],
-            "to": [
-                14,
-                11,
-                13
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        12,
-                        1
-                    ]
-                },
-                "south": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        12,
-                        1
-                    ]
-                },
-                "east": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        10,
-                        1
-                    ]
-                },
-                "west": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        10,
-                        1
-                    ]
-                },
-                "up": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        12,
-                        10
-                    ]
-                },
-                "down": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        12,
-                        10
-                    ]
-                }
-            }
-        },
-        {
-            "name": "PostL",
-            "from": [
-                1,
-                10,
-                7
-            ],
-            "to": [
-                3,
-                20,
-                9
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        10
-                    ]
-                },
-                "south": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        10
-                    ]
-                },
-                "east": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        10
-                    ]
-                },
-                "west": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        10
-                    ]
-                },
-                "up": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                },
-                "down": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                }
-            }
-        },
-        {
-            "name": "PostR",
-            "from": [
-                13,
-                10,
-                7
-            ],
-            "to": [
-                15,
-                20,
-                9
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        10
-                    ]
-                },
-                "south": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        10
-                    ]
-                },
-                "east": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        10
-                    ]
-                },
-                "west": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        10
-                    ]
-                },
-                "up": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                },
-                "down": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        2,
-                        2
-                    ]
-                }
-            }
-        },
-        {
-            "name": "Blade",
-            "from": [
-                3,
-                15,
-                7.5
-            ],
-            "to": [
-                13,
-                17,
-                8.5
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#metal",
-                    "uv": [
-                        0,
-                        0,
-                        10,
-                        2
-                    ]
-                },
-                "south": {
-                    "texture": "#metal",
-                    "uv": [
-                        0,
-                        0,
-                        10,
-                        2
-                    ]
-                },
-                "east": {
-                    "texture": "#metal",
-                    "uv": [
-                        0,
-                        0,
-                        1.0,
-                        2
-                    ]
-                },
-                "west": {
-                    "texture": "#metal",
-                    "uv": [
-                        0,
-                        0,
-                        1.0,
-                        2
-                    ]
-                },
-                "up": {
-                    "texture": "#metal",
-                    "uv": [
-                        0,
-                        0,
-                        10,
-                        1.0
-                    ]
-                },
-                "down": {
-                    "texture": "#metal",
-                    "uv": [
-                        0,
-                        0,
-                        10,
-                        1.0
-                    ]
-                }
-            }
-        },
-        {
-            "name": "Handle",
-            "from": [
-                13,
-                18,
-                7.5
-            ],
-            "to": [
-                18,
-                19,
-                8.5
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        5,
-                        1
-                    ]
-                },
-                "south": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        5,
-                        1
-                    ]
-                },
-                "east": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        1.0,
-                        1
-                    ]
-                },
-                "west": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        1.0,
-                        1
-                    ]
-                },
-                "up": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        5,
-                        1.0
-                    ]
-                },
-                "down": {
-                    "texture": "#wood",
-                    "uv": [
-                        0,
-                        0,
-                        5,
-                        1.0
-                    ]
-                }
-            }
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            9,
+            5,
+            10.5,
+            6.5
+          ]
         }
-    ]
+      }
+    },
+    {
+      "name": "Leg1",
+      "from": [
+        13.5,
+        0,
+        2
+      ],
+      "to": [
+        15,
+        8,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            6,
+            2,
+            14,
+            3.5
+          ],
+          "rotation": 90
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            6,
+            2,
+            14,
+            3.5
+          ],
+          "rotation": 90
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            6,
+            2,
+            14,
+            3.5
+          ],
+          "rotation": 90
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            6,
+            2,
+            14,
+            3.5
+          ],
+          "rotation": 90
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            9,
+            2,
+            10.5,
+            3.5
+          ]
+        },
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            9,
+            2,
+            10.5,
+            3.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Leg2",
+      "from": [
+        1,
+        0,
+        12.5
+      ],
+      "to": [
+        2.5,
+        8,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            12,
+            8,
+            13.5
+          ],
+          "rotation": 90
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            12,
+            8,
+            13.5
+          ],
+          "rotation": 90
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            12,
+            8,
+            13.5
+          ],
+          "rotation": 90
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            12,
+            8,
+            13.5
+          ],
+          "rotation": 90
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            12,
+            12,
+            13.5,
+            13.5
+          ]
+        },
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            12,
+            12,
+            13.5,
+            13.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Leg3",
+      "from": [
+        13.5,
+        0,
+        12.5
+      ],
+      "to": [
+        15,
+        8,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            4,
+            13,
+            12,
+            14.5
+          ],
+          "rotation": 90
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            4,
+            13,
+            12,
+            14.5
+          ],
+          "rotation": 90
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            4,
+            13,
+            12,
+            14.5
+          ],
+          "rotation": 90
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            4,
+            13,
+            12,
+            14.5
+          ],
+          "rotation": 90
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            13,
+            13,
+            14.5,
+            14.5
+          ]
+        },
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            13,
+            13,
+            14.5,
+            14.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "StretchN",
+      "from": [
+        2.5,
+        2,
+        2.25
+      ],
+      "to": [
+        13.5,
+        3,
+        3.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            3,
+            2,
+            14,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            2,
+            2,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            3,
+            2,
+            14,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            2,
+            2,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            3,
+            2,
+            14,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            3,
+            2,
+            14,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "StretchS",
+      "from": [
+        2.5,
+        2,
+        12.75
+      ],
+      "to": [
+        13.5,
+        3,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            4,
+            11,
+            5
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            10,
+            4,
+            11,
+            5
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            4,
+            11,
+            5
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            10,
+            4,
+            11,
+            5
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            4,
+            11,
+            5
+          ]
+        },
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            4,
+            11,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bench",
+      "from": [
+        0,
+        8,
+        1
+      ],
+      "to": [
+        16,
+        10,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            3,
+            16,
+            5
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            3,
+            15,
+            5
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            3,
+            16,
+            5
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            3,
+            15,
+            5
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "name": "Board",
+      "from": [
+        2,
+        10,
+        4.6
+      ],
+      "to": [
+        14,
+        10.5,
+        13.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            4,
+            2,
+            16,
+            2.5
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            2,
+            8.9,
+            2.5
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            4,
+            2,
+            16,
+            2.5
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            0,
+            2,
+            8.9,
+            2.5
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            4,
+            2,
+            16,
+            10.9
+          ]
+        },
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            4,
+            2,
+            16,
+            10.9
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fence",
+      "from": [
+        2,
+        10.5,
+        12.6
+      ],
+      "to": [
+        13,
+        11.6,
+        13.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            8,
+            12,
+            9.1
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            11,
+            8,
+            11.8,
+            9.1
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            8,
+            12,
+            9.1
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            11,
+            8,
+            11.8,
+            9.1
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            11,
+            12,
+            11.8
+          ]
+        },
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            1,
+            11,
+            12,
+            11.8
+          ]
+        }
+      }
+    },
+    {
+      "name": "Leaves",
+      "from": [
+        3.5,
+        10.5,
+        4.8
+      ],
+      "to": [
+        11.5,
+        12.2,
+        12.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#leaves",
+          "uv": [
+            0,
+            0,
+            8,
+            1.7
+          ]
+        },
+        "east": {
+          "texture": "#leaves",
+          "uv": [
+            0,
+            0,
+            7.6,
+            1.7
+          ]
+        },
+        "south": {
+          "texture": "#leaves",
+          "uv": [
+            0,
+            0,
+            8,
+            1.7
+          ]
+        },
+        "west": {
+          "texture": "#leaves",
+          "uv": [
+            0,
+            0,
+            7.6,
+            1.7
+          ]
+        },
+        "up": {
+          "texture": "#leaves",
+          "uv": [
+            0,
+            8,
+            8,
+            15.6
+          ]
+        },
+        "down": {
+          "texture": "#leaves",
+          "uv": [
+            0,
+            0,
+            8,
+            7.6
+          ]
+        }
+      }
+    },
+    {
+      "name": "Shreds",
+      "from": [
+        3,
+        10,
+        1.6
+      ],
+      "to": [
+        11.8,
+        10.7,
+        4.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#tobacco",
+          "uv": [
+            0,
+            0,
+            8.8,
+            0.7
+          ]
+        },
+        "east": {
+          "texture": "#tobacco",
+          "uv": [
+            0,
+            0,
+            2.8,
+            0.7
+          ]
+        },
+        "south": {
+          "texture": "#tobacco",
+          "uv": [
+            0,
+            0,
+            8.8,
+            0.7
+          ]
+        },
+        "west": {
+          "texture": "#tobacco",
+          "uv": [
+            0,
+            0,
+            2.8,
+            0.7
+          ]
+        },
+        "up": {
+          "texture": "#tobacco",
+          "uv": [
+            0,
+            0,
+            8.8,
+            2.8
+          ]
+        },
+        "down": {
+          "texture": "#tobacco",
+          "uv": [
+            0,
+            0,
+            8.8,
+            2.8
+          ]
+        }
+      }
+    },
+    {
+      "name": "ShredsTop",
+      "from": [
+        4.5,
+        10.7,
+        2.2
+      ],
+      "to": [
+        9.5,
+        11.1,
+        3.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#tobacco",
+          "uv": [
+            4,
+            4,
+            9,
+            4.4
+          ]
+        },
+        "east": {
+          "texture": "#tobacco",
+          "uv": [
+            4,
+            4,
+            5.6,
+            4.4
+          ]
+        },
+        "south": {
+          "texture": "#tobacco",
+          "uv": [
+            4,
+            4,
+            9,
+            4.4
+          ]
+        },
+        "west": {
+          "texture": "#tobacco",
+          "uv": [
+            4,
+            4,
+            5.6,
+            4.4
+          ]
+        },
+        "up": {
+          "texture": "#tobacco",
+          "uv": [
+            4,
+            4,
+            9,
+            5.6
+          ]
+        },
+        "down": {
+          "texture": "#tobacco",
+          "uv": [
+            4,
+            4,
+            9,
+            5.6
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pivot",
+      "from": [
+        13.2,
+        10,
+        3.4
+      ],
+      "to": [
+        15.2,
+        12.6,
+        5.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            0,
+            2,
+            2.6
+          ]
+        },
+        "east": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            0,
+            2,
+            2.6
+          ]
+        },
+        "south": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            0,
+            2,
+            2.6
+          ]
+        },
+        "west": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            0,
+            2,
+            2.6
+          ]
+        },
+        "up": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "name": "Blade",
+      "from": [
+        3,
+        11.1,
+        4.2
+      ],
+      "to": [
+        14.2,
+        12.7,
+        4.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            8,
+            11.2,
+            9.6
+          ]
+        },
+        "east": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            8,
+            0.4,
+            9.6
+          ]
+        },
+        "south": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            8,
+            11.2,
+            9.6
+          ]
+        },
+        "west": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            8,
+            0.4,
+            9.6
+          ]
+        },
+        "up": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            8,
+            11.2,
+            8.4
+          ]
+        },
+        "down": {
+          "texture": "#metal",
+          "uv": [
+            0,
+            8,
+            11.2,
+            8.4
+          ]
+        }
+      },
+      "rotationZ": -22,
+      "rotationOrigin": [
+        14.2,
+        11.9,
+        4.4
+      ]
+    },
+    {
+      "name": "Handle",
+      "from": [
+        -0.5,
+        11.4,
+        3.85
+      ],
+      "to": [
+        3,
+        12.4,
+        4.95
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood",
+          "uv": [
+            10,
+            2,
+            13.5,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#wood",
+          "uv": [
+            11,
+            2,
+            12.1,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#wood",
+          "uv": [
+            10,
+            2,
+            13.5,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#wood",
+          "uv": [
+            11,
+            2,
+            12.1,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#wood",
+          "uv": [
+            10,
+            10,
+            13.5,
+            11.1
+          ]
+        },
+        "down": {
+          "texture": "#wood",
+          "uv": [
+            10,
+            10,
+            13.5,
+            11.1
+          ]
+        }
+      },
+      "rotationZ": -22,
+      "rotationOrigin": [
+        14.2,
+        11.9,
+        4.4
+      ]
+    }
+  ]
 }

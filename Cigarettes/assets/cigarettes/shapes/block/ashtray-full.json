@@ -1,634 +1,1945 @@
 {
-    "editor": {
-        "allAngles": false
-    },
-    "textureWidth": 16,
-    "textureHeight": 16,
-    "textures": {
-        "stone": "block/ashtray/stone",
-        "butt": "block/ashtray/butt"
-    },
-    "elements": [
-        {
-            "name": "Base",
-            "from": [
-                4,
-                0,
-                4
-            ],
-            "to": [
-                12,
-                1,
-                12
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1
-                    ]
-                },
-                "south": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1
-                    ]
-                },
-                "east": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1
-                    ]
-                },
-                "west": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1
-                    ]
-                },
-                "up": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        8
-                    ]
-                },
-                "down": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        8
-                    ]
-                }
-            }
+  "editor": {
+    "allAngles": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "stone": "block/ashtray/stone",
+    "butt": "block/ashtray/butt"
+  },
+  "elements": [
+    {
+      "name": "BaseA",
+      "from": [
+        4,
+        0,
+        5
+      ],
+      "to": [
+        12,
+        1,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            14,
+            8,
+            15
+          ]
         },
-        {
-            "name": "RimN",
-            "from": [
-                4,
-                1,
-                4
-            ],
-            "to": [
-                12,
-                2.5,
-                5
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1.5
-                    ]
-                },
-                "south": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1.5
-                    ]
-                },
-                "east": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1.5
-                    ]
-                },
-                "west": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1.5
-                    ]
-                },
-                "up": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1
-                    ]
-                },
-                "down": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1
-                    ]
-                }
-            }
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            14,
+            6,
+            15
+          ]
         },
-        {
-            "name": "RimS",
-            "from": [
-                4,
-                1,
-                11
-            ],
-            "to": [
-                12,
-                2.5,
-                12
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1.5
-                    ]
-                },
-                "south": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1.5
-                    ]
-                },
-                "east": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1.5
-                    ]
-                },
-                "west": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1.5
-                    ]
-                },
-                "up": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1
-                    ]
-                },
-                "down": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        8,
-                        1
-                    ]
-                }
-            }
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            14,
+            8,
+            15
+          ]
         },
-        {
-            "name": "RimW",
-            "from": [
-                4,
-                1,
-                5
-            ],
-            "to": [
-                5,
-                2.5,
-                11
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1.5
-                    ]
-                },
-                "south": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1.5
-                    ]
-                },
-                "east": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        6,
-                        1.5
-                    ]
-                },
-                "west": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        6,
-                        1.5
-                    ]
-                },
-                "up": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        6
-                    ]
-                },
-                "down": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        6
-                    ]
-                }
-            }
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            14,
+            6,
+            15
+          ]
         },
-        {
-            "name": "RimE",
-            "from": [
-                11,
-                1,
-                5
-            ],
-            "to": [
-                12,
-                2.5,
-                11
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1.5
-                    ]
-                },
-                "south": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1.5
-                    ]
-                },
-                "east": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        6,
-                        1.5
-                    ]
-                },
-                "west": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        6,
-                        1.5
-                    ]
-                },
-                "up": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        6
-                    ]
-                },
-                "down": {
-                    "texture": "#stone",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        6
-                    ]
-                }
-            }
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            4,
+            16,
+            8
+          ]
         },
-        {
-            "name": "Butt0",
-            "from": [
-                5.5,
-                1,
-                6
-            ],
-            "to": [
-                9,
-                1.8,
-                6.8
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.5,
-                        1
-                    ]
-                },
-                "south": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.5,
-                        1
-                    ]
-                },
-                "east": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1
-                    ]
-                },
-                "west": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1
-                    ]
-                },
-                "up": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.5,
-                        1
-                    ]
-                },
-                "down": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.5,
-                        1
-                    ]
-                }
-            }
-        },
-        {
-            "name": "Butt1",
-            "from": [
-                7,
-                1,
-                8.5
-            ],
-            "to": [
-                10.5,
-                1.8,
-                9.3
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.5,
-                        1
-                    ]
-                },
-                "south": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.5,
-                        1
-                    ]
-                },
-                "east": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1
-                    ]
-                },
-                "west": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1
-                    ]
-                },
-                "up": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.5,
-                        1
-                    ]
-                },
-                "down": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.5,
-                        1
-                    ]
-                }
-            }
-        },
-        {
-            "name": "Butt2",
-            "from": [
-                6,
-                1.8,
-                7.2
-            ],
-            "to": [
-                6.8,
-                2.6,
-                10.4
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1
-                    ]
-                },
-                "south": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1
-                    ]
-                },
-                "east": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.2,
-                        1
-                    ]
-                },
-                "west": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.2,
-                        1
-                    ]
-                },
-                "up": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        3.2
-                    ]
-                },
-                "down": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        3.2
-                    ]
-                }
-            }
-        },
-        {
-            "name": "Butt3",
-            "from": [
-                8.5,
-                1,
-                5.5
-            ],
-            "to": [
-                9.3,
-                1.8,
-                9
-            ],
-            "faces": {
-                "north": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1
-                    ]
-                },
-                "south": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        1
-                    ]
-                },
-                "east": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.5,
-                        1
-                    ]
-                },
-                "west": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        3.5,
-                        1
-                    ]
-                },
-                "up": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        3.5
-                    ]
-                },
-                "down": {
-                    "texture": "#butt",
-                    "uv": [
-                        0,
-                        0,
-                        1,
-                        3.5
-                    ]
-                }
-            }
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            14,
+            8,
+            16
+          ]
         }
-    ]
+      }
+    },
+    {
+      "name": "BaseB",
+      "from": [
+        5,
+        0,
+        4
+      ],
+      "to": [
+        11,
+        1,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            14,
+            6,
+            15
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            14,
+            8,
+            15
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            14,
+            6,
+            15
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            14,
+            8,
+            15
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            4,
+            16,
+            8
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            14,
+            6,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimNa",
+      "from": [
+        5,
+        1,
+        4
+      ],
+      "to": [
+        7.4,
+        2.5,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            14.4,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimNb",
+      "from": [
+        8.6,
+        1,
+        4
+      ],
+      "to": [
+        11,
+        2.5,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            14.4,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimNnotch",
+      "from": [
+        7.4,
+        1,
+        4
+      ],
+      "to": [
+        8.6,
+        1.9,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.2,
+            0.9
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            0.9
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.2,
+            0.9
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            0.9
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            4,
+            13.2,
+            5
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.2,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimSa",
+      "from": [
+        5,
+        1,
+        11
+      ],
+      "to": [
+        7.4,
+        2.5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            14.4,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimSb",
+      "from": [
+        8.6,
+        1,
+        11
+      ],
+      "to": [
+        11,
+        2.5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            14.4,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimSnotch",
+      "from": [
+        7.4,
+        1,
+        11
+      ],
+      "to": [
+        8.6,
+        1.9,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.2,
+            0.9
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            0.9
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.2,
+            0.9
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            0.9
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            4,
+            13.2,
+            5
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.2,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimWa",
+      "from": [
+        4,
+        1,
+        5
+      ],
+      "to": [
+        5,
+        2.5,
+        7.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            13,
+            10.4
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            2.4
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimWb",
+      "from": [
+        4,
+        1,
+        8.6
+      ],
+      "to": [
+        5,
+        2.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            13,
+            10.4
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            2.4
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimWnotch",
+      "from": [
+        4,
+        1,
+        7.4
+      ],
+      "to": [
+        5,
+        1.9,
+        8.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            0.9
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.2,
+            0.9
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            0.9
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.2,
+            0.9
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            4,
+            13,
+            5.2
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.2
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimEa",
+      "from": [
+        11,
+        1,
+        5
+      ],
+      "to": [
+        12,
+        2.5,
+        7.4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            13,
+            10.4
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            2.4
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimEb",
+      "from": [
+        11,
+        1,
+        8.6
+      ],
+      "to": [
+        12,
+        2.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            2.4,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            13,
+            10.4
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            2.4
+          ]
+        }
+      }
+    },
+    {
+      "name": "RimEnotch",
+      "from": [
+        11,
+        1,
+        7.4
+      ],
+      "to": [
+        12,
+        1.9,
+        8.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            0.9
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.2,
+            0.9
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            0.9
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.2,
+            0.9
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            4,
+            13,
+            5.2
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.2
+          ]
+        }
+      }
+    },
+    {
+      "name": "CornerNW",
+      "from": [
+        4.1,
+        1,
+        4.55
+      ],
+      "to": [
+        6,
+        2.5,
+        5.55
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            13.9,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1
+          ]
+        }
+      },
+      "rotationY": 45,
+      "rotationOrigin": [
+        5.05,
+        1,
+        5.05
+      ]
+    },
+    {
+      "name": "CornerNE",
+      "from": [
+        10,
+        1,
+        4.55
+      ],
+      "to": [
+        11.9,
+        2.5,
+        5.55
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            13.9,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1
+          ]
+        }
+      },
+      "rotationY": -45,
+      "rotationOrigin": [
+        10.95,
+        1,
+        5.05
+      ]
+    },
+    {
+      "name": "CornerSW",
+      "from": [
+        4.1,
+        1,
+        10.45
+      ],
+      "to": [
+        6,
+        2.5,
+        11.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            13.9,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1
+          ]
+        }
+      },
+      "rotationY": -45,
+      "rotationOrigin": [
+        5.05,
+        1,
+        10.95
+      ]
+    },
+    {
+      "name": "CornerSE",
+      "from": [
+        10,
+        1,
+        10.45
+      ],
+      "to": [
+        11.9,
+        2.5,
+        11.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1,
+            1.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            8,
+            13.9,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            0,
+            0,
+            1.9,
+            1
+          ]
+        }
+      },
+      "rotationY": 45,
+      "rotationOrigin": [
+        10.95,
+        1,
+        10.95
+      ]
+    },
+    {
+      "name": "Ash",
+      "from": [
+        5,
+        1,
+        5
+      ],
+      "to": [
+        11,
+        1.6,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            16,
+            0.6
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            16,
+            0.6
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            16,
+            0.6
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            16,
+            0.6
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            16,
+            4
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            16,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "name": "AshMound",
+      "from": [
+        6,
+        1.6,
+        6.2
+      ],
+      "to": [
+        10,
+        2.1,
+        9.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            16,
+            0.5
+          ]
+        },
+        "east": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            15.6,
+            0.5
+          ]
+        },
+        "south": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            16,
+            0.5
+          ]
+        },
+        "west": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            15.6,
+            0.5
+          ]
+        },
+        "up": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            16,
+            3.6
+          ]
+        },
+        "down": {
+          "texture": "#stone",
+          "uv": [
+            12,
+            0,
+            16,
+            3.6
+          ]
+        }
+      }
+    },
+    {
+      "name": "Butt0",
+      "from": [
+        5.5,
+        1.6,
+        6.05
+      ],
+      "to": [
+        8.5,
+        2.5,
+        6.95
+      ],
+      "faces": {
+        "north": {
+          "texture": "#butt",
+          "uv": [
+            6,
+            0,
+            0,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            8,
+            2,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#butt",
+          "uv": [
+            2,
+            8,
+            4,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            4,
+            6,
+            6
+          ]
+        },
+        "down": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ]
+        }
+      },
+      "rotationY": 20,
+      "rotationOrigin": [
+        7,
+        1.6,
+        6.5
+      ]
+    },
+    {
+      "name": "Butt1",
+      "from": [
+        7.5,
+        1.6,
+        8.35
+      ],
+      "to": [
+        10.5,
+        2.5,
+        9.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#butt",
+          "uv": [
+            6,
+            0,
+            0,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            8,
+            2,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#butt",
+          "uv": [
+            2,
+            8,
+            4,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            4,
+            6,
+            6
+          ]
+        },
+        "down": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ]
+        }
+      },
+      "rotationY": -35,
+      "rotationOrigin": [
+        9,
+        1.6,
+        8.8
+      ]
+    },
+    {
+      "name": "Butt2",
+      "from": [
+        6,
+        2.1,
+        7.55
+      ],
+      "to": [
+        9,
+        3,
+        8.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#butt",
+          "uv": [
+            6,
+            0,
+            0,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            8,
+            2,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#butt",
+          "uv": [
+            2,
+            8,
+            4,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            4,
+            6,
+            6
+          ]
+        },
+        "down": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ]
+        }
+      },
+      "rotationY": 75,
+      "rotationZ": 8,
+      "rotationOrigin": [
+        7.5,
+        2.1,
+        8
+      ]
+    },
+    {
+      "name": "Butt3",
+      "from": [
+        7.8,
+        2,
+        6.15
+      ],
+      "to": [
+        10.8,
+        2.9,
+        7.05
+      ],
+      "faces": {
+        "north": {
+          "texture": "#butt",
+          "uv": [
+            6,
+            0,
+            0,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            8,
+            2,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#butt",
+          "uv": [
+            2,
+            8,
+            4,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            4,
+            6,
+            6
+          ]
+        },
+        "down": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ]
+        }
+      },
+      "rotationY": -80,
+      "rotationZ": -6,
+      "rotationOrigin": [
+        9.3,
+        2,
+        6.6
+      ]
+    },
+    {
+      "name": "Butt4",
+      "from": [
+        4.9,
+        1.6,
+        9.15
+      ],
+      "to": [
+        7.9,
+        2.5,
+        10.05
+      ],
+      "faces": {
+        "north": {
+          "texture": "#butt",
+          "uv": [
+            6,
+            0,
+            0,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            8,
+            2,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#butt",
+          "uv": [
+            2,
+            8,
+            4,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            4,
+            6,
+            6
+          ]
+        },
+        "down": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ]
+        }
+      },
+      "rotationY": 110,
+      "rotationOrigin": [
+        6.4,
+        1.6,
+        9.6
+      ]
+    },
+    {
+      "name": "Resting",
+      "from": [
+        6.6,
+        1.55,
+        11.55
+      ],
+      "to": [
+        9.6,
+        2.45,
+        12.45
+      ],
+      "faces": {
+        "north": {
+          "texture": "#butt",
+          "uv": [
+            6,
+            0,
+            0,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            8,
+            2,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#butt",
+          "uv": [
+            2,
+            8,
+            4,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            4,
+            6,
+            6
+          ]
+        },
+        "down": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ]
+        }
+      },
+      "rotationY": -90,
+      "rotationZ": -12,
+      "rotationOrigin": [
+        8,
+        2,
+        12
+      ]
+    },
+    {
+      "name": "Resting2",
+      "from": [
+        10.55,
+        1.55,
+        6.6
+      ],
+      "to": [
+        13.55,
+        2.45,
+        7.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#butt",
+          "uv": [
+            6,
+            0,
+            0,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            8,
+            2,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            2,
+            6,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#butt",
+          "uv": [
+            2,
+            8,
+            4,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            4,
+            6,
+            6
+          ]
+        },
+        "down": {
+          "texture": "#butt",
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ]
+        }
+      },
+      "rotationZ": -12,
+      "rotationOrigin": [
+        12,
+        2,
+        8
+      ]
+    }
+  ]
 }

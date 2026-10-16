@@ -96,5 +96,13 @@
         "burnTemperature": 800,
         "burnDuration": 20
     },
-    "materialDensity": 600
+    "materialDensity": 600,
+    "textures": {
+        "tobacco": {
+            "base": "block/furniture/tobacco"
+        },
+        "leaves": {
+            "base": "block/furniture/leafstack"
+        }
+    }
 }

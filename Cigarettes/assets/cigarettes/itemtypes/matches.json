@@ -13,11 +13,16 @@
             "*"
         ]
     },
-    "texture": {
-        "base": "item/matches"
-    },
     "attributes": {
         "cigarettesIgniter": true
     },
-    "materialDensity": 300
+    "materialDensity": 300,
+    "shape": {
+        "base": "item/matches"
+    },
+    "textures": {
+        "m": {
+            "base": "item/matches"
+        }
+    }
 }

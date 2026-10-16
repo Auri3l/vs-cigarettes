@@ -1,0 +1,104 @@
+{
+  "editor": {
+    "allAngles": false
+  },
+  "textureWidth": 8,
+  "textureHeight": 8,
+  "textures": {
+    "butt": "item/cigarbutt"
+  },
+  "elements": [
+    {
+      "name": "Root",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        0,
+        0
+      ],
+      "rotationOrigin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {},
+      "rotationX": 20,
+      "rotationZ": 30,
+      "children": [
+        {
+          "name": "CigarButt",
+          "from": [
+            4,
+            6,
+            6
+          ],
+          "to": [
+            12,
+            10,
+            10
+          ],
+          "faces": {
+            "north": {
+              "texture": "#butt",
+              "uv": [
+                3,
+                0,
+                0,
+                1.5
+              ]
+            },
+            "east": {
+              "texture": "#butt",
+              "uv": [
+                0,
+                6,
+                1.5,
+                7.5
+              ]
+            },
+            "south": {
+              "texture": "#butt",
+              "uv": [
+                0,
+                1.5,
+                3,
+                3
+              ]
+            },
+            "west": {
+              "texture": "#butt",
+              "uv": [
+                1.5,
+                6,
+                3,
+                7.5
+              ]
+            },
+            "up": {
+              "texture": "#butt",
+              "uv": [
+                0,
+                3,
+                3,
+                4.5
+              ]
+            },
+            "down": {
+              "texture": "#butt",
+              "uv": [
+                0,
+                4.5,
+                3,
+                6
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "editor": {
+    "allAngles": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "r": "item/rollingpaper"
+  },
+  "elements": [
+    {
+      "name": "Root",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0,
+        0,
+        0
+      ],
+      "rotationOrigin": [
+        8,
+        8,
+        8
+      ],
+      "faces": {},
+      "rotationX": 55,
+      "rotationZ": 15,
+      "children": [
+        {
+          "name": "Booklet",
+          "from": [
+            2.5,
+            7.3616,
+            5.5446
+          ],
+          "to": [
+            10.3571,
+            8.5402,
+            10.4554
+          ],
+          "faces": {
+            "north": {
+              "texture": "#r",
+              "uv": [
+                4,
+                0,
+                8,
+                0.6
+              ]
+            },
+            "east": {
+              "texture": "#r",
+              "uv": [
+                12,
+                0,
+                14.5,
+                0.6
+              ]
+            },
+            "south": {
+              "texture": "#r",
+              "uv": [
+                4,
+                0,
+                8,
+                0.6
+              ]
+            },
+            "west": {
+              "texture": "#r",
+              "uv": [
+                4,
+                0,
+                6.5,
+                0.6
+              ]
+            },
+            "up": {
+              "texture": "#r",
+              "uv": [
+                0,
+                0,
+                4,
+                2.5
+              ]
+            },
+            "down": {
+              "texture": "#r",
+              "uv": [
+                4,
+                0,
+                8,
+                2.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "Sheet",
+          "from": [
+            8.9821,
+            8.5402,
+            6.0357
+          ],
+          "to": [
+            13.5,
+            8.6384,
+            9.9643
+          ],
+          "faces": {
+            "north": {
+              "texture": "#r",
+              "uv": [
+                8,
+                0,
+                10.3,
+                0.05
+              ]
+            },
+            "east": {
+              "texture": "#r",
+              "uv": [
+                8,
+                0,
+                10,
+                0.05
+              ]
+            },
+            "south": {
+              "texture": "#r",
+              "uv": [
+                8,
+                0,
+                10.3,
+                0.05
+              ]
+            },
+            "west": {
+              "texture": "#r",
+              "uv": [
+                8,
+                0,
+                10,
+                0.05
+              ]
+            },
+            "up": {
+              "texture": "#r",
+              "uv": [
+                8,
+                0,
+                10.3,
+                2
+              ]
+            },
+            "down": {
+              "texture": "#r",
+              "uv": [
+                8,
+                0,
+                10.3,
+                2
+              ]
+            }
+          },
+          "rotationZ": -4,
+          "rotationOrigin": [
+            8.9821,
+            8.5402,
+            8
+          ]
+        }
+      ]
+    }
+  ]
+}

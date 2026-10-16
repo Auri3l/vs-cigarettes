@@ -1,32 +1,144 @@
 {
-    "editor": { "allAngles": false },
-    "textureWidth": 32,
-    "textureHeight": 32,
-    "textures": {
-        "crop": "block/crop/virginia/stage1"
-    },
-    "elements": [
-        {
-            "name": "PlaneA",
-            "from": [0.5, 0, 8],
-            "to": [15.5, 16, 8],
-            "rotationOrigin": [8, 0, 8],
-            "rotationY": 45,
-            "faces": {
-                "north": { "texture": "#crop", "uv": [0, 0, 32, 32] },
-                "south": { "texture": "#crop", "uv": [0, 0, 32, 32] }
-            }
+  "editor": {
+    "allAngles": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "crop": "block/crop/virginia/stage3"
+  },
+  "elements": [
+    {
+      "name": "PlaneN",
+      "from": [
+        0,
+        0,
+        4
+      ],
+      "to": [
+        16,
+        16,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
         },
-        {
-            "name": "PlaneB",
-            "from": [0.5, 0, 8],
-            "to": [15.5, 16, 8],
-            "rotationOrigin": [8, 0, 8],
-            "rotationY": -45,
-            "faces": {
-                "north": { "texture": "#crop", "uv": [0, 0, 32, 32] },
-                "south": { "texture": "#crop", "uv": [0, 0, 32, 32] }
-            }
+        "south": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
         }
-    ]
+      }
+    },
+    {
+      "name": "PlaneS",
+      "from": [
+        0,
+        0,
+        12
+      ],
+      "to": [
+        16,
+        16,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "PlaneW",
+      "from": [
+        4,
+        0,
+        0
+      ],
+      "to": [
+        4,
+        16,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "PlaneE",
+      "from": [
+        12,
+        0,
+        0
+      ],
+      "to": [
+        12,
+        16,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#crop",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
 }
