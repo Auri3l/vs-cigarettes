@@ -1,31 +1,125 @@
 # Cigarettes (Vintage Story mod)
 
-Grow three tobacco varieties, dry and shred the leaves, roll cigarettes by hand or in batches on furniture, smoke cigars and pipes, vape temporal-gear-powered e-liquid, buy into nineteen parody brands (one of them rotting), climb a 71-achievement Smoker's Ledger that hands out character traits, and flick the butts on the ground or stub them out in an ashtray. See [DESIGN.md](DESIGN.md) for the full pipeline and roadmap.
+The whole smoking culture for Vintage Story 1.22. You can grow tobacco, cure and shred it, and roll cigarettes by hand or in batches. There are also cigars, pipes and a temporal-gear vape, and nineteen parody brands in paint-crafted packs, one of which rots. A 71-achievement Smoker's Ledger hands out character traits. When you're done, flick the butt onto the ground and watch the pile grow. Every item description doubles as a health warning.
 
-Layout follows the official `dotnet new vsmod` template (VintageStory.Mod.Templates 1.22.0).
+![Every item as it sits in an inventory slot](docs/inventory-icons.png)
+
+**Status: v0.8, not yet compiled or loaded in game.** Everything here was written against the 1.22 API and asset formats without a game install, so expect a round of fixes on the first build (see [First build checklist](#first-build-checklist)). All JSON parses, and every texture, shape, drop, recipe ingredient and lang key resolves.
+
+The full design, with every number, is in [DESIGN.md](DESIGN.md). The same material, written for players, is in the in-game handbook (Guides tab).
+
+## Features
+
+### Tobacco and herbs
+- There are three tobacco varieties (Virginia, Burley, Oriental), each with its own nutrient, climate range, seeds, crop, leaves and shredded tobacco. The last two growth stages stand 1.5 blocks tall.
+- Mint (which becomes menthol crystals) and clove shrubs grow on the same crop block.
+- Fresh leaves dry in 96 h, or 6× faster on a **drying rack** (4 leaves) or **drying frame** (12 leaves). A knife shreds a dried leaf into 2 shredded tobacco.
+
+### Batch furniture
+For each piece, right click with ingredients to load it, hold right click with an empty hand to work it, and sneak + right click with an empty hand to unload it.
+- **Tobacco cutter:** shreds up to 32 dried leaves of one variety in one crank.
+- **Rolling table:** rolls up to 8 pairs at 3 cigarettes per paper, where hand rolling gives 2. Add menthol crystals for menthols or cloves for kreteks.
+
+### Smokables
+- Hand-rolled cigarettes, menthols and kreteks (which crackle and spit embers), cigars, stub cigars, and snipes rolled from 6 old butts.
+- Wooden and bone pipes, packed with shredded tobacco from the offhand.
+- The **Jool temporal vaporizer**. It runs on e-liquid (a real liquid, brewed in a barrel, in plain, menthol or clove) and is charged with a temporal gear (300 puffs) or a rusty gear (40 puffs).
+- Light from the offhand with a torch, lantern, matches, a Zappo lighter, or another lit cigarette (chain smoking).
+
+### Brands and packs
+- There are 19 parody brands (Marlbury, Camul, Lucky Stroke, Pall Moll, Djarun Black, Belomorkanaal, Rotmans…), each with its own blend, strength, slogan and one of 12 Seraph General's Warnings.
+- Packs are crafted with **paint pots** in the brand colours. There are 12 paints made from berries, charcoal, bone meal, gold and more. The 11 filtered brands use 10 cigarette butts as the filter.
+- **Rotmans** is made from rot and comes in a rotting pack that perishes in your inventory.
+
+![All 19 packs, front and back](docs/packs.png)
+
+### Butts and ashtrays
+- Every smoke leaves a butt. Butts can also be crafted, and they are ingredients in the filtered pack recipes.
+- **Flick** a butt with right click. It lands as ground storage, in a pile that grows up to 64 butts per block. If it lands in an ashtray it goes in, which unlocks the secret Hole in One.
+- The ashtray holds 12 butts, shows empty, some or full, and spills when broken.
+
+### Effects
+- Each puff gives a 10-minute buff (less hunger, faster mining) scaled by strength.
+- Nicotine builds up and decays. Above 30 with no buff you get a mild withdrawal (a little hungrier, a little slower, plus craving lines). Above 50 you cough in chat.
+
+### The Smoker's Ledger
+- It has 71 achievements in 7 categories, 4 tiers worth 1,335 points in total, and 8 ranks. Every rank-up is announced to the whole server, and some ranks come with rewards (papers, a Golden Zappo, cigars).
+- There are prerequisite chains, 11 hidden achievements, situational ones (smoking in a storm, on fire, at 2 HP, next to a trader…), streaks, and collections.
+- 13 achievements grant permanent character traits, such as Smoker's Lungs, Deadeye and Platinum Lung.
+- `/smokestats` shows your summary, `/smokestats list [category]` shows every achievement with its progress, and `/smokestats ranks` lists the ranks.
+
+### Presentation
+- **Animations:** a hand-to-lips drag (`cigarettes-smoke`, with a first-person variant) and an exhale when a puff completes. They replace the vanilla eat animation.
+- **Art:** original textures for every item, block and pack. Packs, cigarettes (long and slim variants), butts, cigars, pipes, the vape, lighters, matches, paint pots, papers and filters have 3D models, the furniture has real shapes, and the mod has an icon.
+- **Handbook:** 11 guide pages covering tobacco, curing, rolling, smoking, pipes, butts, brands, paint, vaping and the Ledger, cross-linked to the items.
+
+![One puff, three-quarter and side view](docs/smoking-puff.gif)
+
+![Furniture and blocks](docs/blocks.png)
+
+## Layout
+
+Follows the official `dotnet new vsmod` template (VintageStory.Mod.Templates 1.22.0).
 
 ```
 Cigarettes.sln
-build.sh / build.ps1        packages Releases/cigarettes_<version>.zip via CakeBuild
-CakeBuild/                  build + JSON validation + packaging
+build.sh / build.ps1          packages Releases/cigarettes_<version>.zip via CakeBuild
+CakeBuild/                    build + JSON validation + packaging
 Cigarettes/
-  modinfo.json
-  CigarettesModSystem.cs    registers the item, block and block entity classes
-  Items/                    ItemSmokable (shared smoking), ItemCigarette, ItemPipe, ItemCigarettePack
-  Smoking/SmokingSystem.cs  timed buffs, nicotine level, withdrawal, coughing (server)
-  Smoking/AchievementSystem.cs  the Smoker's Ledger: achievements, ranks, /smokestats (server, config/achievements.json)
-  Entities/EntityFlickedButt.cs  a flicked butt that lands as ground storage
-  Blocks/                   drying rack and frame, ashtray, batch furniture (tobacco cutter, rolling table)
-  assets/cigarettes/        itemtypes, blocktypes, recipes, shapes, textures, lang, config/achievements.json, config/handbook (11 guide pages), patches/traits.json, patches/smoking-animations.json
+  modinfo.json, modicon.png
+  CigarettesModSystem.cs      registers item, block, block entity and entity classes
+  Items/                      ItemSmokable (shared smoking), ItemCigarette, ItemPipe, ItemVape,
+                              ItemCigarettePack, ItemButt (flicking)
+  Entities/EntityFlickedButt.cs   a flicked butt that lands as ground storage or in an ashtray
+  Blocks/                     drying rack/frame, ashtray, batch furniture (cutter, rolling table)
+  Smoking/SmokingSystem.cs    buffs, nicotine, withdrawal, coughing (server)
+  Smoking/AchievementSystem.cs    the Smoker's Ledger and /smokestats (server)
+  assets/cigarettes/
+    itemtypes/, blocktypes/, entities/, shapes/, textures/
+    recipes/grid/, recipes/barrel/
+    config/achievements.json  every achievement, tier, rank and reward (data-driven)
+    config/handbook/          the 11 guide pages
+    patches/traits.json       13 traits added to the game's trait list
+    patches/smoking-animations.json   smoke/exhale animations on the player shape
+    lang/en.json              all text, jokes included
+docs/                         preview renders used in this README
 ```
+
+Most tuning lives in JSON attributes on the items: `effects`, `strength`, `maxPuffs` and `effectDurationSec`. The withdrawal numbers are at the top of `Smoking/SmokingSystem.cs`.
 
 ## Building
 
 1. Install the .NET 10 SDK and Vintage Story 1.22.
-2. Set `VINTAGE_STORY` to the game folder (e.g. `%AppData%\Vintagestory` on Windows, `~/ApplicationData/vintagestory` on Linux).
-3. `dotnet build Cigarettes/Cigarettes.csproj` to compile, or `./build.sh` to produce the release zip.
+2. Set `VINTAGE_STORY` to the game folder (for example `%AppData%\Vintagestory` on Windows or `~/ApplicationData/vintagestory` on Linux).
+3. Run `dotnet build Cigarettes/Cigarettes.csproj` to compile, or `./build.sh` (`./build.ps1` on Windows) to produce `Releases/cigarettes_0.8.0.zip`.
 4. Run the "Client" launch profile to start the game with the mod loaded from source.
 
-## Status
+## First build checklist
 
-v0.8, not yet compiled: the C# was written against the 1.22 API docs without a game install available, so expect a few fixes on the first build. All JSON parses, and every texture, shape, drop, recipe ingredient and lang key resolves. Art is in (textures, 3D item models, furniture shapes), but untested in game; positions in hand may need `.tfedit` tuning.
+Nothing has been run in the game yet. These are the places most likely to need a fix, roughly in order:
+
+**Compile**
+- Ground storage: `BlockEntityGroundStorage.ForceStorageProps` and `StorageProps` in `EntityFlickedButt.PutInto`.
+- Traits: reflection on `CharacterSystem.applyTraitAttributes` in `AchievementSystem.GrantTrait`.
+- Storm context: `SystemTemporalStability.StormData` in `AchievementSystem`.
+- Rotting pack: the `OnTransitionNow` override signature in `ItemCigarettePack`.
+
+**Log on load**
+- There should be no `patch ... file not found` for `smoking-animations.json` or `traits.json`. If one appears, the player shape (`game:shapes/entity/humanoid/seraph-faceless.json`), the player entity (`game:entities/humanoid/player.json`) or the trait list moved in 1.22, and the patch paths need updating.
+- Handbook pages should appear under Guides, and their links should open the right items.
+
+**In game**
+- *Hand positions:* items use the default hand transforms. Tune them with `.tfedit` and paste the result into the item as `tpHandTransform` / `fpHandTransform`.
+- *Arm pose:* if the hand stops short of the lips or clips into the face, adjust the `MOUTH` pose (`UpperArmR` / `LowerArmR` rotations). The pose generator lives with the animation sources, outside this repo.
+- *Packs in the inventory:* if a pack shows its warning side instead of the front, the GUI pose needs a 180° turn.
+- *Tall tobacco:* check that stages 5 and 6 don't clip or light oddly at the top.
+- *Butt piles:* flick a few onto the same spot. They should stack into one pile up to 64, and cigar butts should start their own pile.
+
+## Roadmap
+
+- A cigarette case, fruit-flavoured e-liquid, flue-curing near heat, cigarettes that burn down on their own, smoking idle while walking, and lighting and exhale sounds.
+- Wild tobacco in worldgen, and seeds and packs at traders and in ruin loot (still an open question).
+
+## Credits
+
+Ata. Design, code, art, animations and handbook were drafted with Claude Code.

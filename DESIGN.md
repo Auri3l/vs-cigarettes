@@ -162,8 +162,8 @@ Every item has a tongue-in-cheek description (the cigar is "Fancy cancer", the b
 ## Next steps
 
 1. **First in-game run.** Compile against a real 1.22 install and fix whatever the API disagrees with.
-2. **Smoking animation** (Ata reviews). It uses vanilla `eat` as a placeholder. Plan: author `cigarettes-smoke` (hand to mouth, hold, lower, exhale) in VS Model Creator against the seraph skeleton, patch it into `game:shapes/entity/humanoid/seraph-faceless.json`, then point `heldTpUseAnimation` at it. Add hand transforms so a cigarette sits between the fingers and a pipe in the mouth.
-3. **Real art.** 53 programmer-art PNGs and 6 simple shapes need replacing. Pack art should be original designs that only nod to the real brands.
+2. **Smoking animation.** Done: `cigarettes-smoke` (plus `-fp`) and `cigarettes-exhale`, patched onto the seraph shape in `patches/smoking-animations.json`. Ata is still reviewing the poses.
+3. **Real art.** Done: original textures, 3D item models, furniture shapes and a mod icon. Hand transforms are still VS defaults.
 4. **More culture.** Cigarette case (holds 10 from any brand), vape flavours from fruit (VS has berries), flue-curing near heat for a quality bonus, a lit cigarette that burns down on its own, smoking idle animation while walking, smoke visible to other players, lighting and exhale sounds.
 5. **Getting seeds and packs.** Wild tobacco in worldgen, seeds and packs at traders, packs in ruin loot.
 
