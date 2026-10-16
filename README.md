@@ -83,7 +83,7 @@ Cigarettes/
     recipes/grid/, recipes/barrel/
     config/achievements.json  every achievement, tier, rank and reward (data-driven)
     config/handbook/          the 11 guide pages
-    patches/traits.json       13 traits added to the game's trait list
+    config/traits.json        13 traits merged into the game's trait list
     patches/smoking-animations.json   smoke/exhale animations on the player shape
     lang/en.json              all text, jokes included
 docs/                         preview renders used in this README
@@ -109,7 +109,7 @@ Nothing has been run in the game yet. These are the places most likely to need a
 - Rotting pack: the `OnTransitionNow` override signature in `ItemCigarettePack`.
 
 **Log on load**
-- There should be no `patch ... file not found` for `smoking-animations.json` or `traits.json`. If one appears, the player shape (`game:shapes/entity/humanoid/seraph-faceless.json`), the player entity (`game:entities/humanoid/player.json`) or the trait list moved in 1.22, and the patch paths need updating.
+- There should be no `patch ... file not found` for `smoking-animations.json`. If one appears, the player shape (`game:shapes/entity/humanoid/seraph-faceless.json`) or the player entity (`game:entities/humanoid/player.json`) moved, and the patch paths need updating.
 - Handbook pages should appear under Guides, and their links should open the right items.
 
 **In game**
