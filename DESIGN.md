@@ -88,16 +88,9 @@ Factory packs hold 20 and are crafted from a fixed blend. Right click a pack to 
 
 Each pack also shows one of 12 "Seraph General's Warnings" in red, set per brand with the `warning` attribute, for example "Smokers die younger. Seraphs respawn. Don't push it." 
 
-Every pack recipe also takes rolling papers (usually 10), filters for filtered brands, and one to three **paint pots** in the brand's colours. Paint is a tool in the recipe: each pack uses one of a pot's 16 uses.
+Every pack recipe also takes rolling papers (usually 10), filters for filtered brands, and one to three wooden buckets of vanilla dye (`game:dye-*`) in the brand's colours. Each pack uses 0.1 litres of each dye and gives the bucket back. Brand colours vanilla has no dye for use a stand-in: gold is yellow, teal is woad, Camul's brown is orange and Rotmans' brown is gray.
 
-| Paint | Made from (plus resin and a fired bowl) |
-|---|---|
-| Red / Blue / Yellow | redcurrants / blueberries / honeycomb |
-| Black / White / Gold | charcoal / bone meal / a native gold nugget |
-| Green / Brown | fresh mint / any dried tobacco leaf |
-| Pink / Purple / Teal / Orange | redcurrant + bone meal / redcurrant + blueberry / blueberry + mint / redcurrant + honeycomb |
-
-**The rotting pack.** Rotmans is made from vanilla rot (plus brown and green paint). The pack itself perishes: about 7 days fresh, then it rots into 5 rot over 3 days. Each Rotmans cigarette goes off on its own in about 2 days. Letting a pack rot away in your inventory unlocks the secret Best Before achievement.
+**The rotting pack.** Rotmans is made from vanilla rot (plus gray and green dye). The pack itself perishes: about 7 days fresh, then it rots into 5 rot over 3 days. Each Rotmans cigarette goes off on its own in about 2 days. Letting a pack rot away in your inventory unlocks the secret Best Before achievement.
 
 Brand colours: Marlbury red; Camul yellow and brown; Lucky Stroke red and black; Pall Moll, Winstun red; Newpart teal and orange; Koal green; Djarun black and gold; Dunhull red and gold; Bensun gold; Parlement, Gaulwaz, Kant, Belomorkanaal blue; Vague Slims pink; Sobrani black, pink and gold; Mild Eleven blue and white; Chesterfeld red and purple.
 
@@ -169,5 +162,5 @@ Every item has a tongue-in-cheek description (the cigar is "Fancy cancer", the b
 
 ## Open questions for Ata
 
-- Decided: withdrawal stays mild, and packs are crafted with paint.
+- Decided: withdrawal stays mild, and packs are coloured with vanilla dye (the paint pots were dropped).
 - Should packs also show up at traders and in ruins?

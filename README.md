@@ -1,6 +1,6 @@
 # Cigarettes (Vintage Story mod)
 
-The whole smoking culture for Vintage Story 1.22. You can grow tobacco, cure and shred it, and roll cigarettes by hand or in batches. There are also cigars, pipes and a temporal-gear vape, and nineteen parody brands in paint-crafted packs, one of which rots. A 71-achievement Smoker's Ledger hands out character traits. When you're done, flick the butt onto the ground and watch the pile grow. Every item description doubles as a health warning.
+The whole smoking culture for Vintage Story 1.22. You can grow tobacco, cure and shred it, and roll cigarettes by hand or in batches. There are also cigars, pipes and a temporal-gear vape, and nineteen parody brands in dyed packs, one of which rots. A 71-achievement Smoker's Ledger hands out character traits. When you're done, flick the butt onto the ground and watch the pile grow. Every item description doubles as a health warning.
 
 ![Every item as it sits in an inventory slot](docs/inventory-icons.png)
 
@@ -28,7 +28,7 @@ For each piece, right click with ingredients to load it, hold right click with a
 
 ### Brands and packs
 - There are 19 parody brands (Marlbury, Camul, Lucky Stroke, Pall Moll, Djarun Black, Belomorkanaal, Rotmans…), each with its own blend, strength, slogan and one of 12 Seraph General's Warnings.
-- Packs are crafted with **paint pots** in the brand colours. There are 12 paints made from berries, charcoal, bone meal, gold and more. The 11 filtered brands use 10 cigarette butts as the filter.
+- Packs are coloured with the game's own **dye**: put wooden buckets of dye in the brand colours into the pack recipe (0.1 L per colour). The 11 filtered brands use 10 cigarette butts as the filter.
 - **Rotmans** is made from rot and comes in a rotting pack that perishes in your inventory.
 
 ![All 19 packs, front and back](docs/packs.png)
@@ -50,8 +50,8 @@ For each piece, right click with ingredients to load it, hold right click with a
 
 ### Presentation
 - **Animations:** a hand-to-lips drag (`cigarettes-smoke`, with a first-person variant) and an exhale when a puff completes. They replace the vanilla eat animation.
-- **Art:** original textures for every item, block and pack. Packs, cigarettes (long and slim variants), butts, cigars, pipes, the vape, lighters, matches, paint pots, papers and filters have 3D models, the furniture has real shapes, and the mod has an icon.
-- **Handbook:** 11 guide pages covering tobacco, curing, rolling, smoking, pipes, butts, brands, paint, vaping and the Ledger, cross-linked to the items.
+- **Art:** original textures for every item, block and pack. Packs, cigarettes (long and slim variants), butts, cigars, pipes, the vape, lighters, matches, papers and filters have 3D models, the furniture has real shapes, and the mod has an icon.
+- **Handbook:** 11 guide pages covering tobacco, curing, rolling, smoking, pipes, butts, brands, pack dyes, vaping and the Ledger, cross-linked to the items.
 
 ![One puff, three-quarter and side view](docs/smoking-puff.gif)
 

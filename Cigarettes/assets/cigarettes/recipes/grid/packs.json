@@ -4,6 +4,17 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -23,12 +34,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-red",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -41,6 +46,28 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-yellow"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-orange"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "O": {
                 "type": "item",
                 "code": "shreddedtobacco-oriental",
@@ -55,18 +82,6 @@
                 "type": "item",
                 "code": "rollingpaper",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-yellow",
-                "isTool": true,
-                "toolDurabilityCost": 1
-            },
-            "2": {
-                "type": "item",
-                "code": "paint-brown",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -79,6 +94,28 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-black"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -92,18 +129,6 @@
             "C": {
                 "type": "item",
                 "code": "game:charcoal"
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-red",
-                "isTool": true,
-                "toolDurabilityCost": 1
-            },
-            "2": {
-                "type": "item",
-                "code": "paint-black",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -116,6 +141,17 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -135,12 +171,6 @@
                 "type": "item",
                 "code": "rollingpaper",
                 "quantity": 12
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-red",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -153,6 +183,17 @@
         "width": 2,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "B": {
                 "type": "item",
                 "code": "shreddedtobacco-burley",
@@ -167,12 +208,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-red",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -185,6 +220,28 @@
         "width": 3,
         "height": 3,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-woad"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-orange"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -209,18 +266,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-teal",
-                "isTool": true,
-                "toolDurabilityCost": 1
-            },
-            "2": {
-                "type": "item",
-                "code": "paint-orange",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -233,6 +278,17 @@
         "width": 2,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-green"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "B": {
                 "type": "item",
                 "code": "shreddedtobacco-burley",
@@ -247,12 +303,6 @@
                 "type": "item",
                 "code": "rollingpaper",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-green",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -265,6 +315,28 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-black"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-yellow"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -284,18 +356,6 @@
                 "type": "item",
                 "code": "rollingpaper",
                 "quantity": 6
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-black",
-                "isTool": true,
-                "toolDurabilityCost": 1
-            },
-            "2": {
-                "type": "item",
-                "code": "paint-gold",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -308,6 +368,28 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-yellow"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -327,18 +409,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-red",
-                "isTool": true,
-                "toolDurabilityCost": 1
-            },
-            "2": {
-                "type": "item",
-                "code": "paint-gold",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -351,6 +421,17 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-yellow"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -370,12 +451,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-gold",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -388,6 +463,17 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-blue"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -407,12 +493,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 16
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-blue",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -425,6 +505,17 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-blue"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "B": {
                 "type": "item",
                 "code": "shreddedtobacco-burley",
@@ -443,12 +534,6 @@
             "C": {
                 "type": "item",
                 "code": "game:charcoal"
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-blue",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -461,6 +546,17 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-blue"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -480,12 +576,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-blue",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -498,6 +588,17 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-pink"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -516,12 +617,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-pink",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -534,6 +629,39 @@
         "width": 3,
         "height": 3,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-black"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-pink"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "3": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-yellow"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -558,24 +686,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-black",
-                "isTool": true,
-                "toolDurabilityCost": 1
-            },
-            "2": {
-                "type": "item",
-                "code": "paint-pink",
-                "isTool": true,
-                "toolDurabilityCost": 1
-            },
-            "3": {
-                "type": "item",
-                "code": "paint-gold",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -588,6 +698,17 @@
         "width": 2,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-blue"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "B": {
                 "type": "item",
                 "code": "shreddedtobacco-burley",
@@ -597,12 +718,6 @@
                 "type": "item",
                 "code": "rollingpaper",
                 "quantity": 12
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-blue",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -615,6 +730,28 @@
         "width": 3,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-blue"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-white"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -634,18 +771,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-blue",
-                "isTool": true,
-                "toolDurabilityCost": 1
-            },
-            "2": {
-                "type": "item",
-                "code": "paint-white",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -658,6 +783,28 @@
         "width": 3,
         "height": 3,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-purple"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "V": {
                 "type": "item",
                 "code": "shreddedtobacco-virginia",
@@ -681,18 +828,6 @@
                 "type": "item",
                 "code": "cigarettebutt",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-red",
-                "isTool": true,
-                "toolDurabilityCost": 1
-            },
-            "2": {
-                "type": "item",
-                "code": "paint-purple",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {
@@ -705,6 +840,28 @@
         "width": 2,
         "height": 2,
         "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-gray"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-green"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
             "R": {
                 "type": "item",
                 "code": "game:rot",
@@ -714,18 +871,6 @@
                 "type": "item",
                 "code": "rollingpaper",
                 "quantity": 10
-            },
-            "1": {
-                "type": "item",
-                "code": "paint-brown",
-                "isTool": true,
-                "toolDurabilityCost": 1
-            },
-            "2": {
-                "type": "item",
-                "code": "paint-green",
-                "isTool": true,
-                "toolDurabilityCost": 1
             }
         },
         "output": {

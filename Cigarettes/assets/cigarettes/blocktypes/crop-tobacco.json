@@ -57,6 +57,14 @@
     "replaceable": 3000,
     "lightAbsorption": 0,
     "resistance": 0.5,
+    "attributes": {
+        "foodTags": ["nibbleCrop"],
+        "sitHeight": 0.55,
+        "tickGrowthProbability": 0.05,
+        "handbook": {
+            "include": true
+        }
+    },
     "collisionbox": null,
     "selectionboxByType": {
         "*-virginia-5": {
