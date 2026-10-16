@@ -122,4 +122,4 @@ Nothing has been run in the game yet. These are the places most likely to need a
 
 ## Credits
 
-Ata. Design, code, art, animations and handbook were drafted with Claude Code.
+Benata. Design, code, art, animations and handbook were drafted with Claude Code.
