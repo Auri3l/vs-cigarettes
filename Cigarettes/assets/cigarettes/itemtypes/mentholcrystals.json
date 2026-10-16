@@ -1,0 +1,19 @@
+{
+    "code": "mentholcrystals",
+    "maxstacksize": 64,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/mentholcrystals"
+    },
+    "materialDensity": 800
+}

@@ -1,0 +1,11 @@
+{
+    "code": "shreddedtobacco",
+    "variantgroups": [
+        { "code": "type", "states": ["virginia", "burley", "oriental"] }
+    ],
+    "maxstacksize": 64,
+    "creativeinventory": { "general": ["*"], "items": ["*"], "cigarettes": ["*"] },
+    "texture": { "base": "item/shreddedtobacco-{type}" },
+    "materialDensity": 300,
+    "combustibleProps": { "burnTemperature": 300, "burnDuration": 3 }
+}

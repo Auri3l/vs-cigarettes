@@ -1,0 +1,45 @@
+{
+    "code": "flickedbutt",
+    "class": "cigarettes.EntityFlickedButt",
+    "hitboxSize": {
+        "x": 0.125,
+        "y": 0.125
+    },
+    "client": {
+        "renderer": "Shape",
+        "shape": {
+            "base": "entity/flickedbutt"
+        },
+        "textures": {
+            "butt": {
+                "base": "block/ashtray/butt"
+            }
+        },
+        "behaviors": [
+            {
+                "code": "passivephysics",
+                "groundDragFactor": 1,
+                "airDragFactor": 0.25,
+                "gravityFactor": 0.75
+            },
+            {
+                "code": "interpolateposition"
+            }
+        ]
+    },
+    "server": {
+        "behaviors": [
+            {
+                "code": "passivephysics",
+                "groundDragFactor": 1,
+                "airDragFactor": 0.25,
+                "gravityFactor": 0.75
+            },
+            {
+                "code": "despawn",
+                "minSeconds": 60
+            }
+        ]
+    },
+    "sounds": {}
+}

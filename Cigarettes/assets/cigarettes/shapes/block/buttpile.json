@@ -1,0 +1,1209 @@
+{
+    "textureWidth": 16,
+    "textureHeight": 16,
+    "textures": {
+        "butt": "block/ashtray/butt"
+    },
+    "elements": [
+        {
+            "name": "Butt0",
+            "from": [
+                6.76,
+                0.0,
+                8.3
+            ],
+            "to": [
+                9.76,
+                0.9,
+                9.2
+            ],
+            "rotationOrigin": [
+                8.26,
+                0.0,
+                8.75
+            ],
+            "rotationY": 22.5,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt1",
+            "from": [
+                7.36,
+                0.0,
+                8.87
+            ],
+            "to": [
+                10.36,
+                0.9,
+                9.77
+            ],
+            "rotationOrigin": [
+                8.86,
+                0.0,
+                9.32
+            ],
+            "rotationY": -22.5,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt2",
+            "from": [
+                11.88,
+                0.0,
+                9.04
+            ],
+            "to": [
+                14.88,
+                0.9,
+                9.94
+            ],
+            "rotationOrigin": [
+                13.38,
+                0.0,
+                9.49
+            ],
+            "rotationY": -22.5,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt3",
+            "from": [
+                8.99,
+                0.0,
+                9.78
+            ],
+            "to": [
+                11.99,
+                0.9,
+                10.68
+            ],
+            "rotationOrigin": [
+                10.49,
+                0.0,
+                10.23
+            ],
+            "rotationY": -22.5,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt4",
+            "from": [
+                2.8,
+                0.0,
+                6.17
+            ],
+            "to": [
+                5.8,
+                0.9,
+                7.07
+            ],
+            "rotationOrigin": [
+                4.3,
+                0.0,
+                6.62
+            ],
+            "rotationY": -22.5,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt5",
+            "from": [
+                9.21,
+                0.9,
+                2.84
+            ],
+            "to": [
+                12.21,
+                1.8,
+                3.74
+            ],
+            "rotationOrigin": [
+                10.71,
+                0.9,
+                3.29
+            ],
+            "rotationY": -45,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt6",
+            "from": [
+                11.28,
+                0.9,
+                3.75
+            ],
+            "to": [
+                14.28,
+                1.8,
+                4.65
+            ],
+            "rotationOrigin": [
+                12.78,
+                0.9,
+                4.2
+            ],
+            "rotationY": 45,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt7",
+            "from": [
+                2.46,
+                0.9,
+                7.89
+            ],
+            "to": [
+                5.46,
+                1.8,
+                8.79
+            ],
+            "rotationOrigin": [
+                3.96,
+                0.9,
+                8.34
+            ],
+            "rotationY": -22.5,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt8",
+            "from": [
+                7.39,
+                0.9,
+                2.89
+            ],
+            "to": [
+                10.39,
+                1.8,
+                3.79
+            ],
+            "rotationOrigin": [
+                8.89,
+                0.9,
+                3.34
+            ],
+            "rotationY": -45,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt9",
+            "from": [
+                9.7,
+                0.9,
+                5.97
+            ],
+            "to": [
+                12.7,
+                1.8,
+                6.87
+            ],
+            "rotationOrigin": [
+                11.2,
+                0.9,
+                6.42
+            ],
+            "rotationY": -22.5,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt10",
+            "from": [
+                4.96,
+                1.8,
+                3.37
+            ],
+            "to": [
+                7.96,
+                2.7,
+                4.27
+            ],
+            "rotationOrigin": [
+                6.46,
+                1.8,
+                3.82
+            ],
+            "rotationY": 22.5,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt11",
+            "from": [
+                5.59,
+                1.8,
+                5.07
+            ],
+            "to": [
+                8.59,
+                2.7,
+                5.97
+            ],
+            "rotationOrigin": [
+                7.09,
+                1.8,
+                5.52
+            ],
+            "rotationY": 0,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt12",
+            "from": [
+                8.88,
+                1.8,
+                7.19
+            ],
+            "to": [
+                11.88,
+                2.7,
+                8.09
+            ],
+            "rotationOrigin": [
+                10.38,
+                1.8,
+                7.64
+            ],
+            "rotationY": -45,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt13",
+            "from": [
+                2.02,
+                1.8,
+                6.65
+            ],
+            "to": [
+                5.02,
+                2.7,
+                7.55
+            ],
+            "rotationOrigin": [
+                3.52,
+                1.8,
+                7.1
+            ],
+            "rotationY": -22.5,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt14",
+            "from": [
+                4.2,
+                1.8,
+                8.41
+            ],
+            "to": [
+                7.2,
+                2.7,
+                9.31
+            ],
+            "rotationOrigin": [
+                5.7,
+                1.8,
+                8.86
+            ],
+            "rotationY": -22.5,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Butt15",
+            "from": [
+                8.73,
+                2.7,
+                10.29
+            ],
+            "to": [
+                11.73,
+                3.6,
+                11.19
+            ],
+            "rotationOrigin": [
+                10.23,
+                2.7,
+                10.74
+            ],
+            "rotationY": -45,
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            }
+        }
+    ]
+}

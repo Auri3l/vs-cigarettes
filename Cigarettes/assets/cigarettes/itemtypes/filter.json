@@ -1,0 +1,23 @@
+{
+    "code": "filter",
+    "maxstacksize": 64,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/filter"
+    },
+    "materialDensity": 200,
+    "combustibleProps": {
+        "burnTemperature": 200,
+        "burnDuration": 1
+    }
+}

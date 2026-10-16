@@ -1,0 +1,44 @@
+{
+    "code": "pipe",
+    "class": "cigarettes.ItemPipe",
+    "variantgroups": [
+        {
+            "code": "material",
+            "states": [
+                "wood",
+                "bone"
+            ]
+        }
+    ],
+    "maxstacksize": 1,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/pipe-{material}"
+    },
+    "heldTpUseAnimation": "eat",
+    "attributes": {
+        "puffsPerLoad": 15,
+        "puffSeconds": 2.0,
+        "effectDurationSec": 600,
+        "effects": {
+            "hungerrate": -0.25,
+            "miningSpeedMul": 0.05
+        },
+        "varietyStrength": {
+            "virginia": 1.0,
+            "burley": 1.2,
+            "oriental": 0.9
+        }
+    },
+    "materialDensity": 500
+}

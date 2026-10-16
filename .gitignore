@@ -1,0 +1,9 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Rr]eleases/
+*.user
+*.suo
+.vs/
+.idea/
+*.DotSettings.user

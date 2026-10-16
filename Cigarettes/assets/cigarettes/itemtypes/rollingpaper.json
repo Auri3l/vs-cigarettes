@@ -1,0 +1,23 @@
+{
+    "code": "rollingpaper",
+    "maxstacksize": 64,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/rollingpaper"
+    },
+    "materialDensity": 200,
+    "combustibleProps": {
+        "burnTemperature": 200,
+        "burnDuration": 1
+    }
+}

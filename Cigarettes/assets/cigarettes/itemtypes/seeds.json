@@ -1,0 +1,36 @@
+{
+    "code": "seeds",
+    "class": "ItemPlantableSeed",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "virginia",
+                "burley",
+                "oriental",
+                "mint",
+                "clove"
+            ]
+        }
+    ],
+    "maxstacksize": 64,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/seeds-{type}"
+    },
+    "materialDensity": 600,
+    "combustibleProps": {
+        "burnTemperature": 200,
+        "burnDuration": 4
+    }
+}

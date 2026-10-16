@@ -1,0 +1,15 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "cigarettes",
+    "name": "Cigarettes",
+    "authors": [
+        "Ata"
+    ],
+    "description": "The full smoking culture: tobacco farming, drying, rolling, cigars, pipes, vapes, menthols, kretek, brands, lighters and ashtrays.",
+    "version": "0.8.0",
+    "side": "Universal",
+    "dependencies": {
+        "game": "1.22.0"
+    }
+}

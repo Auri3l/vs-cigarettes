@@ -1,0 +1,79 @@
+{
+    "code": "ashtray",
+    "class": "cigarettes.BlockAshtray",
+    "entityClass": "cigarettes.Ashtray",
+    "variantgroups": [
+        {
+            "code": "fill",
+            "states": [
+                "empty",
+                "some",
+                "full"
+            ]
+        }
+    ],
+    "creativeinventory": {
+        "general": [
+            "*-empty"
+        ],
+        "decorative": [
+            "*-empty"
+        ],
+        "cigarettes": [
+            "*-empty"
+        ]
+    },
+    "shapeByType": {
+        "*": {
+            "base": "block/ashtray-{fill}"
+        }
+    },
+    "textures": {
+        "stone": {
+            "base": "block/ashtray/stone"
+        },
+        "butt": {
+            "base": "block/ashtray/butt"
+        }
+    },
+    "blockmaterial": "Stone",
+    "sidesolid": {
+        "all": false
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "emitSideAo": {
+        "all": false
+    },
+    "lightAbsorption": 0,
+    "resistance": 1,
+    "selectionbox": {
+        "x1": 0.25,
+        "y1": 0,
+        "z1": 0.25,
+        "x2": 0.75,
+        "y2": 0.15,
+        "z2": 0.75
+    },
+    "collisionbox": {
+        "x1": 0.25,
+        "y1": 0,
+        "z1": 0.25,
+        "x2": 0.75,
+        "y2": 0.15,
+        "z2": 0.75
+    },
+    "drops": [
+        {
+            "type": "block",
+            "code": "ashtray-empty"
+        }
+    ],
+    "sounds": {
+        "place": "game:block/loosestone",
+        "break": "game:block/loosestone",
+        "hit": "game:block/loosestone"
+    },
+    "materialDensity": 2000
+}

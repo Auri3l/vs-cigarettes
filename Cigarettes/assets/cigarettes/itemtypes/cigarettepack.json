@@ -1,0 +1,147 @@
+{
+    "code": "cigarettepack",
+    "class": "cigarettes.ItemCigarettePack",
+    "variantgroups": [
+        {
+            "code": "brand",
+            "states": [
+                "marlbury",
+                "camul",
+                "luckystroke",
+                "pallmoll",
+                "winstun",
+                "newpart",
+                "koal",
+                "djarun",
+                "dunhull",
+                "bensun",
+                "parlement",
+                "gaulwaz",
+                "kant",
+                "vagueslims",
+                "sobrani",
+                "belomor",
+                "mildeleven",
+                "chesterfeld",
+                "rotmans"
+            ]
+        }
+    ],
+    "maxstacksize": 4,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/cigarettepack-{brand}"
+    },
+    "combustibleProps": {
+        "burnTemperature": 250,
+        "burnDuration": 3
+    },
+    "materialDensity": 200,
+    "attributesByType": {
+        "*-marlbury": {
+            "packSize": 20,
+            "warning": 0
+        },
+        "*-camul": {
+            "packSize": 20,
+            "warning": 1
+        },
+        "*-luckystroke": {
+            "packSize": 20,
+            "warning": 2
+        },
+        "*-pallmoll": {
+            "packSize": 20,
+            "warning": 3
+        },
+        "*-winstun": {
+            "packSize": 20,
+            "warning": 4
+        },
+        "*-newpart": {
+            "packSize": 20,
+            "warning": 5
+        },
+        "*-koal": {
+            "packSize": 20,
+            "warning": 6
+        },
+        "*-djarun": {
+            "packSize": 12,
+            "warning": 7
+        },
+        "*-dunhull": {
+            "packSize": 20,
+            "warning": 8
+        },
+        "*-bensun": {
+            "packSize": 20,
+            "warning": 9
+        },
+        "*-parlement": {
+            "packSize": 20,
+            "warning": 10
+        },
+        "*-gaulwaz": {
+            "packSize": 20,
+            "warning": 11
+        },
+        "*-kant": {
+            "packSize": 20,
+            "warning": 0
+        },
+        "*-vagueslims": {
+            "packSize": 20,
+            "warning": 1
+        },
+        "*-sobrani": {
+            "packSize": 20,
+            "warning": 2
+        },
+        "*-belomor": {
+            "packSize": 25,
+            "warning": 3
+        },
+        "*-mildeleven": {
+            "packSize": 20,
+            "warning": 4
+        },
+        "*-chesterfeld": {
+            "packSize": 20,
+            "warning": 5
+        },
+        "*-rotmans": {
+            "packSize": 20,
+            "warning": 12,
+            "rotting": true
+        }
+    },
+    "transitionablePropsByType": {
+        "*-rotmans": [
+            {
+                "type": "Perish",
+                "freshHours": {
+                    "avg": 168
+                },
+                "transitionHours": {
+                    "avg": 72
+                },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 5
+            }
+        ]
+    }
+}

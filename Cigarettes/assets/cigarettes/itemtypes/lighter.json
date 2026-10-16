@@ -1,0 +1,35 @@
+{
+    "code": "lighter",
+    "variantgroups": [
+        {
+            "code": "brand",
+            "states": [
+                "zappo",
+                "goldzappo"
+            ]
+        }
+    ],
+    "maxstacksize": 1,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/lighter-{brand}"
+    },
+    "attributes": {
+        "cigarettesIgniter": true
+    },
+    "materialDensity": 2000,
+    "durabilityByType": {
+        "*-goldzappo": 3000,
+        "*": 300
+    }
+}

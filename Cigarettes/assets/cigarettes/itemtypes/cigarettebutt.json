@@ -1,0 +1,52 @@
+{
+    "code": "cigarettebutt",
+    "maxstacksize": 64,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/cigarettebutt"
+    },
+    "materialDensity": 200,
+    "combustibleProps": {
+        "burnTemperature": 200,
+        "burnDuration": 1
+    },
+    "class": "cigarettes.ItemButt",
+    "behaviors": [
+        {
+            "name": "GroundStorable",
+            "properties": {
+                "layout": "Stacking",
+                "placeRemoveSound": "game:sounds/block/loosestone",
+                "randomizeSoundPitch": true,
+                "stackingModel": "cigarettes:block/buttpile",
+                "tessQuantityElements": true,
+                "stackingTextures": {
+                    "butt": "cigarettes:block/ashtray/butt"
+                },
+                "stackingCapacity": 64,
+                "transferQuantity": 1,
+                "bulkTransferQuantity": 8,
+                "modelItemsToStackSizeRatio": 4,
+                "collisionBox": {
+                    "x1": 0,
+                    "y1": 0,
+                    "z1": 0,
+                    "x2": 1,
+                    "y2": 0.25,
+                    "z2": 1
+                }
+            }
+        }
+    ],
+    "attributes": {}
+}

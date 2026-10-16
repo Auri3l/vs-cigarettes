@@ -1,0 +1,99 @@
+{
+    "code": "eliquidportion",
+    "class": "ItemLiquidPortion",
+    "matterState": "liquid",
+    "variantgroups": [
+        {
+            "code": "flavor",
+            "states": [
+                "plain",
+                "menthol",
+                "clove"
+            ]
+        }
+    ],
+    "attributesByType": {
+        "*-plain": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-plain"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-plain"
+                    }
+                }
+            },
+            "vapeStrength": 1.0
+        },
+        "*-menthol": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-menthol"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-menthol"
+                    }
+                }
+            },
+            "vapeStrength": 0.9
+        },
+        "*-clove": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-clove"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-clove"
+                    }
+                }
+            },
+            "vapeStrength": 1.2
+        }
+    },
+    "shape": {
+        "base": "game:item/liquid"
+    },
+    "texture": {
+        "base": "block/liquid/eliquid-{flavor}"
+    },
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "liquids": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "maxstacksize": 5000,
+    "materialDensity": 200
+}

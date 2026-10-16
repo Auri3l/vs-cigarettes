@@ -1,0 +1,69 @@
+{
+    "code": "herb",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "mint",
+                "clove"
+            ]
+        },
+        {
+            "code": "state",
+            "states": [
+                "fresh",
+                "dried"
+            ]
+        }
+    ],
+    "maxstacksize": 32,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/herb-{type}-{state}"
+    },
+    "materialDensity": 300,
+    "transitionablePropsByType": {
+        "*-mint-fresh": [
+            {
+                "type": "Dry",
+                "freshHours": {
+                    "avg": 0
+                },
+                "transitionHours": {
+                    "avg": 48
+                },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "herb-mint-dried"
+                },
+                "transitionRatio": 1
+            }
+        ],
+        "*-clove-fresh": [
+            {
+                "type": "Dry",
+                "freshHours": {
+                    "avg": 0
+                },
+                "transitionHours": {
+                    "avg": 48
+                },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "herb-clove-dried"
+                },
+                "transitionRatio": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,353 @@
+{
+    "code": "cigarette",
+    "class": "cigarettes.ItemCigarette",
+    "variantgroups": [
+        {
+            "code": "brand",
+            "states": [
+                "handrolled",
+                "marlbury",
+                "camul",
+                "luckystroke",
+                "pallmoll",
+                "winstun",
+                "menthol",
+                "kretek",
+                "newpart",
+                "koal",
+                "djarun",
+                "dunhull",
+                "bensun",
+                "parlement",
+                "gaulwaz",
+                "kant",
+                "vagueslims",
+                "sobrani",
+                "belomor",
+                "mildeleven",
+                "chesterfeld",
+                "rotmans",
+                "snipe"
+            ]
+        }
+    ],
+    "maxstacksize": 20,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/cigarette-{brand}"
+    },
+    "heldTpUseAnimation": "eat",
+    "attributesByType": {
+        "*-handrolled": {
+            "maxPuffs": 6,
+            "strength": 1.0,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-marlbury": {
+            "maxPuffs": 8,
+            "strength": 1.1,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-camul": {
+            "maxPuffs": 8,
+            "strength": 1.0,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-luckystroke": {
+            "maxPuffs": 8,
+            "strength": 1.2,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-pallmoll": {
+            "maxPuffs": 10,
+            "strength": 1.0,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-winstun": {
+            "maxPuffs": 8,
+            "strength": 0.9,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-menthol": {
+            "maxPuffs": 6,
+            "strength": 0.9,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05,
+                "healingeffectivness": 0.03
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-kretek": {
+            "maxPuffs": 10,
+            "strength": 1.3,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt",
+            "crackle": true
+        },
+        "*-newpart": {
+            "maxPuffs": 8,
+            "strength": 0.9,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05,
+                "healingeffectivness": 0.03
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-koal": {
+            "maxPuffs": 8,
+            "strength": 1.0,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05,
+                "healingeffectivness": 0.03
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-djarun": {
+            "maxPuffs": 12,
+            "strength": 1.4,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt",
+            "crackle": true
+        },
+        "*-dunhull": {
+            "maxPuffs": 8,
+            "strength": 1.0,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-bensun": {
+            "maxPuffs": 8,
+            "strength": 1.0,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-parlement": {
+            "maxPuffs": 8,
+            "strength": 0.9,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-gaulwaz": {
+            "maxPuffs": 8,
+            "strength": 1.3,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-kant": {
+            "maxPuffs": 8,
+            "strength": 0.9,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-vagueslims": {
+            "maxPuffs": 6,
+            "strength": 0.7,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05,
+                "healingeffectivness": 0.03
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-sobrani": {
+            "maxPuffs": 8,
+            "strength": 1.0,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-belomor": {
+            "maxPuffs": 6,
+            "strength": 1.5,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-mildeleven": {
+            "maxPuffs": 8,
+            "strength": 0.8,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-chesterfeld": {
+            "maxPuffs": 8,
+            "strength": 1.1,
+            "filtered": true,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-rotmans": {
+            "maxPuffs": 6,
+            "strength": 0.5,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": 0.15,
+                "miningSpeedMul": 0.02
+            },
+            "buttCode": "cigarettebutt"
+        },
+        "*-snipe": {
+            "maxPuffs": 4,
+            "strength": 0.8,
+            "filtered": false,
+            "puffSeconds": 1.6,
+            "effectDurationSec": 600,
+            "effects": {
+                "hungerrate": -0.25,
+                "miningSpeedMul": 0.05
+            },
+            "buttCode": "cigarettebutt"
+        }
+    },
+    "materialDensity": 300,
+    "transitionablePropsByType": {
+        "*-rotmans": [
+            {
+                "type": "Perish",
+                "freshHours": {
+                    "avg": 48
+                },
+                "transitionHours": {
+                    "avg": 24
+                },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "code": "eliquid-plain",
+        "sealHours": 24,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:waterportion",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "shreddedtobacco-*",
+                "quantity": 4
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-plain",
+            "litres": 1
+        }
+    },
+    {
+        "code": "eliquid-menthol",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "eliquidportion-plain",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "mentholcrystals",
+                "quantity": 2
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-menthol",
+            "litres": 1
+        }
+    },
+    {
+        "code": "eliquid-clove",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "eliquidportion-plain",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "herb-clove-dried",
+                "quantity": 2
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-clove",
+            "litres": 1
+        }
+    }
+]

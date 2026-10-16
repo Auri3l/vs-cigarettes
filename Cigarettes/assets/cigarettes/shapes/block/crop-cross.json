@@ -1,0 +1,32 @@
+{
+    "editor": { "allAngles": false },
+    "textureWidth": 32,
+    "textureHeight": 32,
+    "textures": {
+        "crop": "block/crop/virginia/stage1"
+    },
+    "elements": [
+        {
+            "name": "PlaneA",
+            "from": [0.5, 0, 8],
+            "to": [15.5, 16, 8],
+            "rotationOrigin": [8, 0, 8],
+            "rotationY": 45,
+            "faces": {
+                "north": { "texture": "#crop", "uv": [0, 0, 32, 32] },
+                "south": { "texture": "#crop", "uv": [0, 0, 32, 32] }
+            }
+        },
+        {
+            "name": "PlaneB",
+            "from": [0.5, 0, 8],
+            "to": [15.5, 16, 8],
+            "rotationOrigin": [8, 0, 8],
+            "rotationY": -45,
+            "faces": {
+                "north": { "texture": "#crop", "uv": [0, 0, 32, 32] },
+                "south": { "texture": "#crop", "uv": [0, 0, 32, 32] }
+            }
+        }
+    ]
+}

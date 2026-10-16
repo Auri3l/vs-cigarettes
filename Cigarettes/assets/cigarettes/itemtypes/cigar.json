@@ -1,0 +1,33 @@
+{
+    "code": "cigar",
+    "class": "cigarettes.ItemCigarette",
+    "maxstacksize": 10,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/cigar"
+    },
+    "heldTpUseAnimation": "eat",
+    "attributes": {
+        "maxPuffs": 20,
+        "strength": 1.5,
+        "puffSeconds": 2.2,
+        "effectDurationSec": 600,
+        "effects": {
+            "hungerrate": -0.3,
+            "miningSpeedMul": 0.05,
+            "healingeffectivness": 0.05
+        },
+        "buttCode": "cigarbutt"
+    },
+    "materialDensity": 300
+}

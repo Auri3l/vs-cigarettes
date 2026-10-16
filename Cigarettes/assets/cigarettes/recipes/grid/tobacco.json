@@ -1,0 +1,85 @@
+[
+    {
+        "ingredientPattern": "K,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            },
+            "L": {
+                "type": "item",
+                "code": "tobaccoleaf-*-dried",
+                "name": "type"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "shreddedtobacco-{type}",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "K,P",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            },
+            "P": {
+                "type": "item",
+                "code": "game:paper-parchment"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "rollingpaper",
+            "quantity": 8
+        }
+    },
+    {
+        "ingredientPattern": "F",
+        "width": 1,
+        "height": 1,
+        "ingredients": {
+            "F": {
+                "type": "item",
+                "code": "game:flaxfibers"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "filter",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "K,M",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            },
+            "M": {
+                "type": "item",
+                "code": "herb-mint-dried"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "mentholcrystals",
+            "quantity": 2
+        }
+    }
+]

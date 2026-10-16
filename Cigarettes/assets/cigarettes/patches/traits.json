@@ -1,0 +1,105 @@
+[
+    {
+        "op": "addeach",
+        "path": "/-",
+        "file": "game:config/traits.json",
+        "value": [
+            {
+                "code": "cigarettes-smokerslungs",
+                "type": "mixed",
+                "attributes": {
+                    "hungerrate": -0.05,
+                    "walkspeed": -0.03
+                }
+            },
+            {
+                "code": "cigarettes-nicotinefingers",
+                "type": "positive",
+                "attributes": {
+                    "rangedWeaponsAcc": 0.05
+                }
+            },
+            {
+                "code": "cigarettes-creatureofhabit",
+                "type": "positive",
+                "attributes": {
+                    "healingeffectivness": 0.05
+                }
+            },
+            {
+                "code": "cigarettes-nicotinestained",
+                "type": "mixed",
+                "attributes": {
+                    "miningSpeedMul": 0.05,
+                    "healingeffectivness": -0.05
+                }
+            },
+            {
+                "code": "cigarettes-cleanlungs",
+                "type": "mixed",
+                "attributes": {
+                    "walkspeed": 0.03,
+                    "hungerrate": 0.03
+                }
+            },
+            {
+                "code": "cigarettes-smokescreen",
+                "type": "positive",
+                "attributes": {
+                    "animalSeekingRange": -0.1
+                }
+            },
+            {
+                "code": "cigarettes-deathwish",
+                "type": "negative",
+                "attributes": {
+                    "maxhealthExtraPoints": -1
+                }
+            },
+            {
+                "code": "cigarettes-stakhanovite",
+                "type": "mixed",
+                "attributes": {
+                    "miningSpeedMul": 0.1,
+                    "hungerrate": 0.05
+                }
+            },
+            {
+                "code": "cigarettes-connoisseur",
+                "type": "positive",
+                "attributes": {
+                    "hungerrate": -0.03
+                }
+            },
+            {
+                "code": "cigarettes-ironstomach",
+                "type": "positive",
+                "attributes": {
+                    "hungerrate": -0.04
+                }
+            },
+            {
+                "code": "cigarettes-platinumlung",
+                "type": "positive",
+                "attributes": {
+                    "maxhealthExtraPoints": 2,
+                    "hungerrate": -0.1
+                }
+            },
+            {
+                "code": "cigarettes-industrialist",
+                "type": "positive",
+                "attributes": {
+                    "miningSpeedMul": 0.03
+                }
+            },
+            {
+                "code": "cigarettes-deadeye",
+                "type": "positive",
+                "attributes": {
+                    "rangedWeaponsAcc": 0.03
+                }
+            }
+        ]
+    }
+]

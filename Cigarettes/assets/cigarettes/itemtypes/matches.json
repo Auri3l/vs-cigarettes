@@ -1,0 +1,23 @@
+{
+    "code": "matches",
+    "maxstacksize": 1,
+    "durability": 24,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/matches"
+    },
+    "attributes": {
+        "cigarettesIgniter": true
+    },
+    "materialDensity": 300
+}

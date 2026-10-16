@@ -1,0 +1,90 @@
+{
+    "code": "tobaccoleaf",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "virginia",
+                "burley",
+                "oriental"
+            ]
+        },
+        {
+            "code": "state",
+            "states": [
+                "fresh",
+                "dried"
+            ]
+        }
+    ],
+    "maxstacksize": 32,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/tobaccoleaf-{type}-{state}"
+    },
+    "materialDensity": 300,
+    "combustibleProps": {
+        "burnTemperature": 300,
+        "burnDuration": 6
+    },
+    "transitionablePropsByType": {
+        "*-virginia-fresh": [
+            {
+                "type": "Dry",
+                "freshHours": {
+                    "avg": 0
+                },
+                "transitionHours": {
+                    "avg": 96
+                },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "tobaccoleaf-virginia-dried"
+                },
+                "transitionRatio": 1
+            }
+        ],
+        "*-burley-fresh": [
+            {
+                "type": "Dry",
+                "freshHours": {
+                    "avg": 0
+                },
+                "transitionHours": {
+                    "avg": 96
+                },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "tobaccoleaf-burley-dried"
+                },
+                "transitionRatio": 1
+            }
+        ],
+        "*-oriental-fresh": [
+            {
+                "type": "Dry",
+                "freshHours": {
+                    "avg": 0
+                },
+                "transitionHours": {
+                    "avg": 96
+                },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "tobaccoleaf-oriental-dried"
+                },
+                "transitionRatio": 1
+            }
+        ]
+    }
+}

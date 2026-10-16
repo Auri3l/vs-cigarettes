@@ -1,0 +1,36 @@
+{
+    "code": "vape",
+    "class": "cigarettes.ItemVape",
+    "maxstacksize": 1,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/vape"
+    },
+    "heldTpUseAnimation": "eat",
+    "attributes": {
+        "tankItems": 20,
+        "puffSeconds": 1.4,
+        "effectDurationSec": 600,
+        "exhaleScale": 2.0,
+        "effects": {
+            "hungerrate": -0.2,
+            "miningSpeedMul": 0.05
+        },
+        "chargeFrom": {
+            "game:gear-temporal": 300,
+            "game:gear-rusty": 40
+        },
+        "maxCharge": 300
+    },
+    "materialDensity": 1500
+}

@@ -1,0 +1,664 @@
+{
+    "tierPoints": {
+        "bronze": 5,
+        "silver": 15,
+        "gold": 40,
+        "platinum": 100
+    },
+    "ranks": [
+        {
+            "points": 0,
+            "code": "curious"
+        },
+        {
+            "points": 25,
+            "code": "social"
+        },
+        {
+            "points": 75,
+            "code": "packaday"
+        },
+        {
+            "points": 150,
+            "code": "chainsmoker",
+            "reward": {
+                "type": "item",
+                "code": "cigarettes:rollingpaper",
+                "quantity": 8
+            }
+        },
+        {
+            "points": 300,
+            "code": "chimney"
+        },
+        {
+            "points": 500,
+            "code": "lungdonor",
+            "reward": {
+                "type": "item",
+                "code": "cigarettes:lighter-goldzappo",
+                "quantity": 1
+            }
+        },
+        {
+            "points": 800,
+            "code": "patientzero"
+        },
+        {
+            "points": 1100,
+            "code": "marlburyman",
+            "reward": {
+                "type": "item",
+                "code": "cigarettes:cigar",
+                "quantity": 5
+            }
+        }
+    ],
+    "achievements": [
+        {
+            "code": "firstpuff",
+            "category": "habit",
+            "tier": "bronze",
+            "counter": "puffs",
+            "target": 1
+        },
+        {
+            "code": "puffs100",
+            "category": "habit",
+            "tier": "bronze",
+            "counter": "puffs",
+            "target": 100,
+            "requires": [
+                "firstpuff"
+            ]
+        },
+        {
+            "code": "puffs1000",
+            "category": "habit",
+            "tier": "silver",
+            "counter": "puffs",
+            "target": 1000,
+            "requires": [
+                "puffs100"
+            ],
+            "trait": "cigarettes-smokerslungs"
+        },
+        {
+            "code": "puffs5000",
+            "category": "habit",
+            "tier": "gold",
+            "counter": "puffs",
+            "target": 5000,
+            "requires": [
+                "puffs1000"
+            ]
+        },
+        {
+            "code": "puffs20000",
+            "category": "habit",
+            "tier": "platinum",
+            "counter": "puffs",
+            "target": 20000,
+            "requires": [
+                "puffs5000"
+            ],
+            "hidden": true
+        },
+        {
+            "code": "streak3",
+            "category": "habit",
+            "tier": "bronze",
+            "counter": "beststreak",
+            "target": 3
+        },
+        {
+            "code": "streak7",
+            "category": "habit",
+            "tier": "silver",
+            "counter": "beststreak",
+            "target": 7,
+            "requires": [
+                "streak3"
+            ]
+        },
+        {
+            "code": "streak30",
+            "category": "habit",
+            "tier": "gold",
+            "counter": "beststreak",
+            "target": 30,
+            "requires": [
+                "streak7"
+            ],
+            "trait": "cigarettes-creatureofhabit"
+        },
+        {
+            "code": "chainsmoker",
+            "category": "habit",
+            "tier": "bronze",
+            "counter": "lights:chain",
+            "target": 1
+        },
+        {
+            "code": "ouroboros",
+            "category": "habit",
+            "tier": "silver",
+            "counter": "lights:chain",
+            "target": 10,
+            "requires": [
+                "chainsmoker"
+            ],
+            "trait": "cigarettes-nicotinefingers"
+        },
+        {
+            "code": "firstpack",
+            "category": "connoisseur",
+            "tier": "bronze",
+            "counter": "packsopened",
+            "target": 1
+        },
+        {
+            "code": "emptypack",
+            "category": "connoisseur",
+            "tier": "bronze",
+            "counter": "packsemptied",
+            "target": 1,
+            "requires": [
+                "firstpack"
+            ]
+        },
+        {
+            "code": "carton",
+            "category": "connoisseur",
+            "tier": "gold",
+            "counter": "packsemptied",
+            "target": 25,
+            "requires": [
+                "emptypack"
+            ]
+        },
+        {
+            "code": "brands5",
+            "category": "connoisseur",
+            "tier": "bronze",
+            "set": "brands",
+            "setSize": 5
+        },
+        {
+            "code": "allbrands",
+            "category": "connoisseur",
+            "tier": "gold",
+            "set": "brands",
+            "setSize": 0,
+            "requires": [
+                "brands5"
+            ],
+            "trait": "cigarettes-connoisseur"
+        },
+        {
+            "code": "allpacks",
+            "category": "connoisseur",
+            "tier": "silver",
+            "set": "packbrands",
+            "setSize": 0,
+            "requires": [
+                "firstpack"
+            ]
+        },
+        {
+            "code": "warnings",
+            "category": "connoisseur",
+            "tier": "silver",
+            "set": "warnings",
+            "setSize": 12,
+            "requires": [
+                "firstpack"
+            ]
+        },
+        {
+            "code": "kinds",
+            "category": "connoisseur",
+            "tier": "silver",
+            "set": "kinds",
+            "setSize": 0
+        },
+        {
+            "code": "tastingmenu",
+            "category": "connoisseur",
+            "tier": "gold",
+            "counter": "tastingmenu",
+            "target": 3,
+            "requires": [
+                "kinds"
+            ],
+            "hidden": true
+        },
+        {
+            "code": "cigar",
+            "category": "connoisseur",
+            "tier": "bronze",
+            "counter": "finished:cigar",
+            "target": 1
+        },
+        {
+            "code": "pipe",
+            "category": "connoisseur",
+            "tier": "bronze",
+            "counter": "finished:pipe",
+            "target": 1
+        },
+        {
+            "code": "menthol",
+            "category": "connoisseur",
+            "tier": "bronze",
+            "counter": "puffs:menthol",
+            "target": 1
+        },
+        {
+            "code": "kretek",
+            "category": "connoisseur",
+            "tier": "bronze",
+            "counter": "puffs:kretek",
+            "target": 1
+        },
+        {
+            "code": "belomor",
+            "category": "connoisseur",
+            "tier": "bronze",
+            "counter": "puffs:brand:belomor",
+            "target": 1
+        },
+        {
+            "code": "stakhanovite",
+            "category": "connoisseur",
+            "tier": "gold",
+            "counter": "puffs:brand:belomor",
+            "target": 250,
+            "requires": [
+                "belomor"
+            ],
+            "hidden": true,
+            "trait": "cigarettes-stakhanovite"
+        },
+        {
+            "code": "artisanal",
+            "category": "connoisseur",
+            "tier": "silver",
+            "counter": "puffs:brand:handrolled",
+            "target": 100
+        },
+        {
+            "code": "vapefirst",
+            "category": "hardware",
+            "tier": "bronze",
+            "counter": "puffs:vape",
+            "target": 1
+        },
+        {
+            "code": "temporalvape",
+            "category": "hardware",
+            "tier": "bronze",
+            "counter": "temporalcharges",
+            "target": 1,
+            "requires": [
+                "vapefirst"
+            ]
+        },
+        {
+            "code": "temporaltransplant",
+            "category": "hardware",
+            "tier": "gold",
+            "counter": "temporalcharges",
+            "target": 5,
+            "requires": [
+                "temporalvape"
+            ],
+            "hidden": true
+        },
+        {
+            "code": "pyromaniac",
+            "category": "hardware",
+            "tier": "silver",
+            "counter": "lights:matches",
+            "target": 24
+        },
+        {
+            "code": "zappoloyalist",
+            "category": "hardware",
+            "tier": "gold",
+            "counter": "lights:lighter",
+            "target": 300,
+            "requires": [
+                "pyromaniac"
+            ]
+        },
+        {
+            "code": "ashtrayfull",
+            "category": "hardware",
+            "tier": "bronze",
+            "counter": "ashtraysfilled",
+            "target": 1
+        },
+        {
+            "code": "sommelier",
+            "category": "hardware",
+            "tier": "silver",
+            "counter": "ashtraysfilled",
+            "target": 10,
+            "requires": [
+                "ashtrayfull"
+            ]
+        },
+        {
+            "code": "nightowl",
+            "category": "situational",
+            "tier": "bronze",
+            "counter": "puffs:ctx:night",
+            "target": 10
+        },
+        {
+            "code": "rain",
+            "category": "situational",
+            "tier": "bronze",
+            "counter": "puffs:ctx:rain",
+            "target": 1
+        },
+        {
+            "code": "storm",
+            "category": "situational",
+            "tier": "silver",
+            "counter": "puffs:ctx:storm",
+            "target": 1
+        },
+        {
+            "code": "canary",
+            "category": "situational",
+            "tier": "bronze",
+            "counter": "puffs:ctx:underground",
+            "target": 1
+        },
+        {
+            "code": "underwater",
+            "category": "situational",
+            "tier": "silver",
+            "counter": "puffs:ctx:swimming",
+            "target": 1,
+            "hidden": true
+        },
+        {
+            "code": "alreadylit",
+            "category": "situational",
+            "tier": "gold",
+            "counter": "puffs:ctx:onfire",
+            "target": 1,
+            "hidden": true
+        },
+        {
+            "code": "lastcigarette",
+            "category": "situational",
+            "tier": "silver",
+            "counter": "puffs:ctx:lowhealth",
+            "target": 1
+        },
+        {
+            "code": "brassmonkey",
+            "category": "situational",
+            "tier": "bronze",
+            "counter": "puffs:ctx:cold",
+            "target": 1
+        },
+        {
+            "code": "desertcamul",
+            "category": "situational",
+            "tier": "bronze",
+            "counter": "puffs:ctx:hot",
+            "target": 1
+        },
+        {
+            "code": "highaskite",
+            "category": "situational",
+            "tier": "bronze",
+            "counter": "puffs:ctx:altitude",
+            "target": 1
+        },
+        {
+            "code": "cardio",
+            "category": "situational",
+            "tier": "silver",
+            "counter": "puffs:ctx:sprinting",
+            "target": 5
+        },
+        {
+            "code": "sundaydriver",
+            "category": "situational",
+            "tier": "silver",
+            "counter": "puffs:ctx:mounted",
+            "target": 1
+        },
+        {
+            "code": "dinner",
+            "category": "situational",
+            "tier": "bronze",
+            "counter": "puffs:ctx:hungry",
+            "target": 1
+        },
+        {
+            "code": "situations",
+            "category": "situational",
+            "tier": "gold",
+            "set": "contexts",
+            "setSize": 8
+        },
+        {
+            "code": "businesslunch",
+            "category": "social",
+            "tier": "bronze",
+            "counter": "puffs:ctx:neartrader",
+            "target": 1
+        },
+        {
+            "code": "smokingsection",
+            "category": "social",
+            "tier": "silver",
+            "counter": "puffs:ctx:nearsmoker",
+            "target": 1
+        },
+        {
+            "code": "smokecircle",
+            "category": "social",
+            "tier": "gold",
+            "counter": "puffs:ctx:nearsmoker",
+            "target": 50,
+            "requires": [
+                "smokingsection"
+            ],
+            "trait": "cigarettes-smokescreen"
+        },
+        {
+            "code": "withdrawal",
+            "category": "body",
+            "tier": "bronze",
+            "counter": "withdrawals",
+            "target": 1
+        },
+        {
+            "code": "professionalquitter",
+            "category": "body",
+            "tier": "silver",
+            "counter": "withdrawals",
+            "target": 5,
+            "requires": [
+                "withdrawal"
+            ]
+        },
+        {
+            "code": "maxnicotine",
+            "category": "body",
+            "tier": "silver",
+            "counter": "maxnicotine",
+            "target": 1,
+            "trait": "cigarettes-nicotinestained"
+        },
+        {
+            "code": "quitter",
+            "category": "body",
+            "tier": "gold",
+            "counter": "quit",
+            "target": 1,
+            "requires": [
+                "withdrawal"
+            ],
+            "trait": "cigarettes-cleanlungs"
+        },
+        {
+            "code": "hackandslash",
+            "category": "body",
+            "tier": "bronze",
+            "counter": "coughs",
+            "target": 10
+        },
+        {
+            "code": "causeofdeath",
+            "category": "body",
+            "tier": "silver",
+            "counter": "deaths:smoking",
+            "target": 1,
+            "hidden": true,
+            "trait": "cigarettes-deathwish"
+        },
+        {
+            "code": "repeatoffender",
+            "category": "body",
+            "tier": "gold",
+            "counter": "deaths:smoking",
+            "target": 5,
+            "requires": [
+                "causeofdeath"
+            ],
+            "hidden": true
+        },
+        {
+            "code": "rotmans",
+            "category": "connoisseur",
+            "tier": "bronze",
+            "counter": "puffs:brand:rotmans",
+            "target": 1
+        },
+        {
+            "code": "rotmans10",
+            "category": "connoisseur",
+            "tier": "silver",
+            "counter": "puffs:brand:rotmans",
+            "target": 100,
+            "requires": [
+                "rotmans"
+            ],
+            "trait": "cigarettes-ironstomach"
+        },
+        {
+            "code": "rottenpack",
+            "category": "connoisseur",
+            "tier": "gold",
+            "counter": "rotpacksrotted",
+            "target": 1,
+            "requires": [
+                "rotmans"
+            ],
+            "hidden": true
+        },
+        {
+            "code": "snipe",
+            "category": "connoisseur",
+            "tier": "bronze",
+            "counter": "puffs:brand:snipe",
+            "target": 1
+        },
+        {
+            "code": "recycler",
+            "category": "connoisseur",
+            "tier": "silver",
+            "counter": "puffs:brand:snipe",
+            "target": 50,
+            "requires": [
+                "snipe"
+            ]
+        },
+        {
+            "code": "firstbatch",
+            "category": "hardware",
+            "tier": "bronze",
+            "counter": "batches:rolled",
+            "target": 1
+        },
+        {
+            "code": "assemblyline",
+            "category": "hardware",
+            "tier": "silver",
+            "counter": "batches:rolled",
+            "target": 50,
+            "requires": [
+                "firstbatch"
+            ]
+        },
+        {
+            "code": "industrial",
+            "category": "hardware",
+            "tier": "gold",
+            "counter": "batches:cut",
+            "target": 100,
+            "trait": "cigarettes-industrialist"
+        },
+        {
+            "code": "litterbug",
+            "category": "hardware",
+            "tier": "bronze",
+            "counter": "flicks:ground",
+            "target": 1
+        },
+        {
+            "code": "seriallitterer",
+            "category": "hardware",
+            "tier": "silver",
+            "counter": "flicks",
+            "target": 100,
+            "requires": [
+                "litterbug"
+            ]
+        },
+        {
+            "code": "holeinone",
+            "category": "hardware",
+            "tier": "gold",
+            "counter": "flicks:ashtray",
+            "target": 1,
+            "hidden": true,
+            "trait": "cigarettes-deadeye"
+        },
+        {
+            "code": "achievementachievement",
+            "category": "meta",
+            "tier": "bronze",
+            "metaCount": 10
+        },
+        {
+            "code": "overachiever",
+            "category": "meta",
+            "tier": "silver",
+            "metaCount": 25,
+            "requires": [
+                "achievementachievement"
+            ]
+        },
+        {
+            "code": "platinumlung",
+            "category": "meta",
+            "tier": "platinum",
+            "metaCount": -1,
+            "requires": [
+                "overachiever"
+            ],
+            "hidden": true,
+            "trait": "cigarettes-platinumlung"
+        }
+    ]
+}

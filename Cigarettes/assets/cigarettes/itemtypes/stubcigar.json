@@ -1,0 +1,32 @@
+{
+    "code": "stubcigar",
+    "class": "cigarettes.ItemCigarette",
+    "maxstacksize": 20,
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "cigarettes": [
+            "*"
+        ]
+    },
+    "texture": {
+        "base": "item/stubcigar"
+    },
+    "heldTpUseAnimation": "eat",
+    "attributes": {
+        "maxPuffs": 8,
+        "strength": 1.3,
+        "puffSeconds": 1.8,
+        "effectDurationSec": 600,
+        "effects": {
+            "hungerrate": -0.28,
+            "miningSpeedMul": 0.05
+        },
+        "buttCode": "cigarbutt"
+    },
+    "materialDensity": 300
+}

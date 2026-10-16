@@ -1,0 +1,393 @@
+[
+    {
+        "ingredientPattern": "T,P",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "shreddedtobacco-*"
+            },
+            "P": {
+                "type": "item",
+                "code": "rollingpaper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarette-handrolled",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "LLL",
+        "width": 3,
+        "height": 1,
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "tobaccoleaf-*-dried"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigar"
+        },
+        "shapeless": true
+    },
+    {
+        "ingredientPattern": "K,W",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            },
+            "W": {
+                "type": "item",
+                "code": "game:firewood"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "pipe-wood"
+        }
+    },
+    {
+        "ingredientPattern": "K,B",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            },
+            "B": {
+                "type": "item",
+                "code": "game:bone"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "pipe-bone"
+        }
+    },
+    {
+        "ingredientPattern": "S,R",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick",
+                "quantity": 4
+            },
+            "R": {
+                "type": "item",
+                "code": "game:resin"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "matches"
+        }
+    },
+    {
+        "ingredientPattern": "I,F",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "I": {
+                "type": "item",
+                "code": "game:ingot-brass"
+            },
+            "F": {
+                "type": "item",
+                "code": "game:flint"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "lighter-zappo"
+        }
+    },
+    {
+        "ingredientPattern": "S S,SRS,S S",
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "dryingrack-north"
+        }
+    },
+    {
+        "ingredientPattern": "S_S,SSS",
+        "width": 3,
+        "height": 2,
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stone-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "ashtray-empty"
+        }
+    },
+    {
+        "ingredientPattern": "TMP",
+        "width": 3,
+        "height": 1,
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "shreddedtobacco-*"
+            },
+            "M": {
+                "type": "item",
+                "code": "mentholcrystals"
+            },
+            "P": {
+                "type": "item",
+                "code": "rollingpaper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarette-menthol",
+            "quantity": 2
+        },
+        "shapeless": true
+    },
+    {
+        "ingredientPattern": "TCP",
+        "width": 3,
+        "height": 1,
+        "ingredients": {
+            "T": {
+                "type": "item",
+                "code": "shreddedtobacco-*"
+            },
+            "C": {
+                "type": "item",
+                "code": "herb-clove-dried"
+            },
+            "P": {
+                "type": "item",
+                "code": "rollingpaper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarette-kretek",
+            "quantity": 2
+        },
+        "shapeless": true
+    },
+    {
+        "ingredientPattern": "LT",
+        "width": 2,
+        "height": 1,
+        "ingredients": {
+            "L": {
+                "type": "item",
+                "code": "tobaccoleaf-*-dried"
+            },
+            "T": {
+                "type": "item",
+                "code": "shreddedtobacco-*"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "stubcigar",
+            "quantity": 2
+        },
+        "shapeless": true
+    },
+    {
+        "ingredientPattern": "B,G,L",
+        "width": 1,
+        "height": 3,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:ingot-brass"
+            },
+            "G": {
+                "type": "item",
+                "code": "game:gear-rusty"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:glass-*"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "vape"
+        }
+    },
+    {
+        "ingredientPattern": "PL,PP",
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:plank-*"
+            },
+            "L": {
+                "type": "item",
+                "code": "rollingpaper"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "rollingtable-north"
+        }
+    },
+    {
+        "ingredientPattern": "KI,PP",
+        "width": 2,
+        "height": 2,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*"
+            },
+            "I": {
+                "type": "item",
+                "code": "game:ingot-iron"
+            },
+            "P": {
+                "type": "item",
+                "code": "game:plank-*"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "tobaccocutter-north"
+        }
+    },
+    {
+        "ingredientPattern": "SRS,SRS,SRS",
+        "width": 3,
+        "height": 3,
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:stick"
+            },
+            "R": {
+                "type": "item",
+                "code": "game:rope"
+            }
+        },
+        "output": {
+            "type": "block",
+            "code": "dryingframe-north"
+        }
+    },
+    {
+        "ingredientPattern": "FC",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "F": {
+                "type": "item",
+                "code": "filter"
+            },
+            "C": {
+                "type": "item",
+                "code": "game:charcoal"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettebutt",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "K,S",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true,
+                "toolDurabilityCost": 1
+            },
+            "S": {
+                "type": "item",
+                "code": "stubcigar"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarbutt",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "BP",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "cigarettebutt",
+                "quantity": 6
+            },
+            "P": {
+                "type": "item",
+                "code": "rollingpaper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarette-snipe"
+        }
+    },
+    {
+        "ingredientPattern": "FP",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "F": {
+                "type": "item",
+                "code": "filter"
+            },
+            "P": {
+                "type": "item",
+                "code": "rollingpaper"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettebutt",
+            "quantity": 4
+        }
+    }
+]

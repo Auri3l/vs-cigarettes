@@ -1,0 +1,78 @@
+{
+    "textureWidth": 16,
+    "textureHeight": 16,
+    "textures": {
+        "butt": "block/ashtray/butt"
+    },
+    "elements": [
+        {
+            "name": "Butt",
+            "from": [
+                7.5,
+                0,
+                6.5
+            ],
+            "to": [
+                8.5,
+                1,
+                9.5
+            ],
+            "faces": {
+                "north": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1.0,
+                        1
+                    ]
+                },
+                "south": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1.0,
+                        1
+                    ]
+                },
+                "east": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3.0,
+                        1
+                    ]
+                },
+                "west": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        3.0,
+                        1
+                    ]
+                },
+                "up": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1.0,
+                        3.0
+                    ]
+                },
+                "down": {
+                    "texture": "#butt",
+                    "uv": [
+                        0,
+                        0,
+                        1.0,
+                        3.0
+                    ]
+                }
+            }
+        }
+    ]
+}
