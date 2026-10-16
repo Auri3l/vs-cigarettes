@@ -36,7 +36,7 @@ All batch furniture works the same way: right click with ingredients to load the
 | Drying rack | 6 sticks + rope | Hangs 4 leaves, drying 6× faster |
 | Drying frame | 6 sticks + 3 rope | Hangs 12 leaves on three bars, drying 6× faster |
 | Tobacco cutter | knife + iron ingot + 2 planks | Up to 32 dried leaves of one variety per load, a 3 s crank gives 2 shredded per leaf |
-| Rolling table | 3 planks + rolling paper | Shredded tobacco + papers (+ menthol crystals or dried cloves). A 2.5 s roll makes up to 8 pairs into **24 cigarettes per paper** (hand rolling gives 20). Plain makes hand-rolled, menthol makes menthols, cloves make kreteks. |
+| Rolling table | 3 planks + rolling paper | Shredded tobacco + papers (+ menthol crystals or dried cloves). A 2.5 s roll makes up to 8 pairs into **10 cigarettes per paper** (hand rolling gives 3). Plain makes hand-rolled, menthol makes menthols, cloves make kreteks. |
 
 Chopping and rolling batches count toward the Small Business, Assembly Line and Industrial Revolution achievements. Industrial Revolution grants the Industrialist trait.
 

@@ -145,14 +145,14 @@ public class BlockEntityTobaccoCutter : BlockEntityWorkstation
 
 /// <summary>
 /// A rolling table: load shredded tobacco and rolling papers, optionally menthol crystals or
-/// dried cloves. Each roll turns up to 8 tobacco + 8 papers into 24 cigarettes per pair,
-/// more than the 20 you get rolling by hand. Menthol makes menthols, cloves make kreteks.
+/// dried cloves. Each roll turns up to 8 tobacco + 8 papers into 10 cigarettes per pair,
+/// more than the 3 you get rolling by hand. Menthol makes menthols, cloves make kreteks.
 /// </summary>
 public class BlockEntityRollingTable : BlockEntityWorkstation
 {
     const int TobaccoSlot = 0, PaperSlot = 1, AdditiveSlot = 2;
     const int BatchSize = 8;
-    const int CigarettesPerPair = 24;
+    const int CigarettesPerPair = 10;
 
     public BlockEntityRollingTable() : base(3) { }
 

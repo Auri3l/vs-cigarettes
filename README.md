@@ -18,7 +18,7 @@ The full design, with every number, is in [DESIGN.md](DESIGN.md). The same mater
 ### Batch furniture
 For each piece, right click with ingredients to load it, hold right click with an empty hand to work it, and sneak + right click with an empty hand to unload it.
 - **Tobacco cutter:** shreds up to 32 dried leaves of one variety in one crank.
-- **Rolling table:** rolls up to 8 pairs at 24 cigarettes per paper, where hand rolling gives 20. Add menthol crystals for menthols or cloves for kreteks.
+- **Rolling table:** rolls up to 8 pairs at 10 cigarettes per paper, where hand rolling gives 3. Add menthol crystals for menthols or cloves for kreteks.
 
 ### Smokables
 - Hand-rolled cigarettes, menthols and kreteks (which crackle and spit embers), cigars, stub cigars, and snipes rolled from 6 old butts.
