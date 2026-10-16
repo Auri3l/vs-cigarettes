@@ -100,6 +100,15 @@ public abstract class ItemSmokable : Item
 
     protected static bool IsLit(ItemStack stack) => stack.Attributes.GetBool(LitAttr);
 
+    // A lit ember glows faintly (light level 1, warm orange) while held or dropped
+    static readonly byte[] EmberLight = { 4, 7, 1 };
+
+    public override byte[] GetLightHsv(IBlockAccessor blockAccessor, BlockPos pos, ItemStack stack)
+    {
+        if (stack != null && NeedsLighting && IsLit(stack)) return EmberLight;
+        return base.GetLightHsv(blockAccessor, pos, stack);
+    }
+
     protected int PuffsLeft(ItemStack stack) => stack.Attributes.GetInt(PuffsAttr, MaxPuffs(stack));
 
     public override void OnHeldInteractStart(ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handling)

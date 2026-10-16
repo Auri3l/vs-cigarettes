@@ -18,18 +18,19 @@ The full design, with every number, is in [DESIGN.md](DESIGN.md). The same mater
 ### Batch furniture
 For each piece, right click with ingredients to load it, hold right click with an empty hand to work it, and sneak + right click with an empty hand to unload it.
 - **Tobacco cutter:** shreds up to 32 dried leaves of one variety in one crank.
-- **Rolling table:** rolls up to 8 pairs at 3 cigarettes per paper, where hand rolling gives 2. Add menthol crystals for menthols or cloves for kreteks.
+- **Rolling table:** rolls up to 8 pairs at 24 cigarettes per paper, where hand rolling gives 20. Add menthol crystals for menthols or cloves for kreteks.
 
 ### Smokables
 - Hand-rolled cigarettes, menthols and kreteks (which crackle and spit embers), cigars, stub cigars, and snipes rolled from 6 old butts.
 - Wooden and bone pipes, packed with shredded tobacco from the offhand.
-- The **Jool temporal vaporizer**. It runs on e-liquid (a real liquid, brewed in a barrel, in plain, menthol or clove) and is charged with a temporal gear (300 puffs) or a rusty gear (40 puffs).
+- The **Jool temporal vaporizer**. It runs on e-liquid (a real liquid, brewed in a barrel, in plain, menthol or clove), clicked in as a cartridge (half a glass slab + 0.8 L of e-liquid make 4) or filled straight from a placed bucket, jug or barrel, and is charged with a temporal gear (300 puffs) or a rusty gear (40 puffs).
 - Light from the offhand with a torch, lantern, matches, a Zappo lighter, or another lit cigarette (chain smoking). In the main hand, matches and lighters light firepits, torches and anything else a firestarter can, instantly.
 
 ### Brands and packs
 - There are 19 parody brands (Marlbury, Camul, Lucky Stroke, Pall Moll, Djarun Black, Belomorkanaal, Rotmans…), each with its own blend, strength, slogan and one of 12 Seraph General's Warnings.
 - Packs are coloured with the game's own **dye**: put wooden buckets of dye in the brand colours into the pack recipe (0.1 L per colour). The 11 filtered brands use 10 cigarette butts as the filter.
 - Right click a pack to shake one out. Empty packs stay, and right clicking with cigarettes in the offhand fills a pack back up with any kind. Packs and cigarettes show their tobacco blend.
+- **Blank packs** (2 parchment make 2) can be dyed into any brand's empty pack with the same dye buckets, then filled.
 - **Rotmans** is made from rot and comes in a rotting pack that perishes in your inventory.
 
 ![All 19 packs, front and back](docs/packs.png)

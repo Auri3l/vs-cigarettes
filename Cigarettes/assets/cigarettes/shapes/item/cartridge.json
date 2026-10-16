@@ -1,0 +1,312 @@
+{
+    "editor": {
+        "allAngles": false
+    },
+    "textureWidth": 16,
+    "textureHeight": 16,
+    "textures": {
+        "liquid": "block/liquid/eliquid-plain",
+        "metal": "block/furniture/metal"
+    },
+    "elements": [
+        {
+            "name": "Root",
+            "from": [
+                0,
+                0,
+                0
+            ],
+            "to": [
+                0,
+                0,
+                0
+            ],
+            "rotationOrigin": [
+                8,
+                8,
+                8
+            ],
+            "rotationX": 8,
+            "rotationY": -25,
+            "faces": {},
+            "children": [
+                {
+                    "name": "Body",
+                    "from": [
+                        6.5,
+                        3,
+                        7.25
+                    ],
+                    "to": [
+                        9.5,
+                        10,
+                        8.75
+                    ],
+                    "faces": {
+                        "north": {
+                            "texture": "#liquid",
+                            "uv": [
+                                2,
+                                2,
+                                5,
+                                9
+                            ]
+                        },
+                        "east": {
+                            "texture": "#liquid",
+                            "uv": [
+                                2,
+                                2,
+                                5,
+                                9
+                            ]
+                        },
+                        "south": {
+                            "texture": "#liquid",
+                            "uv": [
+                                2,
+                                2,
+                                5,
+                                9
+                            ]
+                        },
+                        "west": {
+                            "texture": "#liquid",
+                            "uv": [
+                                2,
+                                2,
+                                5,
+                                9
+                            ]
+                        },
+                        "up": {
+                            "texture": "#liquid",
+                            "uv": [
+                                2,
+                                2,
+                                5,
+                                9
+                            ]
+                        },
+                        "down": {
+                            "texture": "#liquid",
+                            "uv": [
+                                2,
+                                2,
+                                5,
+                                9
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Base",
+                    "from": [
+                        6.3,
+                        2.5,
+                        7.05
+                    ],
+                    "to": [
+                        9.7,
+                        3,
+                        8.95
+                    ],
+                    "faces": {
+                        "north": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                0,
+                                3,
+                                1
+                            ]
+                        },
+                        "east": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                0,
+                                3,
+                                1
+                            ]
+                        },
+                        "south": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                0,
+                                3,
+                                1
+                            ]
+                        },
+                        "west": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                0,
+                                3,
+                                1
+                            ]
+                        },
+                        "up": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                0,
+                                3,
+                                1
+                            ]
+                        },
+                        "down": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                0,
+                                3,
+                                1
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Collar",
+                    "from": [
+                        6.3,
+                        10,
+                        7.05
+                    ],
+                    "to": [
+                        9.7,
+                        10.8,
+                        8.95
+                    ],
+                    "faces": {
+                        "north": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                2,
+                                3,
+                                3
+                            ]
+                        },
+                        "east": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                2,
+                                3,
+                                3
+                            ]
+                        },
+                        "south": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                2,
+                                3,
+                                3
+                            ]
+                        },
+                        "west": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                2,
+                                3,
+                                3
+                            ]
+                        },
+                        "up": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                2,
+                                3,
+                                3
+                            ]
+                        },
+                        "down": {
+                            "texture": "#metal",
+                            "uv": [
+                                0,
+                                2,
+                                3,
+                                3
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "Mouthpiece",
+                    "from": [
+                        7,
+                        10.8,
+                        7.5
+                    ],
+                    "to": [
+                        9,
+                        13,
+                        8.5
+                    ],
+                    "faces": {
+                        "north": {
+                            "texture": "#metal",
+                            "uv": [
+                                4,
+                                0,
+                                6,
+                                2
+                            ]
+                        },
+                        "east": {
+                            "texture": "#metal",
+                            "uv": [
+                                4,
+                                0,
+                                6,
+                                2
+                            ]
+                        },
+                        "south": {
+                            "texture": "#metal",
+                            "uv": [
+                                4,
+                                0,
+                                6,
+                                2
+                            ]
+                        },
+                        "west": {
+                            "texture": "#metal",
+                            "uv": [
+                                4,
+                                0,
+                                6,
+                                2
+                            ]
+                        },
+                        "up": {
+                            "texture": "#metal",
+                            "uv": [
+                                4,
+                                0,
+                                6,
+                                2
+                            ]
+                        },
+                        "down": {
+                            "texture": "#metal",
+                            "uv": [
+                                4,
+                                0,
+                                6,
+                                2
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

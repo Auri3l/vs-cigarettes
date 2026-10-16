@@ -92,7 +92,7 @@ public class BlockEntityDryingRack : BlockEntityDisplay
         int perRow = (slots + rows - 1) / rows;
         // One bar: big leaves. Several bars: smaller leaves that fit between the bars.
         // Leaves and herbs use their 3D "displayedShape" (shapes/item/*-hanging.json), turned so they don't cover each other.
-        float scale = rows == 1 ? 0.6f : 0.3f;
+        float scale = rows == 1 ? 0.78f : 0.32f;
         for (int i = 0; i < MaxSlots; i++)
         {
             int row = i / perRow, col = i % perRow;

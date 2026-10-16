@@ -75,12 +75,46 @@ public class ItemVape : ItemSmokable
             return TryCharge(slot, offhand, byEntity, amount);
         }
 
+        if (other.Collectible.Code.Domain == Code.Domain && other.Collectible.FirstCodePart() == "eliquidcartridge")
+        {
+            return TryLoadCartridge(slot, offhand, byEntity);
+        }
+
         if (other.Collectible is BlockLiquidContainerBase container)
         {
             return TryFill(slot, byEntity, container.GetContent(other), n => container.TryTakeContent(other, n), offhand.MarkDirty);
         }
 
         return false;
+    }
+
+    /// <summary>
+    /// Clicks a cartridge in, like a pod: the tank becomes a full load of the cartridge's flavour,
+    /// and whatever was left of the old one is thrown away with it.
+    /// </summary>
+    bool TryLoadCartridge(ItemSlot slot, ItemSlot offhand, EntityAgent byEntity)
+    {
+        ItemStack vape = slot.Itemstack!;
+        ItemStack cartridge = offhand.Itemstack!;
+        string flavor = cartridge.Collectible.Variant["flavor"];
+        int puffs = Math.Min(tankItems, cartridge.Collectible.Attributes?["cartridgePuffs"].AsInt(tankItems) ?? tankItems);
+
+        if (Liquid(vape) >= puffs && Flavor(vape) == flavor)
+        {
+            ShowError(byEntity, "vape-cartridgefull");
+            return true;
+        }
+
+        if (byEntity.World.Side == EnumAppSide.Server)
+        {
+            offhand.TakeOut(1);
+            offhand.MarkDirty();
+            vape.Attributes.SetInt(PuffsAttr, puffs);
+            vape.Attributes.SetString(FlavorAttr, flavor);
+            slot.MarkDirty();
+        }
+        byEntity.World.PlaySoundAt(new AssetLocation("game:sounds/player/build"), byEntity, (byEntity as EntityPlayer)?.Player, true, 8);
+        return true;
     }
 
     bool TryCharge(ItemSlot slot, ItemSlot offhand, EntityAgent byEntity, int amount)

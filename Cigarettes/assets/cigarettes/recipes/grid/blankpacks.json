@@ -1,0 +1,699 @@
+[
+    {
+        "ingredientPattern": "PP",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "game:paper-parchment"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "blankpack",
+            "quantity": 2
+        }
+    },
+    {
+        "ingredientPattern": "B1",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-marlbury",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B12",
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-yellow"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-orange"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-camul",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B12",
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-black"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-luckystroke",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B1",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-pallmoll",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B1",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-winstun",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B12",
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-woad"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-orange"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-newpart",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B1",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-green"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-koal",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B12",
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-black"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-yellow"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-djarun",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B12",
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-yellow"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-dunhull",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B1",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-yellow"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-bensun",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B1",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-blue"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-parlement",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B1",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-blue"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-gaulwaz",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B1",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-blue"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-kant",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B1",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-pink"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-vagueslims",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B1,23",
+        "width": 2,
+        "height": 2,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-black"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-pink"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "3": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-yellow"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-sobrani",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B1",
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-blue"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-belomor",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B12",
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-blue"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-white"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-mildeleven",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B12",
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-red"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-purple"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-chesterfeld",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    },
+    {
+        "ingredientPattern": "B12",
+        "width": 3,
+        "height": 1,
+        "shapeless": true,
+        "ingredients": {
+            "1": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-gray"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "2": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "game:dye-green"
+                    },
+                    "requiresLitres": 0.1
+                }
+            },
+            "B": {
+                "type": "item",
+                "code": "blankpack"
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "cigarettepack-rotmans",
+            "attributes": {
+                "contents": {}
+            }
+        }
+    }
+]
