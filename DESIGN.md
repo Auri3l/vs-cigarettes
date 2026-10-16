@@ -112,7 +112,7 @@ Vintage Story has no achievement system, so the mod has its own, deliberately ov
 - **Secrets:** 11 achievements are hidden. They show "??? Nobody knows. Keep smoking." until their prerequisites are done, then a cryptic hint ("Become the lighter." for smoking while on fire).
 - **Situations:** every puff checks what's going on around you: night, rain, temporal storm, underground, high altitude, freezing, scorching, swimming, on fire, sprinting, riding, starving, 2 HP or less, next to a trader, or next to another smoker. Each one has an achievement, and Situationally Aware asks for 8 different ones.
 - **Streaks and combos:** daily smoking streaks (3/7/30 in-game days), Tasting Menu (three kinds within an in-game hour), Read the Fine Print (collect all 12 pack warnings), Pack Rat (open every brand's pack).
-- **Traits:** 13 achievements grant a permanent character trait. The traits live in `config/traits.json`, which the game merges into its own trait list, added to the player's extra traits, and show in the character screen.
+- **Traits:** 13 achievements grant a permanent character trait. The traits live in `config/traits.json` (the game merges it into its own trait list). Earned traits are added to the player's extra traits and show in the character screen.
 
 | Trait | From | Effect |
 |---|---|---|
