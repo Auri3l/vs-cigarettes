@@ -50,7 +50,8 @@
                 3,
                 1.5
               ],
-              "autoUv": false
+              "autoUv": false,
+              "rotation": 180
             },
             "east": {
               "texture": "#butt",
@@ -100,7 +101,8 @@
                 3,
                 6
               ],
-              "autoUv": false
+              "autoUv": false,
+              "rotation": 180
             }
           }
         }

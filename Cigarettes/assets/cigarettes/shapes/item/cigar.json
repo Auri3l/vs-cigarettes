@@ -49,7 +49,8 @@
                 10,
                 1.5
               ],
-              "autoUv": false
+              "autoUv": false,
+              "rotation": 180
             },
             "east": {
               "texture": "#cigar",
@@ -99,7 +100,8 @@
                 10,
                 6
               ],
-              "autoUv": false
+              "autoUv": false,
+              "rotation": 180
             }
           }
         },
@@ -124,7 +126,8 @@
                 1.5,
                 0.8
               ],
-              "autoUv": false
+              "autoUv": false,
+              "rotation": 180
             },
             "south": {
               "texture": "#cigar",
@@ -164,7 +167,8 @@
                 1.5,
                 0.8
               ],
-              "autoUv": false
+              "autoUv": false,
+              "rotation": 180
             }
           }
         }
