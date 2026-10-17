@@ -1241,7 +1241,15 @@
             "blendMode": "Add",
             "weight": 1,
             "easeInSpeed": 10,
-            "easeOutSpeed": 5
+            "easeOutSpeed": 2,
+            "elementWeight": {
+                "UpperArmR": 15,
+                "LowerArmR": 15
+            },
+            "elementBlendMode": {
+                "UpperArmR": "AddAverage",
+                "LowerArmR": "AddAverage"
+            }
         }
     },
     {
@@ -1254,7 +1262,15 @@
             "blendMode": "Add",
             "weight": 1,
             "easeInSpeed": 10,
-            "easeOutSpeed": 5
+            "easeOutSpeed": 2,
+            "elementWeight": {
+                "UpperArmR": 15,
+                "LowerArmR": 15
+            },
+            "elementBlendMode": {
+                "UpperArmR": "AddAverage",
+                "LowerArmR": "AddAverage"
+            }
         }
     },
     {

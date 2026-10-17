@@ -809,5 +809,12 @@
             "z": 0.5
         },
         "scale": 1
+    },
+    "tpHandTransform": {
+        "rotation": {
+            "x": 90,
+            "y": -26,
+            "z": 21
+        }
     }
 }
