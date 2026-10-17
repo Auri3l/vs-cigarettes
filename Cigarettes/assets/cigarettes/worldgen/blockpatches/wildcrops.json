@@ -1,0 +1,107 @@
+[
+    {
+        "comment": "Wild Virginia tobacco: temperate grassland",
+        "blockCodes": [
+            "cigarettes:crop-virginia-3",
+            "cigarettes:crop-virginia-4",
+            "cigarettes:crop-virginia-5",
+            "cigarettes:crop-virginia-6",
+            "cigarettes:crop-virginia-6"
+        ],
+        "minTemp": 8,
+        "maxTemp": 28,
+        "minRain": 0.4,
+        "maxRain": 0.85,
+        "maxForest": 0.5,
+        "minFertility": 0.2,
+        "quantity": {
+            "avg": 4,
+            "var": 4
+        },
+        "chance": 0.025
+    },
+    {
+        "comment": "Wild Burley tobacco: the hardy one, cool to mild climates",
+        "blockCodes": [
+            "cigarettes:crop-burley-3",
+            "cigarettes:crop-burley-4",
+            "cigarettes:crop-burley-5",
+            "cigarettes:crop-burley-6",
+            "cigarettes:crop-burley-6"
+        ],
+        "minTemp": 2,
+        "maxTemp": 22,
+        "minRain": 0.35,
+        "maxRain": 0.8,
+        "maxForest": 0.6,
+        "minFertility": 0.2,
+        "quantity": {
+            "avg": 4,
+            "var": 4
+        },
+        "chance": 0.025
+    },
+    {
+        "comment": "Wild Oriental tobacco: hot and dry",
+        "blockCodes": [
+            "cigarettes:crop-oriental-3",
+            "cigarettes:crop-oriental-4",
+            "cigarettes:crop-oriental-5",
+            "cigarettes:crop-oriental-6",
+            "cigarettes:crop-oriental-6"
+        ],
+        "minTemp": 15,
+        "maxTemp": 36,
+        "minRain": 0.2,
+        "maxRain": 0.55,
+        "maxForest": 0.3,
+        "minFertility": 0.2,
+        "quantity": {
+            "avg": 4,
+            "var": 4
+        },
+        "chance": 0.025
+    },
+    {
+        "comment": "Wild mint: cool, wet ground",
+        "blockCodes": [
+            "cigarettes:crop-mint-3",
+            "cigarettes:crop-mint-4",
+            "cigarettes:crop-mint-5",
+            "cigarettes:crop-mint-6",
+            "cigarettes:crop-mint-6"
+        ],
+        "minTemp": -4,
+        "maxTemp": 20,
+        "minRain": 0.5,
+        "maxRain": 1,
+        "maxForest": 0.7,
+        "minFertility": 0.2,
+        "quantity": {
+            "avg": 5,
+            "var": 5
+        },
+        "chance": 0.03
+    },
+    {
+        "comment": "Wild clove shrubs: hot and humid only",
+        "blockCodes": [
+            "cigarettes:crop-clove-3",
+            "cigarettes:crop-clove-4",
+            "cigarettes:crop-clove-5",
+            "cigarettes:crop-clove-6",
+            "cigarettes:crop-clove-6"
+        ],
+        "minTemp": 20,
+        "maxTemp": 40,
+        "minRain": 0.6,
+        "maxRain": 1,
+        "maxForest": 0.8,
+        "minFertility": 0.2,
+        "quantity": {
+            "avg": 3,
+            "var": 3
+        },
+        "chance": 0.02
+    }
+]

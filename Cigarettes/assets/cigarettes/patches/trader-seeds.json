@@ -1,0 +1,92 @@
+[
+    {
+        "op": "add",
+        "path": "/selling/list/-",
+        "file": "game:config/tradelists/trader-agriculture.json",
+        "value": {
+            "code": "cigarettes:seeds-virginia",
+            "type": "item",
+            "stacksize": 2,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 5,
+                "var": 1
+            }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/selling/list/-",
+        "file": "game:config/tradelists/trader-agriculture.json",
+        "value": {
+            "code": "cigarettes:seeds-burley",
+            "type": "item",
+            "stacksize": 2,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 5,
+                "var": 1
+            }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/selling/list/-",
+        "file": "game:config/tradelists/trader-agriculture.json",
+        "value": {
+            "code": "cigarettes:seeds-oriental",
+            "type": "item",
+            "stacksize": 2,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 6,
+                "var": 1.5
+            }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/selling/list/-",
+        "file": "game:config/tradelists/trader-agriculture.json",
+        "value": {
+            "code": "cigarettes:seeds-mint",
+            "type": "item",
+            "stacksize": 2,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 3,
+                "var": 0.75
+            }
+        }
+    },
+    {
+        "op": "add",
+        "path": "/selling/list/-",
+        "file": "game:config/tradelists/trader-agriculture.json",
+        "value": {
+            "code": "cigarettes:seeds-clove",
+            "type": "item",
+            "stacksize": 2,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 8,
+                "var": 2
+            }
+        }
+    }
+]
