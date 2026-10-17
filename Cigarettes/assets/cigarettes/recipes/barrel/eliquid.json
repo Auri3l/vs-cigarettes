@@ -61,5 +61,173 @@
             "code": "eliquidportion-clove",
             "litres": 1
         }
+    },
+    {
+        "code": "eliquid-strawberry",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "eliquidportion-plain",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "game:fruit-strawberry",
+                "quantity": 4
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-strawberry",
+            "litres": 1
+        }
+    },
+    {
+        "code": "eliquid-blueberry",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "eliquidportion-plain",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "game:fruit-blueberry",
+                "quantity": 4
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-blueberry",
+            "litres": 1
+        }
+    },
+    {
+        "code": "eliquid-cherry",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "eliquidportion-plain",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "game:fruit-cherry",
+                "quantity": 4
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-cherry",
+            "litres": 1
+        }
+    },
+    {
+        "code": "eliquid-mango",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "eliquidportion-plain",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "game:fruit-mango",
+                "quantity": 4
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-mango",
+            "litres": 1
+        }
+    },
+    {
+        "code": "eliquid-peach",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "eliquidportion-plain",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "game:fruit-peach",
+                "quantity": 4
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-peach",
+            "litres": 1
+        }
+    },
+    {
+        "code": "eliquid-apple",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "eliquidportion-plain",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "game:fruit-*apple",
+                "quantity": 4
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-apple",
+            "litres": 1
+        }
+    },
+    {
+        "code": "eliquid-pineapple",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "eliquidportion-plain",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "game:fruit-pineapple",
+                "quantity": 4
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-pineapple",
+            "litres": 1
+        }
+    },
+    {
+        "code": "eliquid-lychee",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "eliquidportion-plain",
+                "litres": 1
+            },
+            {
+                "type": "item",
+                "code": "game:fruit-lychee",
+                "quantity": 4
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "eliquidportion-lychee",
+            "litres": 1
+        }
     }
 ]

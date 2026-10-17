@@ -8,7 +8,15 @@
             "states": [
                 "plain",
                 "menthol",
-                "clove"
+                "clove",
+                "strawberry",
+                "blueberry",
+                "cherry",
+                "mango",
+                "peach",
+                "apple",
+                "pineapple",
+                "lychee"
             ]
         }
     ],
@@ -75,6 +83,174 @@
                 }
             },
             "vapeStrength": 1.2
+        },
+        "*-strawberry": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-strawberry"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-strawberry"
+                    }
+                }
+            },
+            "vapeStrength": 0.8
+        },
+        "*-blueberry": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-blueberry"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-blueberry"
+                    }
+                }
+            },
+            "vapeStrength": 0.8
+        },
+        "*-cherry": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-cherry"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-cherry"
+                    }
+                }
+            },
+            "vapeStrength": 0.9
+        },
+        "*-mango": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-mango"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-mango"
+                    }
+                }
+            },
+            "vapeStrength": 0.8
+        },
+        "*-peach": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-peach"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-peach"
+                    }
+                }
+            },
+            "vapeStrength": 0.8
+        },
+        "*-apple": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-apple"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-apple"
+                    }
+                }
+            },
+            "vapeStrength": 0.8
+        },
+        "*-pineapple": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-pineapple"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-pineapple"
+                    }
+                }
+            },
+            "vapeStrength": 0.9
+        },
+        "*-lychee": {
+            "handbook": {
+                "ignoreCreativeInvStacks": true
+            },
+            "waterTightContainerProps": {
+                "containable": true,
+                "itemsPerLitre": 100,
+                "texture": {
+                    "base": "block/liquid/eliquid-lychee"
+                },
+                "allowSpill": true,
+                "whenSpilled": {
+                    "action": "DropContents",
+                    "stack": {
+                        "type": "item",
+                        "code": "eliquidportion-lychee"
+                    }
+                }
+            },
+            "vapeStrength": 0.7
         }
     },
     "shape": {

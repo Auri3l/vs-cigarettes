@@ -23,7 +23,7 @@ For each piece, right click with ingredients to load it, hold right click with a
 ### Smokables
 - Hand-rolled cigarettes, menthols and kreteks (which crackle and spit embers), cigars, stub cigars, and snipes rolled from 6 old butts.
 - Wooden and bone pipes, packed with shredded tobacco from the offhand.
-- The **Jool temporal vaporizer**. It runs on e-liquid (a real liquid, brewed in a barrel, in plain, menthol or clove), clicked in as a cartridge (half a glass slab + 0.8 L of e-liquid make 4) or filled straight from a placed bucket, jug or barrel, and is charged with a temporal gear (300 puffs) or a rusty gear (40 puffs).
+- The **Jool temporal vaporizer**. It runs on e-liquid (a real liquid, brewed in a barrel, in plain, menthol, clove or eight fruit flavours: strawberry, blueberry, cherry, mango, peach, apple, pineapple and lychee), clicked in as a cartridge (half a glass slab + 0.8 L of e-liquid make 4) or filled straight from a placed bucket, jug or barrel, and is charged with a temporal gear (300 puffs) or a rusty gear (40 puffs).
 - Light from the offhand with a torch, lantern, matches, a Zappo lighter, or another lit cigarette (chain smoking). In the main hand, matches and lighters light firepits, torches and anything else a firestarter can, instantly.
 
 ### Brands and packs
