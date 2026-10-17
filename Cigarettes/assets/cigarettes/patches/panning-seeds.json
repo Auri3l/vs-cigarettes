@@ -1,0 +1,14 @@
+[
+    {
+        "op": "addeach",
+        "path": "/attributes/panningDrops/@(sand|gravel|sandwavy)-.*/-",
+        "file": "game:blocktypes/wood/pan.json",
+        "value": [
+            { "type": "item", "code": "cigarettes:seeds-virginia", "chance": { "avg": 0.003, "var": 0 } },
+            { "type": "item", "code": "cigarettes:seeds-burley", "chance": { "avg": 0.003, "var": 0 } },
+            { "type": "item", "code": "cigarettes:seeds-oriental", "chance": { "avg": 0.003, "var": 0 } },
+            { "type": "item", "code": "cigarettes:seeds-mint", "chance": { "avg": 0.0015, "var": 0 } },
+            { "type": "item", "code": "cigarettes:seeds-clove", "chance": { "avg": 0.0015, "var": 0 } }
+        ]
+    }
+]
