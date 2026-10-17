@@ -79,5 +79,221 @@
             "code": "eliquidcartridge-clove",
             "quantity": 4
         }
+    },
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-strawberry"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-strawberry",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-blueberry"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-blueberry",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-cherry"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-cherry",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-mango"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-mango",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-peach"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-peach",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-apple"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-apple",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-pineapple"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-pineapple",
+            "quantity": 4
+        }
+    },
+    {
+        "ingredientPattern": "G,L",
+        "width": 1,
+        "height": 2,
+        "ingredients": {
+            "G": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free"
+            },
+            "L": {
+                "type": "block",
+                "code": "game:woodbucket",
+                "recipeAttributes": {
+                    "requiresContent": {
+                        "type": "item",
+                        "code": "cigarettes:eliquidportion-lychee"
+                    },
+                    "requiresLitres": 0.8
+                }
+            }
+        },
+        "output": {
+            "type": "item",
+            "code": "eliquidcartridge-lychee",
+            "quantity": 4
+        }
     }
 ]

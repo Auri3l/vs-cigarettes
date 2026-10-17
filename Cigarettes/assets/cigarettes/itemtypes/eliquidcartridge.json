@@ -23,7 +23,15 @@
             "states": [
                 "plain",
                 "menthol",
-                "clove"
+                "clove",
+                "strawberry",
+                "blueberry",
+                "cherry",
+                "mango",
+                "peach",
+                "apple",
+                "pineapple",
+                "lychee"
             ]
         }
     ],

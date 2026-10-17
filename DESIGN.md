@@ -50,7 +50,7 @@ Chopping and rolling batches count toward the Small Business, Assembly Line and 
 | Cigar | 3 dried leaves (shapeless) | 20 | 1.5 (+ small healing bonus) | cigar butt |
 | Stub cigar | 1 dried leaf + 1 shredded → 2 | 8 | 1.3 | cigar butt |
 | Snipe | 6 cigarette butts + rolling paper | 4 | 0.8 | cigarette butt (the circle of life) |
-| Jool temporal vaporizer | brass ingot, rusty gear, glass | 20 per tank | by e-liquid: clove 1.2, plain 1.0, menthol 0.9 | nothing, refill it |
+| Jool temporal vaporizer | brass ingot, rusty gear, glass | 20 per tank | by e-liquid: clove 1.2, plain 1.0, menthol/cherry/pineapple 0.9, other fruit 0.8, lychee 0.7 | nothing, refill it |
 | Wooden / bone pipe | knife + firewood / bone | 15 per bowl | by variety: Burley 1.2, Virginia 1.0, Oriental 0.9 | nothing, the pipe is reused |
 | Brand cigarettes | from packs only | 8 (Pall Moll 10) | see brands | cigarette butt |
 
@@ -96,8 +96,8 @@ Brand colours: Marlbury red; Camul yellow and brown; Lucky Stroke red and black;
 
 ## Vaping
 
-- **E-liquid** is a real liquid, so it goes in buckets, jugs and barrels. Seal 1 L of water with 4 shredded tobacco in a barrel for 24 h to get plain e-liquid. Seal plain e-liquid with 2 menthol crystals or 2 dried cloves for 12 h to flavour it.
-- **Filling:** hold a container of e-liquid in the offhand and right click with the vape. The tank holds 20 puffs (0.2 L) of one flavour at a time.
+- **E-liquid** is a real liquid, so it goes in buckets, jugs and barrels. Seal 1 L of water with 4 shredded tobacco in a barrel for 24 h to get plain e-liquid. Seal plain e-liquid with 2 menthol crystals, 2 dried cloves, or 4 of a fruit (strawberry, blueberry, cherry, mango, peach, any apple, pineapple, lychee) for 12 h to flavour it.
+- **Filling:** click in a cartridge (half a glass slab + a bucket with 0.8 L make 4) from the offhand or by dropping it onto the vape in the inventory, or sneak and right click a placed bucket, jug or barrel of e-liquid. The tank holds 20 puffs (0.2 L) of one flavour at a time.
 - **Charging:** hold a gear in the offhand and right click. A temporal gear fills the charge to 300 puffs and a rusty gear adds 40. Each puff uses one charge. The gear is consumed.
 - No lighting needed, and the exhale cloud is twice the size.
 
