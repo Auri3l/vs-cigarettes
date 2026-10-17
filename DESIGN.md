@@ -158,7 +158,7 @@ Every item has a tongue-in-cheek description (the cigar is "Fancy cancer", the b
 2. **Smoking animation.** Done: `cigarettes-smoke` (plus `-fp`) and `cigarettes-exhale`, patched onto the seraph shape in `patches/smoking-animations.json`. Ata is still reviewing the poses.
 3. **Real art.** Done: original textures, 3D item models, furniture shapes and a mod icon. Hand transforms are still VS defaults.
 4. **More culture.** Cigarette case (holds 10 from any brand), vape flavours from fruit (VS has berries), flue-curing near heat for a quality bonus, a lit cigarette that burns down on its own, smoking idle animation while walking, smoke visible to other players, lighting and exhale sounds.
-5. **Getting seeds and packs.** Wild tobacco in worldgen, seeds and packs at traders, packs in ruin loot.
+5. **Getting seeds and packs.** Seeds done: wild tobacco, mint and clove in worldgen (`worldgen/blockpatches/wildcrops.json`) and seeds at the agriculture trader. Packs at traders and in ruin loot are still open.
 
 ## Open questions for Ata
 

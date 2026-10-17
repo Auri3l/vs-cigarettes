@@ -12,6 +12,7 @@ The full design, with every number, is in [DESIGN.md](DESIGN.md). The same mater
 
 ### Tobacco and herbs
 - There are three tobacco varieties (Virginia, Burley, Oriental), each with its own nutrient, climate range, seeds, crop, leaves and shredded tobacco. The last two growth stages stand 1.5 blocks tall.
+- Wild tobacco, mint and clove grow in small clumps in worldgen, each in its own climate, and drop seeds when broken. The agriculture trader sells all five seeds.
 - Mint (which becomes menthol crystals) and clove shrubs grow on the same crop block.
 - Fresh leaves dry in 96 h, or 6× faster on a **drying rack** (4 leaves) or **drying frame** (12 leaves). A knife shreds a dried leaf into 2 shredded tobacco.
 
@@ -123,7 +124,7 @@ Nothing has been run in the game yet. These are the places most likely to need a
 ## Roadmap
 
 - A cigarette case, fruit-flavoured e-liquid, flue-curing near heat, cigarettes that burn down on their own, smoking idle while walking, and lighting and exhale sounds.
-- Wild tobacco in worldgen, and seeds and packs at traders and in ruin loot (still an open question).
+- Packs at traders and in ruin loot (still an open question).
 
 ## Credits
 
