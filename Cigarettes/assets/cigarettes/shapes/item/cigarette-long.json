@@ -26,7 +26,7 @@
         8
       ],
       "faces": {},
-      "rotationZ": 45,
+      "rotationZ": 225,
       "children": [
         {
           "name": "Cigarette",
@@ -44,11 +44,13 @@
             "north": {
               "texture": "#cig",
               "uv": [
+                0,
+                0,
                 8,
-                0,
-                0,
                 1
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             },
             "east": {
               "texture": "#cig",
@@ -57,7 +59,8 @@
                 4,
                 1,
                 5
-              ]
+              ],
+              "autoUv": false
             },
             "south": {
               "texture": "#cig",
@@ -66,7 +69,8 @@
                 1,
                 8,
                 2
-              ]
+              ],
+              "autoUv": false
             },
             "west": {
               "texture": "#cig",
@@ -75,7 +79,8 @@
                 4,
                 2,
                 5
-              ]
+              ],
+              "autoUv": false
             },
             "up": {
               "texture": "#cig",
@@ -84,7 +89,8 @@
                 2,
                 8,
                 3
-              ]
+              ],
+              "autoUv": false
             },
             "down": {
               "texture": "#cig",
@@ -93,7 +99,9 @@
                 3,
                 8,
                 4
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             }
           }
         }

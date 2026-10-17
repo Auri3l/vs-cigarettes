@@ -111,6 +111,22 @@ public abstract class ItemSmokable : Item
 
     protected int PuffsLeft(ItemStack stack) => stack.Attributes.GetInt(PuffsAttr, MaxPuffs(stack));
 
+    void PutOut(ItemSlot slot)
+    {
+        if (slot.Itemstack == null || !NeedsLighting || !IsLit(slot.Itemstack)) return;
+        slot.Itemstack.Attributes.RemoveAttribute(LitAttr);
+        slot.MarkDirty();
+    }
+
+    /// <summary>A lit one dropped on the ground goes out after a few seconds.</summary>
+    public override void OnGroundIdle(EntityItem entityItem)
+    {
+        base.OnGroundIdle(entityItem);
+        if (entityItem.World.Side != EnumAppSide.Server || !entityItem.OnGround) return;
+        if (entityItem.World.ElapsedMilliseconds - entityItem.itemSpawnedMilliseconds < 3000) return;
+        PutOut(entityItem.Slot);
+    }
+
     public override void OnHeldInteractStart(ItemSlot slot, EntityAgent byEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handling)
     {
         if (!firstEvent || slot.Itemstack == null) return;
@@ -122,9 +138,11 @@ public abstract class ItemSmokable : Item
             return;
         }
 
-        // Otherwise sneak + right click on a block places it as ground storage (CollectibleBehaviorGroundStorable)
+        // Otherwise sneak + right click on a block places it as ground storage (CollectibleBehaviorGroundStorable).
+        // Putting it down stubs it out (the puffs left are kept), so it needs lighting again.
         if (byEntity.Controls.ShiftKey && blockSel != null)
         {
+            PutOut(slot);
             base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
             return;
         }

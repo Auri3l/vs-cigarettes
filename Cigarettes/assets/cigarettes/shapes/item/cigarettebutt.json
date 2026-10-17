@@ -27,7 +27,7 @@
       ],
       "faces": {},
       "rotationX": 20,
-      "rotationZ": 30,
+      "rotationZ": 210,
       "children": [
         {
           "name": "Filter",
@@ -45,11 +45,13 @@
             "north": {
               "texture": "#butt",
               "uv": [
+                0,
+                0,
                 2,
-                0,
-                0,
                 1
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             },
             "south": {
               "texture": "#butt",
@@ -58,7 +60,8 @@
                 1,
                 2,
                 2
-              ]
+              ],
+              "autoUv": false
             },
             "west": {
               "texture": "#butt",
@@ -67,7 +70,8 @@
                 4,
                 2,
                 5
-              ]
+              ],
+              "autoUv": false
             },
             "up": {
               "texture": "#butt",
@@ -76,7 +80,8 @@
                 2,
                 2,
                 3
-              ]
+              ],
+              "autoUv": false
             },
             "down": {
               "texture": "#butt",
@@ -85,7 +90,9 @@
                 3,
                 2,
                 4
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             }
           }
         },
@@ -105,11 +112,13 @@
             "north": {
               "texture": "#butt",
               "uv": [
-                3,
-                0,
                 2,
+                0,
+                3,
                 1
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             },
             "east": {
               "texture": "#butt",
@@ -118,7 +127,8 @@
                 4,
                 1,
                 5
-              ]
+              ],
+              "autoUv": false
             },
             "south": {
               "texture": "#butt",
@@ -127,7 +137,8 @@
                 1,
                 3,
                 2
-              ]
+              ],
+              "autoUv": false
             },
             "up": {
               "texture": "#butt",
@@ -136,7 +147,8 @@
                 2,
                 3,
                 3
-              ]
+              ],
+              "autoUv": false
             },
             "down": {
               "texture": "#butt",
@@ -145,7 +157,9 @@
                 3,
                 3,
                 4
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             }
           },
           "rotationY": -25,

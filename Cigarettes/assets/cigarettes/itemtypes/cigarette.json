@@ -811,39 +811,10 @@
         "scale": 1
     },
     "tpHandTransform": {
-        "translation": {
-            "x": -1.5,
-            "y": -1.6,
-            "z": -1.4
-        },
         "rotation": {
-            "x": 0,
-            "y": 118,
-            "z": 18
-        },
-        "origin": {
-            "x": 0.5,
-            "y": 0.5,
-            "z": 0.5
-        },
-        "scale": 0.33
-    },
-    "fpHandTransform": {
-        "translation": {
-            "x": 0.05,
-            "y": 0,
-            "z": 0
-        },
-        "rotation": {
-            "x": 180,
-            "y": 270,
-            "z": -30
-        },
-        "origin": {
-            "x": 0.5,
-            "y": 0.5,
-            "z": 0.5
-        },
-        "scale": 1
+            "x": 90,
+            "y": -26,
+            "z": 21
+        }
     }
 }

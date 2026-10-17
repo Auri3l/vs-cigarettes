@@ -26,7 +26,7 @@
         8
       ],
       "faces": {},
-      "rotationZ": 45,
+      "rotationZ": 225,
       "children": [
         {
           "name": "Cigar",
@@ -44,11 +44,13 @@
             "north": {
               "texture": "#cigar",
               "uv": [
+                0,
+                0,
                 5,
-                0,
-                0,
                 1.25
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             },
             "east": {
               "texture": "#cigar",
@@ -57,7 +59,8 @@
                 5,
                 1.25,
                 6.25
-              ]
+              ],
+              "autoUv": false
             },
             "south": {
               "texture": "#cigar",
@@ -66,7 +69,8 @@
                 1.25,
                 5,
                 2.5
-              ]
+              ],
+              "autoUv": false
             },
             "west": {
               "texture": "#cigar",
@@ -75,7 +79,8 @@
                 5,
                 2.5,
                 6.25
-              ]
+              ],
+              "autoUv": false
             },
             "up": {
               "texture": "#cigar",
@@ -84,7 +89,8 @@
                 2.5,
                 5,
                 3.75
-              ]
+              ],
+              "autoUv": false
             },
             "down": {
               "texture": "#cigar",
@@ -93,7 +99,9 @@
                 3.75,
                 5,
                 5
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             }
           }
         },
@@ -117,7 +125,9 @@
                 0.2,
                 1.5,
                 0.8
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             },
             "south": {
               "texture": "#cigar",
@@ -126,7 +136,8 @@
                 0.2,
                 1.5,
                 0.8
-              ]
+              ],
+              "autoUv": false
             },
             "west": {
               "texture": "#cigar",
@@ -135,7 +146,8 @@
                 0.2,
                 1.5,
                 0.8
-              ]
+              ],
+              "autoUv": false
             },
             "up": {
               "texture": "#cigar",
@@ -144,7 +156,8 @@
                 0.2,
                 1.5,
                 0.8
-              ]
+              ],
+              "autoUv": false
             },
             "down": {
               "texture": "#cigar",
@@ -153,7 +166,9 @@
                 0.2,
                 1.5,
                 0.8
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             }
           }
         }

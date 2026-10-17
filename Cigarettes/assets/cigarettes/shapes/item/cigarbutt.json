@@ -27,7 +27,7 @@
       ],
       "faces": {},
       "rotationX": 20,
-      "rotationZ": 30,
+      "rotationZ": 210,
       "children": [
         {
           "name": "CigarButt",
@@ -45,11 +45,13 @@
             "north": {
               "texture": "#butt",
               "uv": [
+                0,
+                0,
                 3,
-                0,
-                0,
                 1.5
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             },
             "east": {
               "texture": "#butt",
@@ -58,7 +60,8 @@
                 6,
                 1.5,
                 7.5
-              ]
+              ],
+              "autoUv": false
             },
             "south": {
               "texture": "#butt",
@@ -67,7 +70,8 @@
                 1.5,
                 3,
                 3
-              ]
+              ],
+              "autoUv": false
             },
             "west": {
               "texture": "#butt",
@@ -76,7 +80,8 @@
                 6,
                 3,
                 7.5
-              ]
+              ],
+              "autoUv": false
             },
             "up": {
               "texture": "#butt",
@@ -85,7 +90,8 @@
                 3,
                 3,
                 4.5
-              ]
+              ],
+              "autoUv": false
             },
             "down": {
               "texture": "#butt",
@@ -94,7 +100,9 @@
                 4.5,
                 3,
                 6
-              ]
+              ],
+              "autoUv": false,
+              "rotation": 180
             }
           }
         }
